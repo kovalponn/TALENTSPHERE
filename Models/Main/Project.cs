@@ -1,4 +1,5 @@
 ﻿using TALENTSPHERE.Models;
+using TALENTSPHERE.Models.Common.Enums;
 
 namespace TALENTSPHERE
 {
@@ -9,7 +10,7 @@ namespace TALENTSPHERE
         public string? Name { get; set; }
         public string? Description { get; set; }
         public ProjectStatus Status { get; set; }
-        //public string Direction { get; set; }
+        public Directions[]? Direction { get; set; }
         public RequiredSpecialist[]? RequiredSpecialists { get; set; }
         public int BudgetRubble {  get; set; }
         public long[]? Responses { get; set; }
@@ -17,7 +18,7 @@ namespace TALENTSPHERE
 
     public class RequiredSpecialist
     {
-        //public string Direction { get; set; }
+        public string? NameDirection { get; set; }
         public int ShareRubble { get; set; }
         public int TermHour { get; set; }
     }

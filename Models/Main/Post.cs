@@ -1,10 +1,12 @@
-﻿namespace TALENTSPHERE.Models
+﻿using TALENTSPHERE.Models.Common.Enums;
+
+namespace TALENTSPHERE.Models
 {
     public class Post
     {
         public long Id { get; set; }
         public long OwnerId { get; set; }
-        //public string Direction { get; set; }
+        public Directions[]? Direction { get; set; }
         public PostForms Form { get; set; }
         public string? Title { get; set; }
         public string? Body { get; set; }

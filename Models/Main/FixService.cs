@@ -1,9 +1,12 @@
-﻿namespace TALENTSPHERE.Models
+﻿using TALENTSPHERE.Models.Common.Enums;
+
+namespace TALENTSPHERE.Models
 {
     public class FixService
     {
         public long Id { get; set; }
         public string? Name { get; set; }
+        public Directions[]? Email { get; set; }
         public string? Description { get; set; }
         public string? MediaUrl { get; set; }
         public int PriceRubble { get; set; }
