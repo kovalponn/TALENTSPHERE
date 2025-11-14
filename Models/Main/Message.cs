@@ -7,6 +7,6 @@
         public long ChatId { get; set; }
         public Views View {  get; set; }
         public DateTime CreateTime { get; set; }
-        //public string Body { get; set; }
+        public MessageBody? Body { get; set; }
     }
 }

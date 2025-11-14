@@ -5,7 +5,7 @@
         public long Id { get; set; }
         public long SenderId { get; set; }
         public long PostId { get; set; }
-        public string Body { get; set; }
+        public string? Body { get; set; }
         public DateTime CreateTime { get; set; }
     }
 }
