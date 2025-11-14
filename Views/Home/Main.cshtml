@@ -1,4 +1,11 @@
-﻿<a href="Auth/Login">Login</a>
+﻿@model TALENTSPHERE.Models.ShortUserViewModel
+
+<h1>@Model.Login</h1>
+<h3>@Model.Name @Model.Surname</h3>
+<h4>@Model.Email</h4>
+
+<a href="Auth/Login">Войти</a>
+<a href="Auth/Logout">Выйти</a>
 <br>
 <a href="Home/Add">Добавить</a>
 <br>
