@@ -1,9 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Elastic.Clients.Elasticsearch;
-using Elastic.Transport;
 using TALENTSPHERE.Models;
-
-
+using TALENTSPHERE.Data;
+using Nest;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,12 +11,8 @@ builder.Services.AddDbContext<ApplicationContext>(options => options.UseNpgsql(c
 
 builder.Services.AddControllersWithViews();
 
-//var settings = new ElasticsearchClientSettings(new Uri("http://localhost:9200"))
-//    .DefaultIndex("users");
-
-//var client = new ElasticsearchClient(settings);
-
-//builder.Services.AddSingleton(client);
+var settings = new ConnectionSettings(new Uri("http://localhost:9200"));
+builder.Services.AddSingleton<IElasticClient>(new ElasticClient(settings));
 
 var app = builder.Build();
 

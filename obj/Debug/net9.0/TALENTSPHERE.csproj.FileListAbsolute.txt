@@ -116,3 +116,4 @@ C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\bin\Debug\net9.0\Elastic.C
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\bin\Debug\net9.0\Elastic.Transport.dll
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\bin\Debug\net9.0\Elasticsearch.Net.dll
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\bin\Debug\net9.0\Nest.dll
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\TALENTSPHERE.sourcelink.json

@@ -18,6 +18,7 @@ namespace TALENTSPHERE
 
     public class RequiredSpecialist
     {
+        public long Id { get; set; }
         public string? NameDirection { get; set; }
         public int ShareRubble { get; set; }
         public int TermHour { get; set; }

@@ -1,4 +1,6 @@
-﻿namespace TALENTSPHERE.Models
+﻿using TALENTSPHERE.Models.Common.Enums;
+
+namespace TALENTSPHERE.Models
 {
     public class User
     {
@@ -15,7 +17,7 @@
         public string? PhotoUrl { get; set; }
         public string? CoverUrl { get; set; }
         public string? VideoCardUrl { get; set; }
-        //public string Specialties { get; set; }
+        public Directions[]? Specialties { get; set; }
         public sbyte[]? Badges { get; set; }
         public long[]? Reviews { get; set; }
         public long[]? Posts { get; set; }
