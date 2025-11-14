@@ -5,7 +5,7 @@
         public long Id { get; set; }
         public long ProjectId { get; set; }
         public long ChatId { get; set; }
-        public string Name { get; set; }
-        //public string Participants { get; set; }
+        public string? Name { get; set; }
+        public long[]? Participants { get; set; }
     }
 }
