@@ -18,7 +18,7 @@ namespace TALENTSPHERE.Models
         public Directions[]? Specialties { get; set; }
         public UserRole Role { get; set; }
 
-        // Для выбора Role в форме
+        // Для выбора Role и Specialties в форме
         public IEnumerable<SelectListItem>? Roles { get; set; }
     }
 }

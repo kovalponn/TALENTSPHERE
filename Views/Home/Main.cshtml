@@ -1,8 +1,15 @@
 ﻿@model TALENTSPHERE.Models.ShortUserViewModel
 
-<h1>@Model.Login</h1>
-<h3>@Model.Name @Model.Surname</h3>
-<h4>@Model.Email</h4>
+@if (Model.Login == null && Model.Name == null && Model.Surname == null && Model.Email == null) { 
+	<h1>Default</h1> 
+ 	<h3>Default</h3> 
+	<h4>Default</h4> 
+ } 
+ else { 
+ 	<h1>@Model.Login</h1> 
+ 	<h3>@Model.Name @Model.Surname</h3>
+ 	<h4>@Model.Email</h4> 
+ }
 
 <a href="Auth/Login">Войти</a>
 <a href="Auth/Logout">Выйти</a>

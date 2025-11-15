@@ -43,13 +43,15 @@
     </div>
     <div>
         <label asp-for="Specialties"></label>
-        <select asp-for="Specialties" multiple>
-            <!-- Здесь заранее подготовленные опции, или динамически -->
+        <select asp-for="Specialties">
+            
         </select>
     </div>
     <div>
         <label asp-for="Role"></label>
-        <select asp-for="Role" asp-items="Model.Roles"></select>
+        <select asp-for="Role" asp-items="Model.Roles">
+            
+        </select>
     </div>
     <button type="submit">Создать</button>
 </form>

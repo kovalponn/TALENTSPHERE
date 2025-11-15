@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/TALENTSPHERE/css/site.8jpg0xjv6q.css">
+    <StaticWebAssetEndpoint Include="_content/TALENTSPHERE/css/site.bhv1hss3iq.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8jpg0xjv6q"},{"Name":"integrity","Value":"sha256-RPnAFCiKt/R9lCPrXjy9nL25Ne2p40l8gzvOraNO\u002Bwc="},{"Name":"label","Value":"_content/TALENTSPHERE/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1581"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022RPnAFCiKt/R9lCPrXjy9nL25Ne2p40l8gzvOraNO\u002Bwc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Nov 2025 10:38:47 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bhv1hss3iq"},{"Name":"integrity","Value":"sha256-n3YpglLKIZ4Vo9VKgp0ncP2Ct82ujvtRGIrFLZA9I7I="},{"Name":"label","Value":"_content/TALENTSPHERE/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1585"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n3YpglLKIZ4Vo9VKgp0ncP2Ct82ujvtRGIrFLZA9I7I=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Nov 2025 06:42:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TALENTSPHERE/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RPnAFCiKt/R9lCPrXjy9nL25Ne2p40l8gzvOraNO\u002Bwc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1581"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022RPnAFCiKt/R9lCPrXjy9nL25Ne2p40l8gzvOraNO\u002Bwc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Nov 2025 10:38:47 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n3YpglLKIZ4Vo9VKgp0ncP2Ct82ujvtRGIrFLZA9I7I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1585"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n3YpglLKIZ4Vo9VKgp0ncP2Ct82ujvtRGIrFLZA9I7I=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Nov 2025 06:42:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TALENTSPHERE/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
