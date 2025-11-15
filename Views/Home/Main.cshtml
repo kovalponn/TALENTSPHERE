@@ -1,21 +1,41 @@
 ﻿@model TALENTSPHERE.Models.ShortUserViewModel
 
-@if (Model.Login == null && Model.Name == null && Model.Surname == null && Model.Email == null) { 
-	<h1>Default</h1> 
- 	<h3>Default</h3> 
-	<h4>Default</h4> 
- } 
- else { 
- 	<h1>@Model.Login</h1> 
- 	<h3>@Model.Name @Model.Surname</h3>
- 	<h4>@Model.Email</h4> 
- }
+<header class="header">
+    <div class="specialties">
+        <div class="specialty">Дизайн</div>
+        <div class="specialty">Программирование</div>
+        <div class="specialty">Маркетинг</div>
+        <div class="specialty">Переводы</div>
+        <div class="specialty">Фото и видео</div>
+    </div>
+    <div class="avatar-container" id="avatarContainer">
+        <img src="" alt="@Model.Login" class="avatar" id="avatar" />
+        <div class="dropdown" id="dropdownMenu">
+            <div><strong>Логин:</strong> @Model.Login</div>
+            <div><strong>ФИ:</strong> @Model.Name @Model.Surname</div>
+            <div><strong>Почта:</strong> @Model.Email</div>
+            
+            <a href="Account/Profile" class="menu-btn">Профиль</a>
+            <a href="Auth/Logout" class="menu-btn">Выйти</a>
+        </div>
+    </div>
+</header>
 
-<a href="Auth/Login">Войти</a>
-<a href="Auth/Logout">Выйти</a>
-<br>
-<a href="Home/Add">Добавить</a>
-<br>
-<a href="Home/Get?id=">Просмотреть EF</a> 
+<script>
+    // Обработка клика по аватарке для переключения меню
+    const avatarContainer = document.getElementById('avatarContainer');
+    const dropdown = document.getElementById('dropdownMenu');
+
+    avatarContainer.addEventListener('click', () => {
+      dropdown.classList.toggle('show');
+    });
+
+    // Закрытие меню при клике вне
+    document.addEventListener('click', (e) => {
+      if (!avatarContainer.contains(e.target)) {
+        dropdown.classList.remove('show');
+      }
+    });
+</script>
 
 

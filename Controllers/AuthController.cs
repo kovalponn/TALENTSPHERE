@@ -130,7 +130,7 @@ namespace TALENTSPHERE.Controllers
             if (x)
             {
                 Console.WriteLine("Логин и пароль заняты");
-                ViewData["RegisterMessage"] = "Почта и логин уже используются другим аккаунтом";
+                ViewData["RegisterMessage"] = "Почта или логин уже используются другим аккаунтом";
                 return View();
             }
 

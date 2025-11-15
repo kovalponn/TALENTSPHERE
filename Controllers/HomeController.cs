@@ -114,5 +114,29 @@ namespace TALENTSPHERE.Controllers
 
             return View(userShort);
         }
+        
+        [Authorize]
+        public async Task<IActionResult> Debug_main()
+        {
+            string? email = User.FindFirst(ClaimTypes.Name)?.Value;
+
+            var user = await db.Users.Where(u => u.Email == email).FirstOrDefaultAsync();
+
+            if (user == null)
+            {
+                Console.WriteLine("Данные пользователя не найдены в User, возможно он не вошел в аккаунт");
+                return View();
+            }
+
+            ShortUserViewModel userShort = new ShortUserViewModel(user);
+
+            if (userShort == null)
+            {
+                Console.WriteLine("Данные пользователя не были сконвертированы для представления, возможно он не вошел в аккаунт");
+                return View();
+            }
+
+            return View(userShort);
+        }
     }
 }
