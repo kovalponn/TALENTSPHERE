@@ -6,13 +6,7 @@
     <div class="form_auth_block_content">
         <p class="form_auth_block_head_text">Авторизация</p>
 
-        <label>
-            @section Scripts {
-                @{
-                    await Html.RenderPartialAsync("_ValidationScriptsPartial");
-                }
-            }
-        </label>
+        <label>@ViewData["RegisterMessage"]</label>
 
         <form asp-controller="Auth" asp-action="Register" method="post">
             <label>Введите Ваш логин</label>

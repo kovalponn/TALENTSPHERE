@@ -5,6 +5,9 @@
 <div class="form_auth_block">
     <div class="form_auth_block_content">
         <p class="form_auth_block_head_text">Авторизация</p>
+
+        <label>@ViewData["LoginMessage"]</label>
+
         <form asp-controller="Auth" asp-action="Login" method="post">
             <label>Введите Ваш имейл</label>
             <input type="email" name="email" placeholder="Введите Ваш имейл" required>

@@ -43,14 +43,16 @@ namespace TALENTSPHERE.Controllers
             Console.WriteLine($"Email: {email} \n Password: {password}");
             if (user == null)
             {
+                ViewData["LoginMessage"] = "Неверный логин или пароль";                
                 Console.WriteLine("Не вошел");
-                return Redirect("Login");
+                return View();
             }
                 
             if (user.Email == null)
             {
+                ViewData["LoginMessage"] = "Неверный логин или пароль";
                 Console.WriteLine("Не вошел");
-                return Redirect("Login");
+                return View();
             }
                 
 
@@ -105,13 +107,38 @@ namespace TALENTSPHERE.Controllers
 
             var userCheckLogin = await db.Users.Where(u => u.Login == login).FirstOrDefaultAsync();
 
+            bool x = false;
+            bool y = false;
+
             if (userCheckLogin != null)
             {
-                //ModelState.AddModelError("Login", "Already in use by another user");
+                ViewData["RegisterMessage"] = "Такой логин занят";
                 Console.WriteLine("Логин есть уже");
-                return View();
+                x = true;
+                y = true;
+            }
+
+            userCheckLogin = await db.Users.Where(u => u.Email == email).FirstOrDefaultAsync();
+
+            if (userCheckLogin != null)
+            {
+                ViewData["RegisterMessage"] = "Почта уже используется другим аккаунтом";
+                Console.WriteLine("Почта есть уже");
+                y = true;
             }
             
+            if (x)
+            {
+                Console.WriteLine("Логин и пароль заняты");
+                ViewData["RegisterMessage"] = "Почта и логин уже используются другим аккаунтом";
+                return View();
+            }
+
+            if (y)
+            {
+                return View();
+            }
+
             db.Add(user);
             await db.SaveChangesAsync();
             Console.WriteLine("Успешная регистрация");
