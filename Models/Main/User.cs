@@ -23,8 +23,11 @@ namespace TALENTSPHERE.Models
         public string? PhotoUrl { get; set; }
         public string? CoverUrl { get; set; }
         public string? VideoCardUrl { get; set; }
+        public string? Speciality { get; set; }
         public Directions[]? Specialties { get; set; }
         public sbyte[]? Badges { get; set; }
+        public int Rating { get; set; }
+        public float Grade { get; set; }
         public long[]? Reviews { get; set; }
         public long[]? Posts { get; set; }
         public long[]? Subscribers { get; set; }

@@ -1,16 +1,13 @@
-﻿@model TALENTSPHERE.Models.ShortUserViewModel
+﻿@model TALENTSPHERE.Models.User
 
 <body>
 
     <!-- Обложка -->
-    <div class="cover">
+    <div class="cover" style="background-image: url('https://vk-oblozhki.ru/photos/big/vancouver-stanley-park-panorama-dusk-gorod-130-2466.jpg');">
         <!-- Кнопка "Настройки" -->
-        <button class="settings-btn" onclick="alert('Перейти к настройкам')">Настройки</button>
-    </div>
-
-    <!-- Рамка с аватаркой -->
-    <div class="avatar-wrapper">
-        <img src="https://via.placeholder.com/100" alt="Аватар" class="avatar" />
+        <a class="settings-btn" href="Settings">
+            Настройки
+        </a>
     </div>
 
     <!-- Основной блок с информацией -->
@@ -18,12 +15,12 @@
         <!-- Левая часть -->
         <div class="profile-info">
             <div class="name-section">
-                <div class="name">Иван Иванов</div>
-                <div class="rating" title="Рейтинг: 4.8 из 5">⭐ 4.8</div>
+                <div class="name">@Model.Name @Model.Surname</div>
+                <div class="rating" title="Рейтинг: @Model.Rating из 5">⭐ @Model.Rating</div>
             </div>
-            <div class="position">Веб-дизайнер</div>
+            <div class="position">@Model.Speciality</div>
             <div class="description">
-                Пример описания профиля: опытный дизайнер с 5-летним стажем. Помогу вам красиво оформить ваш сайт или проект. В портфолио — множество завершенных проектов и довольных клиентов.
+                @Model.Description
             </div>
         </div>
     </div>

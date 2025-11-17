@@ -101,8 +101,11 @@ namespace TALENTSPHERE.Controllers
                 Login = login,
                 Email = email,
                 Password = password,
+                Description = "-",
                 Name = "Обычный",
-                Surname = "Пользователь"
+                Surname = "Пользователь",
+                Rating = 0,
+                Grade = 0.0f
             };
 
             var userCheckLogin = await db.Users.Where(u => u.Login == login).FirstOrDefaultAsync();

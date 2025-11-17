@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1lsZn6EPtZutkMvpqY6/SvHA4JEevBLXrxQl4LqL+xM=",
+  "Hash": "SXekCNKewln6FSKlendm2nuKPT3QyUsqzpju+3RcPrA=",
   "Source": "TALENTSPHERE",
   "BasePath": "_content/TALENTSPHERE",
   "Mode": "Default",
@@ -605,12 +605,12 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-0kb3gugur3.gz",
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-mg1aszchs1.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TALENTSPHERE",
-      "RelativePath": "css/site#[.{fingerprint=0kb3gugur3}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=mg1aszchs1}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -619,8 +619,8 @@
       "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mrufl8ty9h",
-      "Integrity": "gu7QODgUlgsafoADTfMG5NQD7OKhx2Hb1IvNSa6Zby4=",
+      "Fingerprint": "9zkb6y7zr9",
+      "Integrity": "9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0kb3gugur3",
-      "Integrity": "wNowNK95tIr+JFcLdQhiJbrvAxpeHAIXq4o6MvZtJH0=",
+      "Fingerprint": "mg1aszchs1",
+      "Integrity": "5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2728,13 +2728,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.0kb3gugur3.css",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-0kb3gugur3.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-mg1aszchs1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000630517024"
+          "Quality": "0.000673400673"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2744,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1585"
+          "Value": "1484"
         },
         {
           "Name": "ETag",
-          "Value": "\"gu7QODgUlgsafoADTfMG5NQD7OKhx2Hb1IvNSa6Zby4=\""
+          "Value": "\"9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Nov 2025 12:13:43 GMT"
+          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,26 +2772,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wNowNK95tIr+JFcLdQhiJbrvAxpeHAIXq4o6MvZtJH0=\""
+          "Value": "W/\"5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "0kb3gugur3"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-wNowNK95tIr+JFcLdQhiJbrvAxpeHAIXq4o6MvZtJH0="
+          "Value": "sha256-5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0="
         }
       ]
     },
     {
-      "Route": "css/site.0kb3gugur3.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5371"
+          "Value": "5231"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2801,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wNowNK95tIr+JFcLdQhiJbrvAxpeHAIXq4o6MvZtJH0=\""
+          "Value": "\"5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Nov 2025 12:13:43 GMT"
+          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-mg1aszchs1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1484"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.mg1aszchs1.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-mg1aszchs1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000673400673"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1484"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mg1aszchs1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.mg1aszchs1.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2960,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0kb3gugur3"
+          "Value": "mg1aszchs1"
         },
         {
           "Name": "label",
@@ -2831,13 +2968,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wNowNK95tIr+JFcLdQhiJbrvAxpeHAIXq4o6MvZtJH0="
+          "Value": "sha256-5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0="
         }
       ]
     },
     {
-      "Route": "css/site.0kb3gugur3.css.gz",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-0kb3gugur3.gz",
+      "Route": "css/site.mg1aszchs1.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-mg1aszchs1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2983,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1585"
+          "Value": "1484"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2991,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gu7QODgUlgsafoADTfMG5NQD7OKhx2Hb1IvNSa6Zby4=\""
+          "Value": "\"9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Nov 2025 12:13:43 GMT"
+          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +3013,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0kb3gugur3"
+          "Value": "mg1aszchs1"
         },
         {
           "Name": "label",
@@ -2884,144 +3021,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gu7QODgUlgsafoADTfMG5NQD7OKhx2Hb1IvNSa6Zby4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-0kb3gugur3.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000630517024"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1585"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gu7QODgUlgsafoADTfMG5NQD7OKhx2Hb1IvNSa6Zby4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Nov 2025 12:13:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"wNowNK95tIr+JFcLdQhiJbrvAxpeHAIXq4o6MvZtJH0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wNowNK95tIr+JFcLdQhiJbrvAxpeHAIXq4o6MvZtJH0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5371"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wNowNK95tIr+JFcLdQhiJbrvAxpeHAIXq4o6MvZtJH0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Nov 2025 12:13:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wNowNK95tIr+JFcLdQhiJbrvAxpeHAIXq4o6MvZtJH0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-0kb3gugur3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1585"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gu7QODgUlgsafoADTfMG5NQD7OKhx2Hb1IvNSa6Zby4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Nov 2025 12:13:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gu7QODgUlgsafoADTfMG5NQD7OKhx2Hb1IvNSa6Zby4="
+          "Value": "sha256-9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4="
         }
       ]
     },
@@ -21310,7 +21310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21363,7 +21363,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21400,7 +21400,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21447,7 +21447,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21508,7 +21508,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21553,7 +21553,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21608,7 +21608,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21669,7 +21669,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21714,7 +21714,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21769,7 +21769,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21822,7 +21822,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21859,7 +21859,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Nov 2025 10:21:35 GMT"
+          "Value": "Sun, 16 Nov 2025 03:47:55 GMT"
         },
         {
           "Name": "Cache-Control",
