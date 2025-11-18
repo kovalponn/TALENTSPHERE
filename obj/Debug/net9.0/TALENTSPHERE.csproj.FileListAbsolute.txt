@@ -117,3 +117,7 @@ C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\staticweb
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.TALENTSPHERE.props
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\bin\Debug\net9.0\libman.json
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\qkfu1fevar-v27kyt3qt0.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\mkzxdx8pbx-8ygr66qhzy.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\3jiyr1t47r-qrogdhgluj.gz

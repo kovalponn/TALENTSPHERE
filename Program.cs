@@ -2,12 +2,19 @@ using Microsoft.EntityFrameworkCore;
 using TALENTSPHERE.Models;
 using TALENTSPHERE.Data;
 using Nest;
+using TALENTSPHERE.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
 string? connection = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseNpgsql(connection));
+
+builder.Services.AddSignalR(options =>
+{
+    options.EnableDetailedErrors = true;
+    options.MaximumReceiveMessageSize = 1024 * 1024;
+});
 
 builder.Services.AddControllersWithViews();
 
@@ -24,6 +31,8 @@ builder.Services.AddSingleton<IElasticClient>(new ElasticClient(settings));
 
 var app = builder.Build();
 
+app.UseCors();
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -36,6 +45,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapStaticAssets();
+app.MapHub<ChatHub>("chat");
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Main}")

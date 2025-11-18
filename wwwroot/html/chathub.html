@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <label>Chat ID:</label>
+        <input type="text" id="chatIdInput" />
+    </div>
+    <div>
+        <label>User ID:</label>
+        <input type="text" id="userIdInput" />
+    </div>
+    <button id="connectBtn">Connect</button>
+
+    <div id="messages" style="border:1px solid #ccc; height:300px; overflow:auto; margin-top:10px; padding:5px;">
+        <!-- Сообщения появятся здесь -->
+    </div>
+    <input type="text" id="messageInput" placeholder="Введите сообщение..." />
+    <button id="sendBtn">Отправить</button>
+
+    <script src="/js/signalr/dist/browser/signalr.js"></script>
+
+    <script src="/js/chat.js"></script>
+</body>
+
+</html>
