@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qrogdhgluj</Fingerprint>
-      <Integrity>ms37w9S20cTqKkfmN+zwisDeLXbk/wAyjGHeM/oulRM=</Integrity>
+      <Fingerprint>9bvu5bjhk7</Fingerprint>
+      <Integrity>+2QUmZjyx5/MjYag+f+OUiuJdCjOb1S2IwC4UAZqHOM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</OriginalItemSpec>

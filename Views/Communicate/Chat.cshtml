@@ -1,23 +1,62 @@
 ﻿<div id="join">
-	<input type="text" id="inputUser" />
-	<label for="inputUser">Пользователь</label>
-	<br>
-	<input type="text" id="inputChat" />
-	<label for="inputChat">Чат</label>
-	<br>
-	<button id="joinButton">Подключиться</button>
+    <label>Id пользователя</label>
+    <input type="text" id="inputUser" value="@ViewData["IdUser"]" />
+    <br>
+    <label>Id чата</label>
+    <input type="text" id="inputChat" value="@ViewData["IdChat"]" />
+
+    <input id="inputLogin" type="text" value="@ViewData["LoginUser"]" />
+
+    <button id="joinButton">Подключиться</button>
 </div>
 
-<div id="messages">
-	<label for="inputMessage">Сообщение</label>
-	<input type="text" id="inputMessage" />
+<body class="d-flex flex-column min-vh-100 bg-light py-4">
 
-	<button id="sendButton">Отправить</button>
+    <div id="messages" class="container flex-fill d-flex flex-column justify-content-end">
+        <h2 class="mb-4 text-center">Чат</h2>
+
+        <!-- Область сообщений -->
+        <div id="messageList" class="mb-4" style="flex-grow:1; overflow-y:auto; max-height: 70vh;">
+            <!-- Вставляйте сообщения сюда вручную -->
+            
+            
+
+        </div>
+
+        <!-- Поле ввода -->
+            <div class="input-group">
+                <input id="inputMessage" type="text" class="form-control" placeholder="Введите сообщение..." aria-label="Сообщение" required />
+                <button id="sendButton" class="btn btn-primary" type="submit">Отправить</button>
+            </div>
+    </div>
+
+</body>
+
+<div id="templatesContainer" style="display: none">
+
+    <div id="myMessageExample" class="d-flex justify-content-start my-4">
+        <div class="card bg-primary text-white" style="max-width: 75%;">
+            <div class="card-body p-2">
+                <p id="txtBody" class="mb-1"></p>
+            </div>
+            <div class="card-footer bg-primary text-end small">
+                <span id="nameBody">Имя пользователя</span> | <span id="time"></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="otherMessageExample" class="d-flex justify-content-start my-4">
+        <div class="card bg-secondary text-white" style="max-width: 75%;">
+            <div class="card-body p-2">
+                <p id="txtBody" class="mb-1"></p>
+            </div>
+            <div class="card-footer bg-secondary text-start small">
+                <span id="nameBody">Имя другого</span> | <span id="time"></span>
+            </div>
+        </div>
+    </div>
+
 </div>
-
-<ul id="messageList">
-
-</ul>
 
 <script src="/js/signalr/dist/browser/signalr.js"></script>  
 @* <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script> *@

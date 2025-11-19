@@ -1,34 +1,82 @@
 ﻿"use strict";
 
-document.getElementById("messages").style.display = 'none';
+const messageBlock = document.getElementById("messageList");
+
+const sentMessage = '';
+const receivedMessage = '';
 
 const connection = new signalR.HubConnectionBuilder()
     .withUrl("https://localhost:7271/chat")
     .configureLogging(signalR.LogLevel.Information)
     .build();
 
-connection.start().catch(e => console.error(e.toString()));
+connection.start()
+.then(e => {
+    const chatId = document.getElementById("inputChat").value;
+    const userId = document.getElementById("inputUser").value;
+    const userLogin = document.getElementById("inputLogin").value;
+    connection.invoke("JoinToChat", chatId, userId, userLogin).catch(e => console.error(e.toString()));
+    document.getElementById("join").style.display = 'none';
+    document.getElementById("messages").style.display = 'block';
+    // e.preventDefault();
+})
+.catch(u => console.error(u.toString()));
 
 document.getElementById("joinButton")
 .addEventListener("click", e =>  {
-    const chatName = document.getElementById("inputChat").value;
-    connection.invoke("JoinToChat", chatName).catch(e => console.error(e.toString()));
+    const chatId = document.getElementById("inputChat").value;
+    const userId = document.getElementById("inputUser").value;
+    const userLogin = document.getElementById("inputLogin").value;
+    connection.invoke("JoinToChat", chatId, userId, userLogin).catch(e => console.error(e.toString()));
     document.getElementById("join").style.display = 'none';
     document.getElementById("messages").style.display = 'block';
-    e.preventDefault();
+    // e.preventDefault();
 });
 
 document.getElementById("sendButton")
 .addEventListener("click", e =>  {
-    const chatName = document.getElementById("inputChat").value;
-    const user = document.getElementById("inputUser").value;
+    const chatId = document.getElementById("inputChat").value;
+    const userId = document.getElementById("inputUser").value;
+    const userLogin = document.getElementById("inputLogin").value;
     const message = document.getElementById("inputMessage").value;
-    connection.invoke("SendMessage", chatName, user, message).catch(e => console.error(e.toString()));
+    const date = new Date();
+    const isoString = date.toISOString();
+    connection.invoke("SendMessage", chatId, userId, message, userLogin, isoString).catch(e => console.error(e.toString()));
     e.preventDefault();
 });
 
-connection.on("ReceiveMessage", (message) => {
-    const el = document.createElement("li");
-    document.getElementById("messageList").appendChild(el);
-    el.textContent = message;
+connection.on("ReceiveMessage", (message, userId, userLogin, time) => {
+    const templatesContainer = document.getElementById('templatesContainer');
+
+    const template = document.getElementById('myMessageExample');
+
+    if (templatesContainer && template) {
+
+        const messageClone = template.cloneNode(true);
+    
+
+        messageClone.removeAttribute('id');
+    
+
+        const txtBody = messageClone.querySelector('#txtBody');
+        if (txtBody) {
+            txtBody.textContent = `${message}`;
+        }
+
+        const nameBody = messageClone.querySelector('#nameBody');
+        if (nameBody) {
+            nameBody.textContent = `${userLogin}`;
+        }
+
+        const timeBody = messageClone.querySelector('#time');
+        if (timeBody) {
+            timeBody.textContent = `${time}`;
+        }
+
+
+        const messageList = document.getElementById('messageList');
+        messageList.appendChild(messageClone);
+    } else {
+        console.error('Шаблон или контейнер шаблонов не найдены.');
+    }
 });
