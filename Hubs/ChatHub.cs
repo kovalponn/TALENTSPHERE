@@ -1,8 +1,10 @@
 ﻿using System.Globalization;
 using System.Linq;
+using System.Security.Claims;
 using Elastic.Clients.Elasticsearch.Nodes;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
+using Nest;
 using TALENTSPHERE.Models;
 
 namespace TALENTSPHERE.Hubs;
@@ -28,8 +30,7 @@ public class ChatHub : Hub
         if (chat.Participants != null && chat.Participants.Contains(long.Parse(userId)))
         {
             await Groups.AddToGroupAsync(Context.ConnectionId, chatId);
-            await Clients.Group(chatId).SendAsync("ReceiveMessage", $"{userLogin} Присоединился к чату", "System");
-
+            //await Clients.Group(chatId).SendAsync("ReceiveMessage", $"{userLogin} Присоединился к чату", "System");
             return;
         }
 
@@ -59,22 +60,55 @@ public class ChatHub : Hub
             // Теперь у вас есть DateTime
         }
 
-        MessageBody messageBody = new MessageBody();
-        messageBody.Text = message;
-        messageBody.MediaUrl = "null";
-
         Message messageObject = new Message
         {
             OwnerId = long.Parse(userId),
+            OwnerLogin = userLogin,
             ChatId = long.Parse(chatId),
             View = Views.No,
             CreateTime = dateTime,
-            Body = messageBody
+            Body = message,
+            Content = ""
         };
 
-        await db.Messages.AddAsync(messageObject);
-        await db.SaveChangesAsync();
+        var claimsPrincipal = Context.User;
+        string? email = "";
 
-        await Clients.Group(chatId).SendAsync("ReceiveMessage", message, userId, userLogin, dateTime.ToString());
+
+        if (claimsPrincipal != null && claimsPrincipal.Identity.IsAuthenticated)
+        {
+            email = claimsPrincipal.FindFirst(ClaimTypes.Name)?.Value;
+        }
+
+        var chat = await db.Chats.FirstOrDefaultAsync(u => u.Id == long.Parse(chatId));
+
+        if (chat != null)
+        {
+            await db.Messages.AddAsync(messageObject);
+            await db.SaveChangesAsync();
+
+            long newObject = messageObject.Id;
+
+            long[] ? messageids = chat.Messages;
+            long[]? newArray;
+
+            if (messageids != null)
+            {
+                newArray = new long[messageids.Length + 1];
+                Array.Copy(messageids, 0, newArray, 0, messageids.Length);
+                newArray[newArray.Length - 1] = newObject;
+            }
+            else
+            {
+                newArray = new long[1];
+                newArray[0] = newObject;
+            }
+            
+            chat.Messages = newArray;
+
+            await db.SaveChangesAsync();
+
+            await Clients.Group(chatId).SendAsync("ReceiveMessage", message, userId, userLogin, dateTime.ToString(), email);
+        }
     }
 }

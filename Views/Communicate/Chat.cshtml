@@ -1,4 +1,7 @@
-﻿<div id="join">
+﻿@model List<TALENTSPHERE.Models.Message>
+@using TALENTSPHERE.Helpers
+
+<div id="join">
     <label>Id пользователя</label>
     <input type="text" id="inputUser" value="@ViewData["IdUser"]" />
     <br>
@@ -6,6 +9,7 @@
     <input type="text" id="inputChat" value="@ViewData["IdChat"]" />
 
     <input id="inputLogin" type="text" value="@ViewData["LoginUser"]" />
+    <input id="inputEmail" type="text" value="@ViewData["EmailUser"]" />
 
     <button id="joinButton">Подключиться</button>
 </div>
@@ -18,9 +22,14 @@
         <!-- Область сообщений -->
         <div id="messageList" class="mb-4" style="flex-grow:1; overflow-y:auto; max-height: 70vh;">
             <!-- Вставляйте сообщения сюда вручную -->
-            
-            
+            @foreach (var item in Model)
+            {
+                var messageText = item.Body != null ? item.Body : "Нет текста";
+                var ownerLogin = item.OwnerLogin ?? "Неизвестный";
+                var createTime = item.CreateTime.ToString() != null ? item.CreateTime.ToString() : "";
 
+                @ChatHelpers.GenerateMessage(messageText, ownerLogin, ViewData["LoginUser"].ToString(), createTime)
+            }
         </div>
 
         <!-- Поле ввода -->

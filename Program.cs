@@ -50,6 +50,10 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Main}")
         .WithStaticAssets();
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Auth}/{action=Logout}")
+//        .WithStaticAssets();
 
 app.Run();
 

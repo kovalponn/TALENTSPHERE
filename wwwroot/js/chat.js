@@ -45,10 +45,18 @@ document.getElementById("sendButton")
     e.preventDefault();
 });
 
-connection.on("ReceiveMessage", (message, userId, userLogin, time) => {
+connection.on("ReceiveMessage", (message, userId, userLogin, time, email) => {
     const templatesContainer = document.getElementById('templatesContainer');
 
-    const template = document.getElementById('myMessageExample');
+    const inputEmail = document.getElementById("inputEmail").value;
+    
+    let template;
+
+    if (inputEmail == email) {
+        template = document.getElementById('myMessageExample');
+    } else {
+        template = document.getElementById('otherMessageExample');
+    }
 
     if (templatesContainer && template) {
 

@@ -20,13 +20,38 @@ namespace TALENTSPHERE.Controllers
         {
             string? email = User.FindFirst(ClaimTypes.Name)?.Value;
             var user = await db.Users.FirstOrDefaultAsync(e => e.Email == email);
-            ViewData["IdUser"] = user.Id;
-            ViewData["LoginUser"] = user.Login;
+            ViewData["IdUser"] = user?.Id;
+            ViewData["LoginUser"] = user?.Login;
+            ViewData["EmailUser"] = user?.Email;
             ViewData["IdChat"] = chatId;
 
+            var chat = await db.Chats.Where(u => u.Id == chatId).FirstOrDefaultAsync();
 
+            if (chat == null)
+            {
+                return View();
+            }
+            
+            List<Message> messagesList = new List<Message>();
 
-            return View();
+            long[]? messagesId = chat.Messages;
+
+            if (messagesId == null)
+            {
+                return View(messagesList);
+            }
+
+            foreach (long i in messagesId)
+            {
+                Message? message = await db.Messages.FirstOrDefaultAsync(u => u.Id == i);
+                if (message == null)
+                {
+                    continue;
+                }
+                messagesList.Add(message);
+            }
+
+            return View(messagesList);
         }
 
         public string CreateChat(string name)
