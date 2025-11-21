@@ -20,8 +20,9 @@ public class ChatHub : Hub
     public async Task JoinToChat(string chatId, string userId, string userLogin)
     {
         var chat = await db.Chats.Where(u => u.Id == long.Parse(chatId)).FirstOrDefaultAsync();
+        var user = await db.Users.Where(u => u.Id == long.Parse(userId)).FirstOrDefaultAsync();
 
-        if (chat == null)
+        if (chat == null || user == null)
         {
             return;
         }
@@ -29,8 +30,13 @@ public class ChatHub : Hub
         // Проверяем, есть ли уже такой участник
         if (chat.Participants != null && chat.Participants.Contains(long.Parse(userId)))
         {
+            if (user.ChatsConnect != null && user.ChatsConnect.Contains(long.Parse(chatId)))
+            {
+                await Groups.AddToGroupAsync(Context.ConnectionId, chatId);
+                return;
+            }
+            
             await Groups.AddToGroupAsync(Context.ConnectionId, chatId);
-            //await Clients.Group(chatId).SendAsync("ReceiveMessage", $"{userLogin} Присоединился к чату", "System");
             return;
         }
 
@@ -40,10 +46,19 @@ public class ChatHub : Hub
             chat.Participants = new long[0];
         }
 
+        if (user.ChatsConnect == null)
+        {
+            user.ChatsConnect = new long[0];
+        }
+
         // Создаем новый массив с добавленным участником
         var participantsList = chat.Participants.ToList();
         participantsList.Add(long.Parse(userId));
         chat.Participants = participantsList.ToArray();
+
+        var userList = user.ChatsConnect.ToList();
+        userList.Add(long.Parse(chatId));
+        user.ChatsConnect = userList.ToArray();
 
         // Сохраняем изменения
         await db.SaveChangesAsync();
