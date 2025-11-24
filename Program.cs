@@ -3,6 +3,8 @@ using TALENTSPHERE.Models;
 using TALENTSPHERE.Data;
 using Nest;
 using TALENTSPHERE.Hubs;
+using TALENTSPHERE.Hubs.Additionally;
+using Microsoft.AspNetCore.SignalR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,7 @@ builder.Services.AddSignalR(options =>
     options.EnableDetailedErrors = true;
     options.MaximumReceiveMessageSize = 1024 * 1024;
 });
+builder.Services.AddSingleton<IUserIdProvider, CustomUserIdProvider>();
 
 builder.Services.AddControllersWithViews();
 

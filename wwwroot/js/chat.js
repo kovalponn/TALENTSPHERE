@@ -39,6 +39,7 @@ document.getElementById("sendButton")
     const userId = document.getElementById("inputUser").value;
     const userLogin = document.getElementById("inputLogin").value;
     const message = document.getElementById("inputMessage").value;
+    const companionId = document.getElementById("companion");
     const date = new Date();
     const isoString = date.toISOString();
     connection.invoke("SendMessage", chatId, userId, message, userLogin, isoString).catch(e => console.error(e.toString()));
@@ -46,6 +47,12 @@ document.getElementById("sendButton")
 });
 
 connection.on("ReceiveMessage", (message, userId, userLogin, time, email) => {
+    // const myId = document.getElementById("inputUser").value;
+    // if (userId != myId) 
+    // {
+    //     companionId = userId;
+    // }
+    
     const templatesContainer = document.getElementById('templatesContainer');
 
     const inputEmail = document.getElementById("inputEmail").value;
@@ -62,7 +69,6 @@ connection.on("ReceiveMessage", (message, userId, userLogin, time, email) => {
 
         const messageClone = template.cloneNode(true);
     
-
         messageClone.removeAttribute('id');
     
 
@@ -87,4 +93,9 @@ connection.on("ReceiveMessage", (message, userId, userLogin, time, email) => {
     } else {
         console.error('Шаблон или контейнер шаблонов не найдены.');
     }
+});
+
+connection.on("ReceiveNotice", (senderUserLogin, message) => {
+    console.log(`Получено сообщение от ${senderUserLogin}: ${message}`);
+    alert(`Новое уведомление \n ${senderUserLogin}: \n ${message}`);
 });

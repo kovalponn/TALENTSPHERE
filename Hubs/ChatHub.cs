@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.Linq;
 using System.Security.Claims;
 using Elastic.Clients.Elasticsearch.Nodes;
@@ -123,7 +124,24 @@ public class ChatHub : Hub
 
             await db.SaveChangesAsync();
 
+            if (chat.Participants != null)
+            {
+                await SendNotice(chat.Participants, userLogin, userId, message);
+            }
+
             await Clients.Group(chatId).SendAsync("ReceiveMessage", message, userId, userLogin, dateTime.ToString(), email);
+        }
+    }
+
+    public async Task SendNotice(long[] userId, string senderUserLogin, string senderUserId, string message)
+    {
+        foreach (var i in userId)
+        {
+            if (i.ToString() == senderUserId)
+            {
+                continue;
+            }
+            await Clients.User(i.ToString()).SendAsync("ReceiveNotice", senderUserLogin, message);
         }
     }
 }

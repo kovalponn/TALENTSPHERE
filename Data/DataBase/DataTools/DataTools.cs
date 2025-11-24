@@ -1,4 +1,5 @@
-﻿using TALENTSPHERE.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using TALENTSPHERE.Models;
 
 
 namespace TALENTSPHERE.Data
@@ -12,10 +13,15 @@ namespace TALENTSPHERE.Data
             this.db = db;
         }
 
-        #region Добавление данных EF core
-
-        
-
-        #endregion
+        public async Task<long> GetUserByEmail(string email)
+        {
+            var user = await db.Users.FirstOrDefaultAsync(u => u.Email == email);
+            if (user == null)
+            {
+                Console.WriteLine("Failed to extract user in data base");
+                return 0;
+            }
+            return user.Id;
+        }
     }
 }

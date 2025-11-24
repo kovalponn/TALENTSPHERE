@@ -1,8 +1,12 @@
-﻿using System.Security.Claims;
+﻿using System;
+using System.Security.Claims;
+using System.Text.Json;
+using System.Xml.Linq;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TALENTSPHERE.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TALENTSPHERE.Controllers
 {
@@ -95,7 +99,6 @@ namespace TALENTSPHERE.Controllers
             }
 
             ViewBag.ChatList = chatsLists.ToArray();
-
             return View(messagesList);
         }
 

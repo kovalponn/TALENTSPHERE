@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6oLItmkUYyp32JMYBo/9bfXrq1IzcgB7mcdV6PKmusI=",
+  "Hash": "U2dyuqZvxjWGK621G1HW4c3Ph4d3g2EkcKK80W5icbM=",
   "Source": "TALENTSPHERE",
   "BasePath": "_content/TALENTSPHERE",
   "Mode": "Default",
@@ -185,12 +185,12 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\3jiyr1t47r-5d7sn4tr1f.gz",
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\3jiyr1t47r-2sjquke984.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TALENTSPHERE",
-      "RelativePath": "js/chat#[.{fingerprint=5d7sn4tr1f}]?.js.gz",
+      "RelativePath": "js/chat#[.{fingerprint=2sjquke984}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -199,8 +199,8 @@
       "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\chat.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6357zunil5",
-      "Integrity": "gkCZ6F3/ezcjAsEGbueuRqwrU9QyD6J+DsK2YEnb92w=",
+      "Fingerprint": "l7bb3xjrfw",
+      "Integrity": "gQRyy2E5p7g1AmvZRPQe9/NIVudGfMXTaOA6q7hyefQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\chat.js"
@@ -750,6 +750,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\hwzmril8jh-wa9oh9tf63.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "js/notice#[.{fingerprint=wa9oh9tf63}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\notice.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nr5ww76egj",
+      "Integrity": "M2FDo4aLc/081ecNt2avEd2ty3qo+YHI2UskDK0oZ7g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\notice.js"
     },
     {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\hzvsvod3e4-tdbxkamptv.gz",
@@ -1543,11 +1564,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5d7sn4tr1f",
-      "Integrity": "SauOfwjLk+R/ZgO8flQWmlE0y2KokgThDnvVEPXqTyM=",
+      "Fingerprint": "2sjquke984",
+      "Integrity": "orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\chat.js"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\notice.js",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "js/notice#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wa9oh9tf63",
+      "Integrity": "GEoRCCfGeRwzhqeLMUi4PlcNCy9sWkzmbXSITON9VH0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\notice.js"
     },
     {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
@@ -3748,13 +3790,13 @@
       ]
     },
     {
-      "Route": "js/chat.5d7sn4tr1f.js",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\3jiyr1t47r-5d7sn4tr1f.gz",
+      "Route": "js/chat.2sjquke984.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\3jiyr1t47r-2sjquke984.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001137656428"
+          "Quality": "0.000963391137"
         }
       ],
       "ResponseHeaders": [
@@ -3764,15 +3806,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "878"
+          "Value": "1037"
         },
         {
           "Name": "ETag",
-          "Value": "\"gkCZ6F3/ezcjAsEGbueuRqwrU9QyD6J+DsK2YEnb92w=\""
+          "Value": "\"gQRyy2E5p7g1AmvZRPQe9/NIVudGfMXTaOA6q7hyefQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Nov 2025 10:38:38 GMT"
+          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3792,13 +3834,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SauOfwjLk+R/ZgO8flQWmlE0y2KokgThDnvVEPXqTyM=\""
+          "Value": "W/\"orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5d7sn4tr1f"
+          "Value": "2sjquke984"
         },
         {
           "Name": "label",
@@ -3806,12 +3848,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SauOfwjLk+R/ZgO8flQWmlE0y2KokgThDnvVEPXqTyM="
+          "Value": "sha256-orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o="
         }
       ]
     },
     {
-      "Route": "js/chat.5d7sn4tr1f.js",
+      "Route": "js/chat.2sjquke984.js",
       "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\chat.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3821,7 +3863,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3267"
+          "Value": "3732"
         },
         {
           "Name": "Content-Type",
@@ -3829,11 +3871,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SauOfwjLk+R/ZgO8flQWmlE0y2KokgThDnvVEPXqTyM=\""
+          "Value": "\"orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Nov 2025 10:38:38 GMT"
+          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3843,7 +3885,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5d7sn4tr1f"
+          "Value": "2sjquke984"
         },
         {
           "Name": "label",
@@ -3851,13 +3893,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SauOfwjLk+R/ZgO8flQWmlE0y2KokgThDnvVEPXqTyM="
+          "Value": "sha256-orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o="
         }
       ]
     },
     {
-      "Route": "js/chat.5d7sn4tr1f.js.gz",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\3jiyr1t47r-5d7sn4tr1f.gz",
+      "Route": "js/chat.2sjquke984.js.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\3jiyr1t47r-2sjquke984.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3866,7 +3908,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "878"
+          "Value": "1037"
         },
         {
           "Name": "Content-Type",
@@ -3874,11 +3916,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gkCZ6F3/ezcjAsEGbueuRqwrU9QyD6J+DsK2YEnb92w=\""
+          "Value": "\"gQRyy2E5p7g1AmvZRPQe9/NIVudGfMXTaOA6q7hyefQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Nov 2025 10:38:38 GMT"
+          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3896,7 +3938,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5d7sn4tr1f"
+          "Value": "2sjquke984"
         },
         {
           "Name": "label",
@@ -3904,18 +3946,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gkCZ6F3/ezcjAsEGbueuRqwrU9QyD6J+DsK2YEnb92w="
+          "Value": "sha256-gQRyy2E5p7g1AmvZRPQe9/NIVudGfMXTaOA6q7hyefQ="
         }
       ]
     },
     {
       "Route": "js/chat.js",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\3jiyr1t47r-5d7sn4tr1f.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\3jiyr1t47r-2sjquke984.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001137656428"
+          "Quality": "0.000963391137"
         }
       ],
       "ResponseHeaders": [
@@ -3925,15 +3967,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "878"
+          "Value": "1037"
         },
         {
           "Name": "ETag",
-          "Value": "\"gkCZ6F3/ezcjAsEGbueuRqwrU9QyD6J+DsK2YEnb92w=\""
+          "Value": "\"gQRyy2E5p7g1AmvZRPQe9/NIVudGfMXTaOA6q7hyefQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Nov 2025 10:38:38 GMT"
+          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3953,13 +3995,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SauOfwjLk+R/ZgO8flQWmlE0y2KokgThDnvVEPXqTyM=\""
+          "Value": "W/\"orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SauOfwjLk+R/ZgO8flQWmlE0y2KokgThDnvVEPXqTyM="
+          "Value": "sha256-orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o="
         }
       ]
     },
@@ -3974,7 +4016,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3267"
+          "Value": "3732"
         },
         {
           "Name": "Content-Type",
@@ -3982,11 +4024,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SauOfwjLk+R/ZgO8flQWmlE0y2KokgThDnvVEPXqTyM=\""
+          "Value": "\"orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Nov 2025 10:38:38 GMT"
+          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3996,13 +4038,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SauOfwjLk+R/ZgO8flQWmlE0y2KokgThDnvVEPXqTyM="
+          "Value": "sha256-orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o="
         }
       ]
     },
     {
       "Route": "js/chat.js.gz",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\3jiyr1t47r-5d7sn4tr1f.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\3jiyr1t47r-2sjquke984.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4011,7 +4053,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "878"
+          "Value": "1037"
         },
         {
           "Name": "Content-Type",
@@ -4019,11 +4061,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gkCZ6F3/ezcjAsEGbueuRqwrU9QyD6J+DsK2YEnb92w=\""
+          "Value": "\"gQRyy2E5p7g1AmvZRPQe9/NIVudGfMXTaOA6q7hyefQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Nov 2025 10:38:38 GMT"
+          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4041,7 +4083,305 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gkCZ6F3/ezcjAsEGbueuRqwrU9QyD6J+DsK2YEnb92w="
+          "Value": "sha256-gQRyy2E5p7g1AmvZRPQe9/NIVudGfMXTaOA6q7hyefQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/notice.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\hwzmril8jh-wa9oh9tf63.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002016129032"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "495"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M2FDo4aLc/081ecNt2avEd2ty3qo+YHI2UskDK0oZ7g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 03:53:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GEoRCCfGeRwzhqeLMUi4PlcNCy9sWkzmbXSITON9VH0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GEoRCCfGeRwzhqeLMUi4PlcNCy9sWkzmbXSITON9VH0="
+        }
+      ]
+    },
+    {
+      "Route": "js/notice.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\notice.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "887"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GEoRCCfGeRwzhqeLMUi4PlcNCy9sWkzmbXSITON9VH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 03:53:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GEoRCCfGeRwzhqeLMUi4PlcNCy9sWkzmbXSITON9VH0="
+        }
+      ]
+    },
+    {
+      "Route": "js/notice.js.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\hwzmril8jh-wa9oh9tf63.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M2FDo4aLc/081ecNt2avEd2ty3qo+YHI2UskDK0oZ7g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 03:53:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M2FDo4aLc/081ecNt2avEd2ty3qo+YHI2UskDK0oZ7g="
+        }
+      ]
+    },
+    {
+      "Route": "js/notice.wa9oh9tf63.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\hwzmril8jh-wa9oh9tf63.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002016129032"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "495"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M2FDo4aLc/081ecNt2avEd2ty3qo+YHI2UskDK0oZ7g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 03:53:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GEoRCCfGeRwzhqeLMUi4PlcNCy9sWkzmbXSITON9VH0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wa9oh9tf63"
+        },
+        {
+          "Name": "label",
+          "Value": "js/notice.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GEoRCCfGeRwzhqeLMUi4PlcNCy9sWkzmbXSITON9VH0="
+        }
+      ]
+    },
+    {
+      "Route": "js/notice.wa9oh9tf63.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\notice.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "887"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GEoRCCfGeRwzhqeLMUi4PlcNCy9sWkzmbXSITON9VH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 03:53:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wa9oh9tf63"
+        },
+        {
+          "Name": "label",
+          "Value": "js/notice.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GEoRCCfGeRwzhqeLMUi4PlcNCy9sWkzmbXSITON9VH0="
+        }
+      ]
+    },
+    {
+      "Route": "js/notice.wa9oh9tf63.js.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\hwzmril8jh-wa9oh9tf63.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M2FDo4aLc/081ecNt2avEd2ty3qo+YHI2UskDK0oZ7g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 03:53:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wa9oh9tf63"
+        },
+        {
+          "Name": "label",
+          "Value": "js/notice.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M2FDo4aLc/081ecNt2avEd2ty3qo+YHI2UskDK0oZ7g="
         }
       ]
     },

@@ -54,9 +54,13 @@ namespace TALENTSPHERE.Controllers
                 Console.WriteLine("Не вошел");
                 return View();
             }
-                
 
-            var claims = new List<Claim> { new Claim(ClaimTypes.Name, user.Email) };
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.Email),
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()) 
+            };
+
             ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "Cookies");
 
             var authProperties = new AuthenticationProperties
@@ -65,6 +69,16 @@ namespace TALENTSPHERE.Controllers
             };
 
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
+            //var claims = new List<Claim> { new Claim(ClaimTypes.Name, user.Email) };
+            //ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "Cookies");
+
+            //var authProperties = new AuthenticationProperties
+            //{
+            //    ExpiresUtc = DateTimeOffset.UtcNow.AddDays(5)
+            //};
+
+            //await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
 
             return RedirectToAction("Main", "Home");
         }
