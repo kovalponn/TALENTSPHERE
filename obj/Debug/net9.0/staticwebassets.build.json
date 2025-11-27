@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U2dyuqZvxjWGK621G1HW4c3Ph4d3g2EkcKK80W5icbM=",
+  "Hash": "JjMlkilCgYng8wjA7QXwTwVzpIOFwL7UUXaHtLwjHBI=",
   "Source": "TALENTSPHERE",
   "BasePath": "_content/TALENTSPHERE",
   "Mode": "Default",
@@ -1424,6 +1424,27 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\zkhkeq123q-5l5mtetanw.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "js/createProject#[.{fingerprint=5l5mtetanw}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\createProject.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "n4d2mo3b9z",
+      "Integrity": "CSv8aqV5mYCBcdfRAZms+pmAsu4bArc4R8Jw6i/F5I4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\createProject.js"
+    },
+    {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\znmwhqivz2-ub07r2b239.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
@@ -1569,6 +1590,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\chat.js"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\createProject.js",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "js/createProject#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5l5mtetanw",
+      "Integrity": "yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\createProject.js"
     },
     {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\notice.js",
@@ -3814,7 +3856,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
+          "Value": "Mon, 24 Nov 2025 13:42:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3875,7 +3917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
+          "Value": "Mon, 24 Nov 2025 13:42:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3920,7 +3962,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
+          "Value": "Mon, 24 Nov 2025 13:42:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3975,7 +4017,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
+          "Value": "Mon, 24 Nov 2025 13:42:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4028,7 +4070,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
+          "Value": "Mon, 24 Nov 2025 13:42:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4065,7 +4107,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Nov 2025 13:37:06 GMT"
+          "Value": "Mon, 24 Nov 2025 13:42:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4084,6 +4126,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-gQRyy2E5p7g1AmvZRPQe9/NIVudGfMXTaOA6q7hyefQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/createProject.5l5mtetanw.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\zkhkeq123q-5l5mtetanw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002739726027"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CSv8aqV5mYCBcdfRAZms+pmAsu4bArc4R8Jw6i/F5I4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 16:23:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5l5mtetanw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/createProject.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM="
+        }
+      ]
+    },
+    {
+      "Route": "js/createProject.5l5mtetanw.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\createProject.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "822"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 16:23:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5l5mtetanw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/createProject.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM="
+        }
+      ]
+    },
+    {
+      "Route": "js/createProject.5l5mtetanw.js.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\zkhkeq123q-5l5mtetanw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CSv8aqV5mYCBcdfRAZms+pmAsu4bArc4R8Jw6i/F5I4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 16:23:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5l5mtetanw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/createProject.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CSv8aqV5mYCBcdfRAZms+pmAsu4bArc4R8Jw6i/F5I4="
+        }
+      ]
+    },
+    {
+      "Route": "js/createProject.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\zkhkeq123q-5l5mtetanw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002739726027"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CSv8aqV5mYCBcdfRAZms+pmAsu4bArc4R8Jw6i/F5I4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 16:23:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM="
+        }
+      ]
+    },
+    {
+      "Route": "js/createProject.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\createProject.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "822"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 16:23:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM="
+        }
+      ]
+    },
+    {
+      "Route": "js/createProject.js.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\zkhkeq123q-5l5mtetanw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CSv8aqV5mYCBcdfRAZms+pmAsu4bArc4R8Jw6i/F5I4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 16:23:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CSv8aqV5mYCBcdfRAZms+pmAsu4bArc4R8Jw6i/F5I4="
         }
       ]
     },

@@ -122,3 +122,4 @@ C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compresse
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\mkzxdx8pbx-8ygr66qhzy.gz
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\hwzmril8jh-wa9oh9tf63.gz
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\3jiyr1t47r-2sjquke984.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\zkhkeq123q-5l5mtetanw.gz

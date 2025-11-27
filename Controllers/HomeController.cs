@@ -117,7 +117,7 @@ namespace TALENTSPHERE.Controllers
             return View(userShort);
         }
         
-        [Authorize]
+        //[Authorize]
         public async Task<IActionResult> Debug_main()
         {
             string? email = User.FindFirst(ClaimTypes.Name)?.Value;

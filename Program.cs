@@ -49,14 +49,18 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 app.MapHub<ChatHub>("chat");
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Main}")
-        .WithStaticAssets();
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=Main}")
+//        .WithStaticAssets();
 //app.MapControllerRoute(
 //    name: "default",
 //    pattern: "{controller=Auth}/{action=Logout}")
 //        .WithStaticAssets();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Project}/{action=CreateProject}")
+        .WithStaticAssets();
 
 app.Run();
 

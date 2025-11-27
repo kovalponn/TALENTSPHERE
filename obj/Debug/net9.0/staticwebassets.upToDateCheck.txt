@@ -63,11 +63,13 @@ C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\js\createProject.js
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\html\chathub.html
 wwwroot\js\chat.js
+wwwroot\js\createProject.js
 wwwroot\js\notice.js
 wwwroot\js\signalr\dist\browser\signalr.js
 wwwroot\js\site.js

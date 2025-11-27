@@ -12,6 +12,11 @@ namespace TALENTSPHERE.Models
         public int TermHour { get; set; }
         public string? Description { get; set; }
         public OwnerResponses Ownerresponse { get; set; }
-        public Views Ownerview { get; set; }
+        public bool Ownerview { get; set; }
+    }
+
+    public enum OwnerResponses
+    {
+        Nothing, Yes, No
     }
 }

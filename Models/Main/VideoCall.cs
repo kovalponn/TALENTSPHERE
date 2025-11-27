@@ -8,4 +8,9 @@
         public DateTime CreateTime { get; set; }
         public int DurationHour { get; set; }
     }
+
+    public enum VideoCallStatus
+    {
+        Plane, GoingOn
+    }
 }

@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\js\\chat.js"
     },
     {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\createProject.js",
+      "PackagePath": "staticwebassets\\js\\createProject.js"
+    },
+    {
       "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\notice.js",
       "PackagePath": "staticwebassets\\js\\notice.js"
     },

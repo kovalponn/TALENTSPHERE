@@ -6,15 +6,10 @@ namespace TALENTSPHERE.Models
     public class User
     {
         public long Id { get; set; }
-        [Required]
         public string? Login { get; set; }
-        [Required]
         public string? Name { get; set; }
-        [Required]
         public string? Surname { get; set; }
-        [Required]
         public string? Email { get; set; }
-        [Required]
         public string? Password { get; set; }
         public string? PhoneNumber { get; set; }
         //public string Details { get; set; }
@@ -38,5 +33,10 @@ namespace TALENTSPHERE.Models
         public long[]? ChatsConnect { get; set; }
         public long VideoChatConnect { get; set; }
         public bool CallAvailability { get; set; }
+    }
+
+    public enum UserRole
+    {
+        Seller, Buyer
     }
 }

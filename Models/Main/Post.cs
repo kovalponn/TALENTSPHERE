@@ -17,4 +17,9 @@ namespace TALENTSPHERE.Models
         public long Views { get; set; }
         public DateTime CreateTime { get; set; }
     }
+
+    public enum PostForms
+    {
+        Article, Video
+    }
 }

@@ -40,13 +40,25 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2sjquke984"},{"Name":"integrity","Value":"sha256-orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o="},{"Name":"label","Value":"_content/TALENTSPHERE/js/chat.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3732"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Nov 2025 13:37:06 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3732"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Nov 2025 13:42:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TALENTSPHERE/js/chat.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3732"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Nov 2025 13:37:06 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3732"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022orRTlhB4sr1by8FtBMZeGSfhD67T7QTco/UMGlKVA/o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Nov 2025 13:42:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TALENTSPHERE/js/createProject.5l5mtetanw.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\createProject.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5l5mtetanw"},{"Name":"integrity","Value":"sha256-yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM="},{"Name":"label","Value":"_content/TALENTSPHERE/js/createProject.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"822"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Nov 2025 16:23:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TALENTSPHERE/js/createProject.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\createProject.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"822"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022yUpGXY25tZphgjbP4GeV09HPW3UBMdK7wxEFMEHWPxM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Nov 2025 16:23:29 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TALENTSPHERE/js/notice.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\notice.js'))</AssetFile>

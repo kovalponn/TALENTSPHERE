@@ -54,6 +54,53 @@
     .chat-item:hover {
     background-color: #e9ecef;
     }
+
+    .message-wrapper:hover {
+        cursor: pointer;
+    }
+
+    .message-menu {
+        display: none;
+        position: absolute;
+    }
+
+    #menuContainer {
+        transition: opacity 0.3s;
+    }
+    
+    .message {
+        position: relative;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    /* меню скрыто по умолчанию */
+    .message-menu {
+        display: none;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        z-index: 1000;
+    }
+
+        .message-menu button {
+            display: block;
+            width: 100%;
+            padding: 5px 10px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            text-align: left;
+        }
+
+    /* показывать меню */
+    .show {
+        display: block;
+    }
 </style>
 
 <div id="chat-sidebar">
@@ -102,6 +149,8 @@
             <!-- Область сообщений -->
             <div id="messageList" class="mb-4" style="flex-grow:1; overflow-y:auto; max-height: 70vh;">
                 <!-- Вставляйте сообщения сюда вручную -->
+
+
                 @{
                     var receipedLogin = ViewData["LoginUser"] as string ?? "";
                 }
@@ -135,8 +184,19 @@
 
     <div id="myMessageExample" class="d-flex justify-content-start my-4">
         <div class="card bg-primary text-white" style="max-width: 75%;">
-            <div class="card-body p-2">
-                <p id="txtBody" class="mb-1"></p>
+            <div class="card-body p-2 d-flex align-items-center">
+                <p id="txtBody" class="mb-1 flex-grow-1"></p>
+                <!-- Кнопка и Dropdown -->
+                <div class="dropdown ms-2">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        Меню
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Пункт 1</a></li>
+                        <li><a class="dropdown-item" href="#">Пункт 2</a></li>
+                        <li><a class="dropdown-item" href="#">Пункт 3</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="card-footer bg-primary text-end small">
                 <span id="nameBody">Имя пользователя</span> | <span id="time"></span>

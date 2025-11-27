@@ -12,11 +12,6 @@ namespace TALENTSPHERE.Controllers
 {
     public record class ChatsList 
     {
-        //public ChatsList(long id, string name) 
-        //{ 
-        //    Id = id;
-        //    Name = name;
-        //}
         public long Id { get; set; }
         public string? Name { get; set; }
     }
@@ -176,6 +171,11 @@ namespace TALENTSPHERE.Controllers
             db.SaveChanges();
 
             return $"Id: {chat.Id.ToString()} \n Name: {chat.Name} \n has been edit";
+        }
+
+        public IActionResult ChatList()
+        {
+            return View();
         }
     }
 }

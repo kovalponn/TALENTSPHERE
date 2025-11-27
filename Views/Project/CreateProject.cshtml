@@ -1,0 +1,281 @@
+﻿@model TALENTSPHERE.Models.ViewModels.ProjectCreateViewModel
+
+<style>
+        body {
+        background-color: #f8f9fa;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h4 {
+        margin-bottom: 15px;
+    }
+</style>
+
+<form method="post" asp-action="CreateProject">
+
+<div class="container my-4">
+    <h2 class="mb-4">Создание проекта</h2>
+
+    <!-- Блок 1: Основная информация -->
+    <div class="mb-4 p-3 border rounded">
+        <h4>Основная информация</h4>
+        <div class="mb-3">
+            <label for="projectName" class="form-label">Имя проекта</label>
+            <input asp-for="Name" type="text" class="form-control" id="projectName" placeholder="Введите название проекта" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div class="mb-3">
+            <label for="category" class="form-label">Категория</label>
+                <select asp-for="Category" asp-items="@(new SelectList(ViewBag.Categories))">
+                    <option value="">Выберите категорию</option>
+                </select>
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Описание</label>
+            <textarea asp-for="Description" class="form-control" id="description" rows="4" placeholder="Опишите проект..."></textarea>
+            <span asp-validation-for="Description"></span>
+            <div class="form-text text-muted">Описание должно содержать не менее 100 символов.</div>
+        </div>
+    </div>
+
+    <!-- Блок 2: Навыки и требования -->
+    <div class="mb-4 p-3 border rounded">
+        <h4>Навыки и требования</h4>
+        <div class="mb-3">
+            <label for="skills" class="form-label">Навыки специалистов (через запятую)</label>
+            <input asp-for="Skills" type="text" class="form-control" id="skills" placeholder="например, HTML, CSS, JS" />
+        </div>
+    </div>
+
+    <!-- Блок 3: Бюджет и сроки -->
+    <div class="mb-4 p-3 border rounded">
+        <h4>Бюджет и сроки (общие)</h4>
+        <div class="row mb-3">
+            <div class="col-md-6 mb-3">
+                <label for="duration" class="form-label">Срок выполнения</label>
+                <select asp-for="Duration" class="form-select" id="duration">
+                    <option selected disabled>Выберите срок</option>
+                    <option value="day1">1 день</option>
+                    <option value="days2">2 дня</option>
+                    <option value="days3">3 дня</option>
+                    <option value="days5">5 дней</option>
+                    <option value="week1">1 неделя</option>
+                    <option value="days10">10 дней</option>
+                    <option value="weeks2">2 недели</option>
+                    <option value="weeks3">3 недели</option>
+                    <option value="month1">Месяц</option>
+                    <option value="months2">2 месяца</option>
+                    <option value="more_than_3_months">Более 3 месяцев</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Бюджет (USD)</label>
+                <div class="d-flex mb-2">
+                    <div class="me-2 w-50">
+                        <input type="number" asp-for="BudgetFrom" class="form-control" placeholder="От" aria-label="Бюджет от" />
+                            <span asp-validation-for="BudgetFrom"></span>
+                    </div>
+                    <div class="w-50">
+                         <input asp-for="BudgetTo" type="number" class="form-control" placeholder="До" aria-label="Бюджет до" />
+                            <span asp-validation-for="BudgetTo"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h5>Оплата</h5>
+                <div class="d-flex gap-3">
+                    <div class="form-check">
+                        <input class="form-check-input"
+                               type="radio"
+                               name="PaymentType"
+                               id="fix"
+                               value="fix_value">
+                        <label class="form-check-label" for="fix">Фиксированная</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                               type="radio"
+                               name="PaymentType"
+                               id="hour"
+                               value="hour_value">
+                        <label class="form-check-label" for="hour">Почасовая</label>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="targetBlock" class="mb-4 p-3 border rounded">
+
+            <div style="display: none" id="1" class="mb-4 p-3 border rounded">
+                <h5 class="childInput">Фрилансер 1</h5>
+                <label>Роль</label>
+                <input asp-for="RequiredSpecialist[0].Role" class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+                <br>
+                <label>Доля USD</label>
+                <input asp-for="RequiredSpecialist[0].ShareUsd" class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+                <br>
+                <label for="duration" class="form-label">Срок выполнения</label>
+                <select asp-for="RequiredSpecialist[0].Duration" class="duration-select form-select" id="duration">
+                    <option selected disabled>Выберите срок</option>
+                    <option value="day1">1 день</option>
+                    <option value="days2">2 дня</option>
+                    <option value="days3">3 дня</option>
+                    <option value="days5">5 дней</option>
+                    <option value="week1">1 неделя</option>
+                    <option value="days10">10 дней</option>
+                    <option value="weeks2">2 недели</option>
+                    <option value="weeks3">3 недели</option>
+                    <option value="month1">Месяц</option>
+                    <option value="months2">2 месяца</option>
+                    <option value="more_than_3_months">Более 3 месяцев</option>
+                </select>
+            </div>
+
+            <div style="display: none" id="2" class="mb-4 p-3 border rounded">
+                <h5 class="childInput">Фрилансер 2</h5>
+                <label>Роль</label>
+                <input asp-for="RequiredSpecialist[1].Role" class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+                <br>
+                <label>Доля USD</label>
+                <input asp-for="RequiredSpecialist[1].ShareUsd" class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+                <br>
+                <label for="duration" class="form-label">Срок выполнения</label>
+                <select asp-for="RequiredSpecialist[1].Duration" class="duration-select form-select" id="duration">
+                    <option selected disabled>Выберите срок</option>
+                    <option value="day1">1 день</option>
+                    <option value="days2">2 дня</option>
+                    <option value="days3">3 дня</option>
+                    <option value="days5">5 дней</option>
+                    <option value="week1">1 неделя</option>
+                    <option value="days10">10 дней</option>
+                    <option value="weeks2">2 недели</option>
+                    <option value="weeks3">3 недели</option>
+                    <option value="month1">Месяц</option>
+                    <option value="months2">2 месяца</option>
+                    <option value="more_than_3_months">Более 3 месяцев</option>
+                </select>
+            </div>
+
+            <div style="display: none" id="3" class="mb-4 p-3 border rounded">
+                <h5 class="childInput">Фрилансер 3</h5>
+                <label>Роль</label>
+                <input asp-for="RequiredSpecialist[2].Role" class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+                <br>
+                <label>Доля USD</label>
+                <input asp-for="RequiredSpecialist[2].ShareUsd" class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+                <br>
+                <label for="duration" class="form-label">Срок выполнения</label>
+                <select asp-for="RequiredSpecialist[2].Duration" class="duration-select form-select" id="duration">
+                    <option selected disabled>Выберите срок</option>
+                    <option value="day1">1 день</option>
+                    <option value="days2">2 дня</option>
+                    <option value="days3">3 дня</option>
+                    <option value="days5">5 дней</option>
+                    <option value="week1">1 неделя</option>
+                    <option value="days10">10 дней</option>
+                    <option value="weeks2">2 недели</option>
+                    <option value="weeks3">3 недели</option>
+                    <option value="month1">Месяц</option>
+                    <option value="months2">2 месяца</option>
+                    <option value="more_than_3_months">Более 3 месяцев</option>
+                </select>
+            </div>
+
+            <div style="display: none" id="4" class="mb-4 p-3 border rounded">
+                <h5 class="childInput">Фрилансер 4</h5>
+                <label>Роль</label>
+                <input asp-for="RequiredSpecialist[3].Role" class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+                <br>
+                <label>Доля USD</label>
+                <input asp-for="RequiredSpecialist[3].ShareUsd" class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+                <br>
+                <label for="duration" class="form-label">Срок выполнения</label>
+                <select asp-for="RequiredSpecialist[3].Duration" class="duration-select form-select" id="duration">
+                    <option selected disabled>Выберите срок</option>
+                    <option value="day1">1 день</option>
+                    <option value="days2">2 дня</option>
+                    <option value="days3">3 дня</option>
+                    <option value="days5">5 дней</option>
+                    <option value="week1">1 неделя</option>
+                    <option value="days10">10 дней</option>
+                    <option value="weeks2">2 недели</option>
+                    <option value="weeks3">3 недели</option>
+                    <option value="month1">Месяц</option>
+                    <option value="months2">2 месяца</option>
+                    <option value="more_than_3_months">Более 3 месяцев</option>
+                </select>
+            </div>
+
+            <div style="display: none" id="5" class="mb-4 p-3 border rounded">
+                <h5 class="childInput">Фрилансер 5</h5>
+                <label>Роль</label>
+                <input asp-for="RequiredSpecialist[4].Role" class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+                <br>
+                <label>Доля USD</label>
+                <input asp-for="RequiredSpecialist[4].ShareUsd" class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+                <br>
+                <label for="duration" class="form-label">Срок выполнения</label>
+                <select asp-for="RequiredSpecialist[4].Duration" class="duration-select form-select" id="duration">
+                    <option selected disabled>Выберите срок</option>
+                    <option value="day1">1 день</option>
+                    <option value="days2">2 дня</option>
+                    <option value="days3">3 дня</option>
+                    <option value="days5">5 дней</option>
+                    <option value="week1">1 неделя</option>
+                    <option value="days10">10 дней</option>
+                    <option value="weeks2">2 недели</option>
+                    <option value="weeks3">3 недели</option>
+                    <option value="month1">Месяц</option>
+                    <option value="months2">2 месяца</option>
+                    <option value="more_than_3_months">Более 3 месяцев</option>
+                </select>
+            </div>
+        <button id="addUser" type="button" class="btn btn-primary btn-lg rounded-pill d-flex align-items-center">
+            <span class="fs-4 me-2">+</span> Добавить требуемого специалиста
+        </button>
+            <button id="deleteUser" type="button" class="btn btn-primary btn-lg rounded-pill d-flex align-items-center">
+                <span class="fs-4 me-2">+</span> Удалить последнего требуемого специалиста
+            </button>
+    </div>
+        
+
+    <!-- Две кнопки внизу -->
+    <div class="d-flex justify-content-end gap-2 mb-4">
+        <button class="btn btn-primary" type="submit">Опубликовать</button>
+        <button class="btn btn-secondary" type="button">Сохранить черновик</button>
+    </div>
+</div>
+
+</form>
+
+<div id="templatesContainer" style="display: none">
+    <div id="template" class="mb-4 p-3 border rounded">
+        <h5 class="childInput"></h5>
+        <label>Роль</label>
+        <input class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+        <br>
+        <label>Доля USD</label>
+        <input class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+        <br>
+        <label for="duration" class="form-label">Срок выполнения</label>
+        <select class="duration-select form-select" id="duration">
+            <option selected disabled>Выберите срок</option>
+            <option value="day1">1 день</option>
+            <option value="days2">2 дня</option>
+            <option value="days3">3 дня</option>
+            <option value="days5">5 дней</option>
+            <option value="week1">1 неделя</option>
+            <option value="days10">10 дней</option>
+            <option value="weeks2">2 недели</option>
+            <option value="weeks3">3 недели</option>
+            <option value="month1">Месяц</option>
+            <option value="months2">2 месяца</option>
+            <option value="more_than_3_months">Более 3 месяцев</option>
+        </select>
+    </div>
+</div>
+
+<script src="~/js/createProject.js"></script>

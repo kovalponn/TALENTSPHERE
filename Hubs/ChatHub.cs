@@ -81,7 +81,7 @@ public class ChatHub : Hub
             OwnerId = long.Parse(userId),
             OwnerLogin = userLogin,
             ChatId = long.Parse(chatId),
-            View = Views.No,
+            View = false,
             CreateTime = dateTime,
             Body = message,
             Content = ""
