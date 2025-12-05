@@ -1,0 +1,74 @@
+﻿<body class="auth-page">
+
+    <div class="auth-split-container">
+
+        <div class="auth-left">
+            <div class="auth-left-content">
+                <div class="auth-landing-logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="32" rx="10" fill="url(#logo-gradient)" />
+                        <path d="M16 8L24 16L16 24L8 16L16 8Z" fill="white" />
+                        <defs>
+                            <linearGradient id="logo-gradient" x1="0" y1="0" x2="32" y2="32"
+                                            gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#8B5CF6" />
+                                <stop offset="1" stop-color="#EC4899" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h2>TalentSphere</h2>
+                </div>
+
+                <div class="auth-landing-hero">
+                    <h1>Почти <br><span class="highlight">готово!</span></h1>
+                    <p class="auth-landing-subtitle">
+                        Заполните профиль, чтобы мы могли подобрать для вас идеальные
+                        проекты или кандидатов.
+                    </p>
+                </div>
+
+                <div class="auth-features">
+                    <div class="auth-feature-item">
+                        <div class="auth-feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                                <circle cx="12" cy="7" r="4" />
+                            </svg>
+                        </div>
+                        <div class="auth-feature-text">
+                            <h3>Персонализация</h3>
+                            <p>Умная лента под ваши интересы</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="auth-right">
+            <div class="auth-form-container">
+                <div class="auth-form-header">
+                    <h2>Настройка профиля ⚙️</h2>
+                    <p>Расскажите немного о себе</p>
+                </div>
+
+                <form asp-controller="Account" asp-action="" method="post"> 
+                    <input type="text" id="skillInput" class="skill-input-field" />
+
+                    <!-- Bio -->
+                    <div class="auth-form-group">
+                        <label for="bio" class="auth-form-label">О себе</label>
+                        <textarea id="bio" class="auth-form-input" rows="4"
+                                  placeholder="Кратко опишите ваш опыт и цели..."></textarea>
+                    </div>
+
+                    <button type="submit" class="auth-submit-btn">
+                        Завершить регистрацию
+                    </button>
+                </form> 
+            </div>
+        </div>
+
+    </div>
+
+</body>

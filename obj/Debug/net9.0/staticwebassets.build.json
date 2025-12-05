@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JjMlkilCgYng8wjA7QXwTwVzpIOFwL7UUXaHtLwjHBI=",
+  "Hash": "UrEXh7mLE+0h7b3kj5U7ApcvSMR5xCj5Y9GjVStLMnU=",
   "Source": "TALENTSPHERE",
   "BasePath": "_content/TALENTSPHERE",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\0j4ccw00xc-w8bdovkgxr.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/mobile-header#[.{fingerprint=w8bdovkgxr}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-header.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dfdofdwwz9",
+      "Integrity": "B+Pi8tnPNKWRUvGM+WwZki2BB4PBqN9J4130Z8/44SA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-header.css"
     },
     {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\0z889mp23f-fsbi9cje9m.gz",
@@ -227,6 +248,27 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\40y7dgdxbi-75rrpecc42.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/dashboard-3col#[.{fingerprint=75rrpecc42}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-3col.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "g1grjg0fvl",
+      "Integrity": "9HxNfgCLSh180TYX0WgEZJWvSqGrSyJ9h5nJUu3DzmU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-3col.css"
+    },
+    {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\47m07elul2-6pdc2jztkx.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
@@ -311,6 +353,27 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\5zjnupgnex-6dc2m7q3le.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/create-project#[.{fingerprint=6dc2m7q3le}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\create-project.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "m18slkqux7",
+      "Integrity": "RsPc+xoFwAaRdjhf8oNFWBQxKQq4GjZoG04kmA2ro7k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\create-project.css"
+    },
+    {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\6jvs2yynk1-ee0r1s7dh0.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
@@ -374,6 +437,48 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8emqrijksk-y7mytt7i20.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/global-header#[.{fingerprint=y7mytt7i20}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\global-header.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xvvkwzkl7i",
+      "Integrity": "kxVhKNypPbylj/KKpIQg/s4TzrEnfrkUsQ6cbWCTiik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\global-header.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8gpypqb1k5-mnnmiu2yz4.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/video-section#[.{fingerprint=mnnmiu2yz4}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\video-section.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "p655exxt85",
+      "Integrity": "fxRMIquu0Z/79OMs2S4hyKfXxa1AYapw7o0wv5akfHU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\video-section.css"
+    },
+    {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8mjl0q5200-pk9g2wxc8p.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
@@ -414,6 +519,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\90z9a1vtzo-asgkc7h5gj.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "js/script#[.{fingerprint=asgkc7h5gj}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9qdg4v3mqk",
+      "Integrity": "f0ZzbiApUFiC81qANphH8ZijbjWUiObVQZfSjYgwTTU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\9i5l6ih1ca-493y06b0oq.gz",
@@ -500,6 +626,27 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\bh4yqdg6j0-9epx8gbz4j.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/footer-new#[.{fingerprint=9epx8gbz4j}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\footer-new.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "uzknlz3dr9",
+      "Integrity": "Ctv0jakIzqh31qxb0pH03OPhUy80Cbq/WnLkoOUWS6I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\footer-new.css"
+    },
+    {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\bjfvei15kp-63fj8s7r0e.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
@@ -540,6 +687,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\c89x2o66w1-9nrlb7rwor.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/dashboard#[.{fingerprint=9nrlb7rwor}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8lad4rt747",
+      "Integrity": "JCkIMym4MHCWF+LUCZHsis3apnuuPNAC2sKns9ytRP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard.css"
     },
     {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\cn6idsojng-vr1egmr9el.gz",
@@ -584,6 +752,27 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\db18oqxh6n-uljita17mr.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/new-sections#[.{fingerprint=uljita17mr}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\new-sections.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "41okba515e",
+      "Integrity": "qJkpO5vfIyRVC5JYfjYnE6+ItHDJcjBy9ocbtPSfBEk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\new-sections.css"
+    },
+    {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\djxjgfidce-iovd86k7lj.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
@@ -626,25 +815,25 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-mg1aszchs1.gz",
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\eycb3jrm67-cgq5njz1h0.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TALENTSPHERE",
-      "RelativePath": "css/site#[.{fingerprint=mg1aszchs1}]?.css.gz",
+      "RelativePath": "css/styles#[.{fingerprint=cgq5njz1h0}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9zkb6y7zr9",
-      "Integrity": "9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4=",
+      "Fingerprint": "h4dxtiudey",
+      "Integrity": "T1ruEvLdj/mlbtzGC5FlrKS6VEC9uQ2Ub3qyLJzc65E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\ezf6brsnwu-2z0ns9nrw6.gz",
@@ -857,6 +1046,27 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\lbm9fc4n5g-t16s9h1p2h.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/universal-mobile#[.{fingerprint=t16s9h1p2h}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\universal-mobile.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dez53pxz9a",
+      "Integrity": "dflfKYu2grwSAxDLR6lggJfwopQILGh8XYhhvgH/QkE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\universal-mobile.css"
+    },
+    {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\llo2mwahc0-lzl9nlhx6b.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
@@ -876,6 +1086,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\m4rapo4lv4-331tynbbe6.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/auth-landing#[.{fingerprint=331tynbbe6}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\auth-landing.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yd01w1fegw",
+      "Integrity": "NuxoZZmjgpJOIpNg5Vh/wfWqyUlKjeJsZZ/jioQ5ys8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\auth-landing.css"
     },
     {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\mcs5b4hajr-87fc7y1x7t.gz",
@@ -1277,6 +1508,27 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\symw0zd2gq-haoo6giqgx.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/mobile-fixes#[.{fingerprint=haoo6giqgx}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-fixes.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9iu8d722hl",
+      "Integrity": "j2oCZfKc/Jyd7XCIXuoc2djo0ASv+z+zFy/DACpDing=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-fixes.css"
+    },
+    {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\thabl2axyy-ag7o75518u.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
@@ -1424,6 +1676,48 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\ygi4i0yqzz-bcw4bz2662.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/mobile-responsive#[.{fingerprint=bcw4bz2662}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-responsive.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "phz5jymlzh",
+      "Integrity": "E2K9PFUsfAj50eT1DjC2QcMu4ikOb5+5xX+jDJ9teGc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-responsive.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\z5bpxcx8y4-3tyfma7vba.gz",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/dashboard-fixes#[.{fingerprint=3tyfma7vba}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-fixes.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9dk34ilmjr",
+      "Integrity": "3WXNjDpHDvc14YDgQI/AW3dlSiupMnyDMRu1vBZzZB4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-fixes.css"
+    },
+    {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\zkhkeq123q-5l5mtetanw.gz",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
@@ -1508,12 +1802,12 @@
       "OriginalItemSpec": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TALENTSPHERE.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\auth-landing.css",
       "SourceId": "TALENTSPHERE",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
       "BasePath": "_content/TALENTSPHERE",
-      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "RelativePath": "css/auth-landing#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1522,11 +1816,284 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mg1aszchs1",
-      "Integrity": "5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0=",
+      "Fingerprint": "331tynbbe6",
+      "Integrity": "QccWz4PRvM70MbLhdxMJhW2BWCqD/v6wLSO9zz6rB+A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\auth-landing.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\create-project.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/create-project#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6dc2m7q3le",
+      "Integrity": "Gl3vfskUJlwLtaXjp0Cn7FnqAyNHZEv8LR3vqKWsW2E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\create-project.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/dashboard#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9nrlb7rwor",
+      "Integrity": "NZZ2OEFpi+oQYiJxfVbv5vIuUkBIRA8tcCnq5HjsVD0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-3col.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/dashboard-3col#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "75rrpecc42",
+      "Integrity": "1cxKX6fjhbPZ844u+8ddrfdWdp/B9fDTpgXNe7P7oaA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dashboard-3col.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-fixes.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/dashboard-fixes#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3tyfma7vba",
+      "Integrity": "98uf8pMqU7wM4ZZ3+GDPyBOeCm4mda5VRj0cvdwvE3Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dashboard-fixes.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\footer-new.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/footer-new#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9epx8gbz4j",
+      "Integrity": "L0nYHgEFJ+SUTnqCtg5WfELujou/o/do2xKloVoDmqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\footer-new.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\global-header.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/global-header#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y7mytt7i20",
+      "Integrity": "Apo/j/kwGxu15R9zD2PBppSCzfPUajXnUGEEHL2jyC8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\global-header.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-fixes.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/mobile-fixes#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "haoo6giqgx",
+      "Integrity": "+TYLUrmGR1o1Ch4cN4O7BFS0WyZMGFPRqoea5jFmGfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\mobile-fixes.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-header.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/mobile-header#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w8bdovkgxr",
+      "Integrity": "0FEXzvhw0a/2KOn+kSYtmQ0OndJkDo9FBc9E5+qEmIw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\mobile-header.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-responsive.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/mobile-responsive#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bcw4bz2662",
+      "Integrity": "RYzcvlV58VT9YWEe1vAPS6wuri6LJAhYs8KFPHMe+Ck=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\mobile-responsive.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\new-sections.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/new-sections#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uljita17mr",
+      "Integrity": "wqgjfiUZQnoQbdyullDa1AmiDJQFoz6c9Tx7f9+I3Ew=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\new-sections.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\styles.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cgq5njz1h0",
+      "Integrity": "LChaRGSrgX1bhUwvk+XaZe4bABux8dygXQJZr2iXpqA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\universal-mobile.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/universal-mobile#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t16s9h1p2h",
+      "Integrity": "oeroWwrmmupmqre3oCjkTIkSyOEACu0jLje7/mHmAKM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\universal-mobile.css"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\video-section.css",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "css/video-section#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mnnmiu2yz4",
+      "Integrity": "vrQ9F5g5ne/Y7i/RDor4Cwpo8VEXBhS4VaoMnNgoKew=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\video-section.css"
     },
     {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\favicon.ico",
@@ -1632,6 +2199,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\notice.js"
+    },
+    {
+      "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\script.js",
+      "SourceId": "TALENTSPHERE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\",
+      "BasePath": "_content/TALENTSPHERE",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "asgkc7h5gj",
+      "Integrity": "BhZQ1f+X56/W5tjkwZ2xxgOn9KXl7aH2jOrwbdMmAdU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
@@ -2938,13 +3526,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-mg1aszchs1.gz",
+      "Route": "css/auth-landing.331tynbbe6.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\m4rapo4lv4-331tynbbe6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000673400673"
+          "Quality": "0.000264410365"
         }
       ],
       "ResponseHeaders": [
@@ -2954,19 +3542,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1484"
+          "Value": "3781"
         },
         {
           "Name": "ETag",
-          "Value": "\"9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4=\""
+          "Value": "\"NuxoZZmjgpJOIpNg5Vh/wfWqyUlKjeJsZZ/jioQ5ys8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
+          "Value": "Thu, 27 Nov 2025 08:38:45 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2982,19 +3570,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0=\""
+          "Value": "W/\"QccWz4PRvM70MbLhdxMJhW2BWCqD/v6wLSO9zz6rB+A=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "331tynbbe6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/auth-landing.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0="
+          "Value": "sha256-QccWz4PRvM70MbLhdxMJhW2BWCqD/v6wLSO9zz6rB+A="
         }
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css",
+      "Route": "css/auth-landing.331tynbbe6.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\auth-landing.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3003,7 +3599,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5231"
+          "Value": "18709"
         },
         {
           "Name": "Content-Type",
@@ -3011,27 +3607,35 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0=\""
+          "Value": "\"QccWz4PRvM70MbLhdxMJhW2BWCqD/v6wLSO9zz6rB+A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
+          "Value": "Thu, 27 Nov 2025 08:38:45 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "331tynbbe6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/auth-landing.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0="
+          "Value": "sha256-QccWz4PRvM70MbLhdxMJhW2BWCqD/v6wLSO9zz6rB+A="
         }
       ]
     },
     {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-mg1aszchs1.gz",
+      "Route": "css/auth-landing.331tynbbe6.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\m4rapo4lv4-331tynbbe6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3040,7 +3644,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1484"
+          "Value": "3781"
         },
         {
           "Name": "Content-Type",
@@ -3048,15 +3652,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4=\""
+          "Value": "\"NuxoZZmjgpJOIpNg5Vh/wfWqyUlKjeJsZZ/jioQ5ys8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
+          "Value": "Thu, 27 Nov 2025 08:38:45 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3069,19 +3673,27 @@
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "331tynbbe6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/auth-landing.css.gz"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4="
+          "Value": "sha256-NuxoZZmjgpJOIpNg5Vh/wfWqyUlKjeJsZZ/jioQ5ys8="
         }
       ]
     },
     {
-      "Route": "css/site.mg1aszchs1.css",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-mg1aszchs1.gz",
+      "Route": "css/auth-landing.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\m4rapo4lv4-331tynbbe6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000673400673"
+          "Quality": "0.000264410365"
         }
       ],
       "ResponseHeaders": [
@@ -3091,15 +3703,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1484"
+          "Value": "3781"
         },
         {
           "Name": "ETag",
-          "Value": "\"9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4=\""
+          "Value": "\"NuxoZZmjgpJOIpNg5Vh/wfWqyUlKjeJsZZ/jioQ5ys8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
+          "Value": "Thu, 27 Nov 2025 08:38:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QccWz4PRvM70MbLhdxMJhW2BWCqD/v6wLSO9zz6rB+A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QccWz4PRvM70MbLhdxMJhW2BWCqD/v6wLSO9zz6rB+A="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth-landing.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\auth-landing.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QccWz4PRvM70MbLhdxMJhW2BWCqD/v6wLSO9zz6rB+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 08:38:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QccWz4PRvM70MbLhdxMJhW2BWCqD/v6wLSO9zz6rB+A="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth-landing.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\m4rapo4lv4-331tynbbe6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NuxoZZmjgpJOIpNg5Vh/wfWqyUlKjeJsZZ/jioQ5ys8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 08:38:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NuxoZZmjgpJOIpNg5Vh/wfWqyUlKjeJsZZ/jioQ5ys8="
+        }
+      ]
+    },
+    {
+      "Route": "css/create-project.6dc2m7q3le.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\5zjnupgnex-6dc2m7q3le.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000315457413"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3169"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RsPc+xoFwAaRdjhf8oNFWBQxKQq4GjZoG04kmA2ro7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 15:47:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3119,27 +3868,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0=\""
+          "Value": "W/\"Gl3vfskUJlwLtaXjp0Cn7FnqAyNHZEv8LR3vqKWsW2E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mg1aszchs1"
+          "Value": "6dc2m7q3le"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/create-project.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0="
+          "Value": "sha256-Gl3vfskUJlwLtaXjp0Cn7FnqAyNHZEv8LR3vqKWsW2E="
         }
       ]
     },
     {
-      "Route": "css/site.mg1aszchs1.css",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css",
+      "Route": "css/create-project.6dc2m7q3le.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\create-project.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3148,7 +3897,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5231"
+          "Value": "15847"
         },
         {
           "Name": "Content-Type",
@@ -3156,11 +3905,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0=\""
+          "Value": "\"Gl3vfskUJlwLtaXjp0Cn7FnqAyNHZEv8LR3vqKWsW2E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
+          "Value": "Thu, 27 Nov 2025 15:47:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3170,21 +3919,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mg1aszchs1"
+          "Value": "6dc2m7q3le"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/create-project.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5i3APgywz+gMexPSflWlUzVj5I183YonSMAXHUc+mQ0="
+          "Value": "sha256-Gl3vfskUJlwLtaXjp0Cn7FnqAyNHZEv8LR3vqKWsW2E="
         }
       ]
     },
     {
-      "Route": "css/site.mg1aszchs1.css.gz",
-      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\etkrt17e1q-mg1aszchs1.gz",
+      "Route": "css/create-project.6dc2m7q3le.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\5zjnupgnex-6dc2m7q3le.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3193,7 +3942,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1484"
+          "Value": "3169"
         },
         {
           "Name": "Content-Type",
@@ -3201,11 +3950,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4=\""
+          "Value": "\"RsPc+xoFwAaRdjhf8oNFWBQxKQq4GjZoG04kmA2ro7k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Nov 2025 02:50:20 GMT"
+          "Value": "Thu, 27 Nov 2025 15:47:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3223,15 +3972,3728 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mg1aszchs1"
+          "Value": "6dc2m7q3le"
         },
         {
           "Name": "label",
-          "Value": "css/site.css.gz"
+          "Value": "css/create-project.css.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9fxme6BJOfsSPrELbfgPOvFESCczIyC86E+ZP8ShZm4="
+          "Value": "sha256-RsPc+xoFwAaRdjhf8oNFWBQxKQq4GjZoG04kmA2ro7k="
+        }
+      ]
+    },
+    {
+      "Route": "css/create-project.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\5zjnupgnex-6dc2m7q3le.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000315457413"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3169"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RsPc+xoFwAaRdjhf8oNFWBQxKQq4GjZoG04kmA2ro7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 15:47:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Gl3vfskUJlwLtaXjp0Cn7FnqAyNHZEv8LR3vqKWsW2E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gl3vfskUJlwLtaXjp0Cn7FnqAyNHZEv8LR3vqKWsW2E="
+        }
+      ]
+    },
+    {
+      "Route": "css/create-project.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\create-project.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15847"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gl3vfskUJlwLtaXjp0Cn7FnqAyNHZEv8LR3vqKWsW2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 15:47:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gl3vfskUJlwLtaXjp0Cn7FnqAyNHZEv8LR3vqKWsW2E="
+        }
+      ]
+    },
+    {
+      "Route": "css/create-project.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\5zjnupgnex-6dc2m7q3le.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RsPc+xoFwAaRdjhf8oNFWBQxKQq4GjZoG04kmA2ro7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 15:47:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RsPc+xoFwAaRdjhf8oNFWBQxKQq4GjZoG04kmA2ro7k="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.9nrlb7rwor.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\c89x2o66w1-9nrlb7rwor.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000248880040"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4017"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCkIMym4MHCWF+LUCZHsis3apnuuPNAC2sKns9ytRP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 19:07:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NZZ2OEFpi+oQYiJxfVbv5vIuUkBIRA8tcCnq5HjsVD0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9nrlb7rwor"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NZZ2OEFpi+oQYiJxfVbv5vIuUkBIRA8tcCnq5HjsVD0="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.9nrlb7rwor.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NZZ2OEFpi+oQYiJxfVbv5vIuUkBIRA8tcCnq5HjsVD0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 19:07:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9nrlb7rwor"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NZZ2OEFpi+oQYiJxfVbv5vIuUkBIRA8tcCnq5HjsVD0="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.9nrlb7rwor.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\c89x2o66w1-9nrlb7rwor.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCkIMym4MHCWF+LUCZHsis3apnuuPNAC2sKns9ytRP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 19:07:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9nrlb7rwor"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCkIMym4MHCWF+LUCZHsis3apnuuPNAC2sKns9ytRP8="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\c89x2o66w1-9nrlb7rwor.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000248880040"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4017"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCkIMym4MHCWF+LUCZHsis3apnuuPNAC2sKns9ytRP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 19:07:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NZZ2OEFpi+oQYiJxfVbv5vIuUkBIRA8tcCnq5HjsVD0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NZZ2OEFpi+oQYiJxfVbv5vIuUkBIRA8tcCnq5HjsVD0="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NZZ2OEFpi+oQYiJxfVbv5vIuUkBIRA8tcCnq5HjsVD0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 19:07:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NZZ2OEFpi+oQYiJxfVbv5vIuUkBIRA8tcCnq5HjsVD0="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\c89x2o66w1-9nrlb7rwor.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCkIMym4MHCWF+LUCZHsis3apnuuPNAC2sKns9ytRP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Nov 2025 19:07:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCkIMym4MHCWF+LUCZHsis3apnuuPNAC2sKns9ytRP8="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-3col.75rrpecc42.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\40y7dgdxbi-75rrpecc42.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000762776506"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1310"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9HxNfgCLSh180TYX0WgEZJWvSqGrSyJ9h5nJUu3DzmU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 16:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1cxKX6fjhbPZ844u+8ddrfdWdp/B9fDTpgXNe7P7oaA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75rrpecc42"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard-3col.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1cxKX6fjhbPZ844u+8ddrfdWdp/B9fDTpgXNe7P7oaA="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-3col.75rrpecc42.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-3col.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5569"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1cxKX6fjhbPZ844u+8ddrfdWdp/B9fDTpgXNe7P7oaA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 16:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75rrpecc42"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard-3col.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1cxKX6fjhbPZ844u+8ddrfdWdp/B9fDTpgXNe7P7oaA="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-3col.75rrpecc42.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\40y7dgdxbi-75rrpecc42.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9HxNfgCLSh180TYX0WgEZJWvSqGrSyJ9h5nJUu3DzmU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 16:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75rrpecc42"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard-3col.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9HxNfgCLSh180TYX0WgEZJWvSqGrSyJ9h5nJUu3DzmU="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-3col.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\40y7dgdxbi-75rrpecc42.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000762776506"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1310"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9HxNfgCLSh180TYX0WgEZJWvSqGrSyJ9h5nJUu3DzmU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 16:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1cxKX6fjhbPZ844u+8ddrfdWdp/B9fDTpgXNe7P7oaA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1cxKX6fjhbPZ844u+8ddrfdWdp/B9fDTpgXNe7P7oaA="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-3col.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-3col.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5569"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1cxKX6fjhbPZ844u+8ddrfdWdp/B9fDTpgXNe7P7oaA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 16:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1cxKX6fjhbPZ844u+8ddrfdWdp/B9fDTpgXNe7P7oaA="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-3col.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\40y7dgdxbi-75rrpecc42.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9HxNfgCLSh180TYX0WgEZJWvSqGrSyJ9h5nJUu3DzmU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 16:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9HxNfgCLSh180TYX0WgEZJWvSqGrSyJ9h5nJUu3DzmU="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-fixes.3tyfma7vba.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\z5bpxcx8y4-3tyfma7vba.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001736111111"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WXNjDpHDvc14YDgQI/AW3dlSiupMnyDMRu1vBZzZB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:37:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"98uf8pMqU7wM4ZZ3+GDPyBOeCm4mda5VRj0cvdwvE3Q=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3tyfma7vba"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard-fixes.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-98uf8pMqU7wM4ZZ3+GDPyBOeCm4mda5VRj0cvdwvE3Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-fixes.3tyfma7vba.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-fixes.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"98uf8pMqU7wM4ZZ3+GDPyBOeCm4mda5VRj0cvdwvE3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:37:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3tyfma7vba"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard-fixes.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-98uf8pMqU7wM4ZZ3+GDPyBOeCm4mda5VRj0cvdwvE3Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-fixes.3tyfma7vba.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\z5bpxcx8y4-3tyfma7vba.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WXNjDpHDvc14YDgQI/AW3dlSiupMnyDMRu1vBZzZB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:37:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3tyfma7vba"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard-fixes.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WXNjDpHDvc14YDgQI/AW3dlSiupMnyDMRu1vBZzZB4="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-fixes.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\z5bpxcx8y4-3tyfma7vba.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001736111111"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WXNjDpHDvc14YDgQI/AW3dlSiupMnyDMRu1vBZzZB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:37:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"98uf8pMqU7wM4ZZ3+GDPyBOeCm4mda5VRj0cvdwvE3Q=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-98uf8pMqU7wM4ZZ3+GDPyBOeCm4mda5VRj0cvdwvE3Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-fixes.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-fixes.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"98uf8pMqU7wM4ZZ3+GDPyBOeCm4mda5VRj0cvdwvE3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:37:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-98uf8pMqU7wM4ZZ3+GDPyBOeCm4mda5VRj0cvdwvE3Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard-fixes.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\z5bpxcx8y4-3tyfma7vba.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WXNjDpHDvc14YDgQI/AW3dlSiupMnyDMRu1vBZzZB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:37:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WXNjDpHDvc14YDgQI/AW3dlSiupMnyDMRu1vBZzZB4="
+        }
+      ]
+    },
+    {
+      "Route": "css/footer-new.9epx8gbz4j.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\bh4yqdg6j0-9epx8gbz4j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001031991744"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ctv0jakIzqh31qxb0pH03OPhUy80Cbq/WnLkoOUWS6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:39:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"L0nYHgEFJ+SUTnqCtg5WfELujou/o/do2xKloVoDmqk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9epx8gbz4j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/footer-new.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L0nYHgEFJ+SUTnqCtg5WfELujou/o/do2xKloVoDmqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/footer-new.9epx8gbz4j.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\footer-new.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L0nYHgEFJ+SUTnqCtg5WfELujou/o/do2xKloVoDmqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:39:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9epx8gbz4j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/footer-new.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L0nYHgEFJ+SUTnqCtg5WfELujou/o/do2xKloVoDmqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/footer-new.9epx8gbz4j.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\bh4yqdg6j0-9epx8gbz4j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ctv0jakIzqh31qxb0pH03OPhUy80Cbq/WnLkoOUWS6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:39:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9epx8gbz4j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/footer-new.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ctv0jakIzqh31qxb0pH03OPhUy80Cbq/WnLkoOUWS6I="
+        }
+      ]
+    },
+    {
+      "Route": "css/footer-new.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\bh4yqdg6j0-9epx8gbz4j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001031991744"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ctv0jakIzqh31qxb0pH03OPhUy80Cbq/WnLkoOUWS6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:39:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"L0nYHgEFJ+SUTnqCtg5WfELujou/o/do2xKloVoDmqk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L0nYHgEFJ+SUTnqCtg5WfELujou/o/do2xKloVoDmqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/footer-new.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\footer-new.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L0nYHgEFJ+SUTnqCtg5WfELujou/o/do2xKloVoDmqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:39:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L0nYHgEFJ+SUTnqCtg5WfELujou/o/do2xKloVoDmqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/footer-new.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\bh4yqdg6j0-9epx8gbz4j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ctv0jakIzqh31qxb0pH03OPhUy80Cbq/WnLkoOUWS6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:39:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ctv0jakIzqh31qxb0pH03OPhUy80Cbq/WnLkoOUWS6I="
+        }
+      ]
+    },
+    {
+      "Route": "css/global-header.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8emqrijksk-y7mytt7i20.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000844594595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kxVhKNypPbylj/KKpIQg/s4TzrEnfrkUsQ6cbWCTiik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 06:36:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Apo/j/kwGxu15R9zD2PBppSCzfPUajXnUGEEHL2jyC8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Apo/j/kwGxu15R9zD2PBppSCzfPUajXnUGEEHL2jyC8="
+        }
+      ]
+    },
+    {
+      "Route": "css/global-header.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\global-header.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Apo/j/kwGxu15R9zD2PBppSCzfPUajXnUGEEHL2jyC8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 06:36:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Apo/j/kwGxu15R9zD2PBppSCzfPUajXnUGEEHL2jyC8="
+        }
+      ]
+    },
+    {
+      "Route": "css/global-header.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8emqrijksk-y7mytt7i20.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kxVhKNypPbylj/KKpIQg/s4TzrEnfrkUsQ6cbWCTiik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 06:36:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kxVhKNypPbylj/KKpIQg/s4TzrEnfrkUsQ6cbWCTiik="
+        }
+      ]
+    },
+    {
+      "Route": "css/global-header.y7mytt7i20.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8emqrijksk-y7mytt7i20.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000844594595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kxVhKNypPbylj/KKpIQg/s4TzrEnfrkUsQ6cbWCTiik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 06:36:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Apo/j/kwGxu15R9zD2PBppSCzfPUajXnUGEEHL2jyC8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y7mytt7i20"
+        },
+        {
+          "Name": "label",
+          "Value": "css/global-header.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Apo/j/kwGxu15R9zD2PBppSCzfPUajXnUGEEHL2jyC8="
+        }
+      ]
+    },
+    {
+      "Route": "css/global-header.y7mytt7i20.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\global-header.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Apo/j/kwGxu15R9zD2PBppSCzfPUajXnUGEEHL2jyC8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 06:36:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y7mytt7i20"
+        },
+        {
+          "Name": "label",
+          "Value": "css/global-header.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Apo/j/kwGxu15R9zD2PBppSCzfPUajXnUGEEHL2jyC8="
+        }
+      ]
+    },
+    {
+      "Route": "css/global-header.y7mytt7i20.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8emqrijksk-y7mytt7i20.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kxVhKNypPbylj/KKpIQg/s4TzrEnfrkUsQ6cbWCTiik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 06:36:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y7mytt7i20"
+        },
+        {
+          "Name": "label",
+          "Value": "css/global-header.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kxVhKNypPbylj/KKpIQg/s4TzrEnfrkUsQ6cbWCTiik="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-fixes.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\symw0zd2gq-haoo6giqgx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001650165017"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "605"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j2oCZfKc/Jyd7XCIXuoc2djo0ASv+z+zFy/DACpDing=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:26:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+TYLUrmGR1o1Ch4cN4O7BFS0WyZMGFPRqoea5jFmGfs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+TYLUrmGR1o1Ch4cN4O7BFS0WyZMGFPRqoea5jFmGfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-fixes.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-fixes.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+TYLUrmGR1o1Ch4cN4O7BFS0WyZMGFPRqoea5jFmGfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:26:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+TYLUrmGR1o1Ch4cN4O7BFS0WyZMGFPRqoea5jFmGfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-fixes.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\symw0zd2gq-haoo6giqgx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j2oCZfKc/Jyd7XCIXuoc2djo0ASv+z+zFy/DACpDing=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:26:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j2oCZfKc/Jyd7XCIXuoc2djo0ASv+z+zFy/DACpDing="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-fixes.haoo6giqgx.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\symw0zd2gq-haoo6giqgx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001650165017"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "605"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j2oCZfKc/Jyd7XCIXuoc2djo0ASv+z+zFy/DACpDing=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:26:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+TYLUrmGR1o1Ch4cN4O7BFS0WyZMGFPRqoea5jFmGfs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "haoo6giqgx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/mobile-fixes.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+TYLUrmGR1o1Ch4cN4O7BFS0WyZMGFPRqoea5jFmGfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-fixes.haoo6giqgx.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-fixes.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+TYLUrmGR1o1Ch4cN4O7BFS0WyZMGFPRqoea5jFmGfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:26:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "haoo6giqgx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/mobile-fixes.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+TYLUrmGR1o1Ch4cN4O7BFS0WyZMGFPRqoea5jFmGfs="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-fixes.haoo6giqgx.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\symw0zd2gq-haoo6giqgx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j2oCZfKc/Jyd7XCIXuoc2djo0ASv+z+zFy/DACpDing=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Nov 2025 14:26:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "haoo6giqgx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/mobile-fixes.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j2oCZfKc/Jyd7XCIXuoc2djo0ASv+z+zFy/DACpDing="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-header.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\0j4ccw00xc-w8bdovkgxr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000689655172"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1449"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B+Pi8tnPNKWRUvGM+WwZki2BB4PBqN9J4130Z8/44SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Nov 2025 08:41:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0FEXzvhw0a/2KOn+kSYtmQ0OndJkDo9FBc9E5+qEmIw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0FEXzvhw0a/2KOn+kSYtmQ0OndJkDo9FBc9E5+qEmIw="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-header.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-header.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0FEXzvhw0a/2KOn+kSYtmQ0OndJkDo9FBc9E5+qEmIw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Nov 2025 08:41:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0FEXzvhw0a/2KOn+kSYtmQ0OndJkDo9FBc9E5+qEmIw="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-header.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\0j4ccw00xc-w8bdovkgxr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B+Pi8tnPNKWRUvGM+WwZki2BB4PBqN9J4130Z8/44SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Nov 2025 08:41:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B+Pi8tnPNKWRUvGM+WwZki2BB4PBqN9J4130Z8/44SA="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-header.w8bdovkgxr.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\0j4ccw00xc-w8bdovkgxr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000689655172"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1449"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B+Pi8tnPNKWRUvGM+WwZki2BB4PBqN9J4130Z8/44SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Nov 2025 08:41:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0FEXzvhw0a/2KOn+kSYtmQ0OndJkDo9FBc9E5+qEmIw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w8bdovkgxr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/mobile-header.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0FEXzvhw0a/2KOn+kSYtmQ0OndJkDo9FBc9E5+qEmIw="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-header.w8bdovkgxr.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-header.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0FEXzvhw0a/2KOn+kSYtmQ0OndJkDo9FBc9E5+qEmIw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Nov 2025 08:41:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w8bdovkgxr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/mobile-header.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0FEXzvhw0a/2KOn+kSYtmQ0OndJkDo9FBc9E5+qEmIw="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-header.w8bdovkgxr.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\0j4ccw00xc-w8bdovkgxr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B+Pi8tnPNKWRUvGM+WwZki2BB4PBqN9J4130Z8/44SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Nov 2025 08:41:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w8bdovkgxr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/mobile-header.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B+Pi8tnPNKWRUvGM+WwZki2BB4PBqN9J4130Z8/44SA="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-responsive.bcw4bz2662.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\ygi4i0yqzz-bcw4bz2662.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000763941940"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1308"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2K9PFUsfAj50eT1DjC2QcMu4ikOb5+5xX+jDJ9teGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RYzcvlV58VT9YWEe1vAPS6wuri6LJAhYs8KFPHMe+Ck=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bcw4bz2662"
+        },
+        {
+          "Name": "label",
+          "Value": "css/mobile-responsive.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RYzcvlV58VT9YWEe1vAPS6wuri6LJAhYs8KFPHMe+Ck="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-responsive.bcw4bz2662.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-responsive.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RYzcvlV58VT9YWEe1vAPS6wuri6LJAhYs8KFPHMe+Ck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bcw4bz2662"
+        },
+        {
+          "Name": "label",
+          "Value": "css/mobile-responsive.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RYzcvlV58VT9YWEe1vAPS6wuri6LJAhYs8KFPHMe+Ck="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-responsive.bcw4bz2662.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\ygi4i0yqzz-bcw4bz2662.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1308"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2K9PFUsfAj50eT1DjC2QcMu4ikOb5+5xX+jDJ9teGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bcw4bz2662"
+        },
+        {
+          "Name": "label",
+          "Value": "css/mobile-responsive.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2K9PFUsfAj50eT1DjC2QcMu4ikOb5+5xX+jDJ9teGc="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-responsive.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\ygi4i0yqzz-bcw4bz2662.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000763941940"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1308"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2K9PFUsfAj50eT1DjC2QcMu4ikOb5+5xX+jDJ9teGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RYzcvlV58VT9YWEe1vAPS6wuri6LJAhYs8KFPHMe+Ck=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RYzcvlV58VT9YWEe1vAPS6wuri6LJAhYs8KFPHMe+Ck="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-responsive.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-responsive.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RYzcvlV58VT9YWEe1vAPS6wuri6LJAhYs8KFPHMe+Ck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RYzcvlV58VT9YWEe1vAPS6wuri6LJAhYs8KFPHMe+Ck="
+        }
+      ]
+    },
+    {
+      "Route": "css/mobile-responsive.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\ygi4i0yqzz-bcw4bz2662.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1308"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2K9PFUsfAj50eT1DjC2QcMu4ikOb5+5xX+jDJ9teGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2K9PFUsfAj50eT1DjC2QcMu4ikOb5+5xX+jDJ9teGc="
+        }
+      ]
+    },
+    {
+      "Route": "css/new-sections.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\db18oqxh6n-uljita17mr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000219587176"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4553"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qJkpO5vfIyRVC5JYfjYnE6+ItHDJcjBy9ocbtPSfBEk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 07:58:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wqgjfiUZQnoQbdyullDa1AmiDJQFoz6c9Tx7f9+I3Ew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wqgjfiUZQnoQbdyullDa1AmiDJQFoz6c9Tx7f9+I3Ew="
+        }
+      ]
+    },
+    {
+      "Route": "css/new-sections.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\new-sections.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wqgjfiUZQnoQbdyullDa1AmiDJQFoz6c9Tx7f9+I3Ew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 07:58:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wqgjfiUZQnoQbdyullDa1AmiDJQFoz6c9Tx7f9+I3Ew="
+        }
+      ]
+    },
+    {
+      "Route": "css/new-sections.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\db18oqxh6n-uljita17mr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qJkpO5vfIyRVC5JYfjYnE6+ItHDJcjBy9ocbtPSfBEk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 07:58:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qJkpO5vfIyRVC5JYfjYnE6+ItHDJcjBy9ocbtPSfBEk="
+        }
+      ]
+    },
+    {
+      "Route": "css/new-sections.uljita17mr.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\db18oqxh6n-uljita17mr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000219587176"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4553"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qJkpO5vfIyRVC5JYfjYnE6+ItHDJcjBy9ocbtPSfBEk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 07:58:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wqgjfiUZQnoQbdyullDa1AmiDJQFoz6c9Tx7f9+I3Ew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uljita17mr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/new-sections.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wqgjfiUZQnoQbdyullDa1AmiDJQFoz6c9Tx7f9+I3Ew="
+        }
+      ]
+    },
+    {
+      "Route": "css/new-sections.uljita17mr.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\new-sections.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wqgjfiUZQnoQbdyullDa1AmiDJQFoz6c9Tx7f9+I3Ew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 07:58:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uljita17mr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/new-sections.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wqgjfiUZQnoQbdyullDa1AmiDJQFoz6c9Tx7f9+I3Ew="
+        }
+      ]
+    },
+    {
+      "Route": "css/new-sections.uljita17mr.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\db18oqxh6n-uljita17mr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qJkpO5vfIyRVC5JYfjYnE6+ItHDJcjBy9ocbtPSfBEk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 07:58:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uljita17mr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/new-sections.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qJkpO5vfIyRVC5JYfjYnE6+ItHDJcjBy9ocbtPSfBEk="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.cgq5njz1h0.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\eycb3jrm67-cgq5njz1h0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000146284377"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6835"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T1ruEvLdj/mlbtzGC5FlrKS6VEC9uQ2Ub3qyLJzc65E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LChaRGSrgX1bhUwvk+XaZe4bABux8dygXQJZr2iXpqA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cgq5njz1h0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LChaRGSrgX1bhUwvk+XaZe4bABux8dygXQJZr2iXpqA="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.cgq5njz1h0.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LChaRGSrgX1bhUwvk+XaZe4bABux8dygXQJZr2iXpqA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cgq5njz1h0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LChaRGSrgX1bhUwvk+XaZe4bABux8dygXQJZr2iXpqA="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.cgq5njz1h0.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\eycb3jrm67-cgq5njz1h0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T1ruEvLdj/mlbtzGC5FlrKS6VEC9uQ2Ub3qyLJzc65E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cgq5njz1h0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T1ruEvLdj/mlbtzGC5FlrKS6VEC9uQ2Ub3qyLJzc65E="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\eycb3jrm67-cgq5njz1h0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000146284377"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6835"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T1ruEvLdj/mlbtzGC5FlrKS6VEC9uQ2Ub3qyLJzc65E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LChaRGSrgX1bhUwvk+XaZe4bABux8dygXQJZr2iXpqA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LChaRGSrgX1bhUwvk+XaZe4bABux8dygXQJZr2iXpqA="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LChaRGSrgX1bhUwvk+XaZe4bABux8dygXQJZr2iXpqA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LChaRGSrgX1bhUwvk+XaZe4bABux8dygXQJZr2iXpqA="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\eycb3jrm67-cgq5njz1h0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T1ruEvLdj/mlbtzGC5FlrKS6VEC9uQ2Ub3qyLJzc65E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Dec 2025 11:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T1ruEvLdj/mlbtzGC5FlrKS6VEC9uQ2Ub3qyLJzc65E="
+        }
+      ]
+    },
+    {
+      "Route": "css/universal-mobile.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\lbm9fc4n5g-t16s9h1p2h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001404494382"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "711"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dflfKYu2grwSAxDLR6lggJfwopQILGh8XYhhvgH/QkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 09:35:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oeroWwrmmupmqre3oCjkTIkSyOEACu0jLje7/mHmAKM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oeroWwrmmupmqre3oCjkTIkSyOEACu0jLje7/mHmAKM="
+        }
+      ]
+    },
+    {
+      "Route": "css/universal-mobile.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\universal-mobile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oeroWwrmmupmqre3oCjkTIkSyOEACu0jLje7/mHmAKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 09:35:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oeroWwrmmupmqre3oCjkTIkSyOEACu0jLje7/mHmAKM="
+        }
+      ]
+    },
+    {
+      "Route": "css/universal-mobile.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\lbm9fc4n5g-t16s9h1p2h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dflfKYu2grwSAxDLR6lggJfwopQILGh8XYhhvgH/QkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 09:35:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dflfKYu2grwSAxDLR6lggJfwopQILGh8XYhhvgH/QkE="
+        }
+      ]
+    },
+    {
+      "Route": "css/universal-mobile.t16s9h1p2h.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\lbm9fc4n5g-t16s9h1p2h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001404494382"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "711"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dflfKYu2grwSAxDLR6lggJfwopQILGh8XYhhvgH/QkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 09:35:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oeroWwrmmupmqre3oCjkTIkSyOEACu0jLje7/mHmAKM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t16s9h1p2h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/universal-mobile.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oeroWwrmmupmqre3oCjkTIkSyOEACu0jLje7/mHmAKM="
+        }
+      ]
+    },
+    {
+      "Route": "css/universal-mobile.t16s9h1p2h.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\universal-mobile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oeroWwrmmupmqre3oCjkTIkSyOEACu0jLje7/mHmAKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 09:35:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t16s9h1p2h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/universal-mobile.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oeroWwrmmupmqre3oCjkTIkSyOEACu0jLje7/mHmAKM="
+        }
+      ]
+    },
+    {
+      "Route": "css/universal-mobile.t16s9h1p2h.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\lbm9fc4n5g-t16s9h1p2h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dflfKYu2grwSAxDLR6lggJfwopQILGh8XYhhvgH/QkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 09:35:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t16s9h1p2h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/universal-mobile.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dflfKYu2grwSAxDLR6lggJfwopQILGh8XYhhvgH/QkE="
+        }
+      ]
+    },
+    {
+      "Route": "css/video-section.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8gpypqb1k5-mnnmiu2yz4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000745712155"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1340"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fxRMIquu0Z/79OMs2S4hyKfXxa1AYapw7o0wv5akfHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 13:49:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vrQ9F5g5ne/Y7i/RDor4Cwpo8VEXBhS4VaoMnNgoKew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vrQ9F5g5ne/Y7i/RDor4Cwpo8VEXBhS4VaoMnNgoKew="
+        }
+      ]
+    },
+    {
+      "Route": "css/video-section.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\video-section.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vrQ9F5g5ne/Y7i/RDor4Cwpo8VEXBhS4VaoMnNgoKew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 13:49:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vrQ9F5g5ne/Y7i/RDor4Cwpo8VEXBhS4VaoMnNgoKew="
+        }
+      ]
+    },
+    {
+      "Route": "css/video-section.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8gpypqb1k5-mnnmiu2yz4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fxRMIquu0Z/79OMs2S4hyKfXxa1AYapw7o0wv5akfHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 13:49:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fxRMIquu0Z/79OMs2S4hyKfXxa1AYapw7o0wv5akfHU="
+        }
+      ]
+    },
+    {
+      "Route": "css/video-section.mnnmiu2yz4.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8gpypqb1k5-mnnmiu2yz4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000745712155"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1340"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fxRMIquu0Z/79OMs2S4hyKfXxa1AYapw7o0wv5akfHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 13:49:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vrQ9F5g5ne/Y7i/RDor4Cwpo8VEXBhS4VaoMnNgoKew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mnnmiu2yz4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/video-section.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vrQ9F5g5ne/Y7i/RDor4Cwpo8VEXBhS4VaoMnNgoKew="
+        }
+      ]
+    },
+    {
+      "Route": "css/video-section.mnnmiu2yz4.css",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\video-section.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vrQ9F5g5ne/Y7i/RDor4Cwpo8VEXBhS4VaoMnNgoKew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 13:49:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mnnmiu2yz4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/video-section.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vrQ9F5g5ne/Y7i/RDor4Cwpo8VEXBhS4VaoMnNgoKew="
+        }
+      ]
+    },
+    {
+      "Route": "css/video-section.mnnmiu2yz4.css.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\8gpypqb1k5-mnnmiu2yz4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fxRMIquu0Z/79OMs2S4hyKfXxa1AYapw7o0wv5akfHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 13:49:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mnnmiu2yz4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/video-section.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fxRMIquu0Z/79OMs2S4hyKfXxa1AYapw7o0wv5akfHU="
         }
       ]
     },
@@ -4722,6 +9184,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-M2FDo4aLc/081ecNt2avEd2ty3qo+YHI2UskDK0oZ7g="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.asgkc7h5gj.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\90z9a1vtzo-asgkc7h5gj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000069118054"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14467"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f0ZzbiApUFiC81qANphH8ZijbjWUiObVQZfSjYgwTTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 09:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BhZQ1f+X56/W5tjkwZ2xxgOn9KXl7aH2jOrwbdMmAdU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "asgkc7h5gj"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BhZQ1f+X56/W5tjkwZ2xxgOn9KXl7aH2jOrwbdMmAdU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.asgkc7h5gj.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BhZQ1f+X56/W5tjkwZ2xxgOn9KXl7aH2jOrwbdMmAdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 09:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "asgkc7h5gj"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BhZQ1f+X56/W5tjkwZ2xxgOn9KXl7aH2jOrwbdMmAdU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.asgkc7h5gj.js.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\90z9a1vtzo-asgkc7h5gj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f0ZzbiApUFiC81qANphH8ZijbjWUiObVQZfSjYgwTTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 09:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "asgkc7h5gj"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f0ZzbiApUFiC81qANphH8ZijbjWUiObVQZfSjYgwTTU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\90z9a1vtzo-asgkc7h5gj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000069118054"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14467"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f0ZzbiApUFiC81qANphH8ZijbjWUiObVQZfSjYgwTTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 09:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BhZQ1f+X56/W5tjkwZ2xxgOn9KXl7aH2jOrwbdMmAdU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BhZQ1f+X56/W5tjkwZ2xxgOn9KXl7aH2jOrwbdMmAdU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BhZQ1f+X56/W5tjkwZ2xxgOn9KXl7aH2jOrwbdMmAdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 09:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BhZQ1f+X56/W5tjkwZ2xxgOn9KXl7aH2jOrwbdMmAdU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js.gz",
+      "AssetFile": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\obj\\Debug\\net9.0\\compressed\\90z9a1vtzo-asgkc7h5gj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f0ZzbiApUFiC81qANphH8ZijbjWUiObVQZfSjYgwTTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Nov 2025 09:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f0ZzbiApUFiC81qANphH8ZijbjWUiObVQZfSjYgwTTU="
         }
       ]
     },

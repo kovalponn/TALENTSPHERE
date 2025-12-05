@@ -1,0 +1,1039 @@
+﻿<body class="landing-page">
+    <!-- Navigation -->
+    <nav class="main-nav glass-effect">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon neon-glow-purple"></div>
+                <span class="logo-text">TalentSphere</span>
+            </div>
+            <!-- Global Search -->
+            <div class="global-search">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="search-icon">
+                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="2" />
+                    <path d="M17 17L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <input type="text" placeholder="Поиск проектов, фрилансеров..." class="search-input">
+            </div>
+            <ul class="nav-links">
+                <li><a href="marketplace.html">Marketplace</a></li>
+                <li><a href="feed.html">Лента</a></li>
+                <li><a href="education.html">Обучение</a></li>
+                <li><a href="about.html">О платформе</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="@Url.Action("Login", "Auth")" class="btn-secondary">Войти</a>
+                <a href="@Url.Action("Register", "Auth")" class="btn-primary neon-button">Начать</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-search">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="search-icon">
+                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="2" />
+                    <path d="M17 17L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <input type="text" placeholder="Поиск..." class="search-input">
+            </div>
+            <nav class="mobile-nav">
+                <a href="marketplace.html" class="nav-link">Биржа</a>
+                <a href="feed.html" class="nav-link">Лента</a>
+                <a href="education.html" class="nav-link">Обучение</a>
+                <a href="about.html" class="nav-link">О платформе</a>
+                <a href="faq.html" class="nav-link">FAQ</a>
+                <a href="contact.html" class="nav-link">Контакты</a>
+            </nav>
+            <div class="mobile-actions">
+                <a href="@Url.Action("Login", "Auth")" class="btn-secondary">Войти</a>
+                <a href="@Url.Action("Register", "Auth")" class="btn-primary neon-button">Начать</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-gradient"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">🚀</span>
+                    <span>Присоединяйтесь к платформе будущего</span>
+                </div>
+                <h1 class="hero-title">
+                    Платформа для поиска <br>
+                    <span class="hero-accent">талантов и проектов</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Объединяем заказчиков и исполнителей через AI-подбор и видео-коммуникацию
+                </p>
+                <div class="hero-actions">
+                    <a href="marketplace.html" class="btn-hero-primary">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <span>Найти исполнителя</span>
+                    </a>
+                    <a href="marketplace.html" class="btn-hero-secondary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                        <span>Найти проект</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item glass-card">
+                        <div class="stat-value neon-text-blue" data-target="50000" data-suffix="K+">0</div>
+                        <div class="stat-label">Фрилансеров</div>
+                    </div>
+                    <div class="stat-item glass-card">
+                        <div class="stat-value neon-text-pink" data-target="1000000" data-suffix="M+">0</div>
+                        <div class="stat-label">Проектов</div>
+                    </div>
+                    <div class="stat-item glass-card">
+                        <div class="stat-value neon-text-purple" data-target="100000000" data-prefix="$"
+                             data-suffix="M+">
+                            0
+                        </div>
+                        <div class="stat-label">Выплачено</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="sphere-3d neon-sphere">
+                    <div class="sphere-inner"></div>
+                    <div class="sphere-ring ring-1"></div>
+                    <div class="sphere-ring ring-2"></div>
+                    <div class="sphere-ring ring-3"></div>
+                </div>
+                <div class="floating-card card-1 glass-card">
+                    <div class="card-icon neon-glow-blue"></div>
+                    <div class="card-text">AI Protection</div>
+                </div>
+                <div class="floating-card card-2 glass-card">
+                    <div class="card-icon neon-glow-pink"></div>
+                    <div class="card-text">Instant Pay</div>
+                </div>
+                <div class="floating-card card-3 glass-card">
+                    <div class="card-icon neon-glow-purple"></div>
+                    <div class="card-text">Smart Match</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Matching Section (NEW) -->
+    <section class="ai-matching-section">
+        <div class="container">
+            <div class="section-header-center">
+                <span class="section-badge">🎯 Кто мы</span>
+                <h2 class="section-title-large">
+                    Наша <span class="gradient-text">миссия</span>
+                </h2>
+                <p class="section-subtitle">
+                    Создаем экосистему для эффективного collaboration между талантливыми специалистами и амбициозными
+                    проектами.
+                </p>
+                <div class="mission-stats"
+                     style="display: flex; gap: 20px; justify-content: center; margin-top: 30px; flex-wrap: wrap;">
+                    <div class="stat-pill glass-card"
+                         style="padding: 10px 20px; border-radius: 20px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+                        <span>👥</span> 1000+ пользователей
+                    </div>
+                    <div class="stat-pill glass-card"
+                         style="padding: 10px 20px; border-radius: 20px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+                        <span>🚀</span> 500+ проектов
+                    </div>
+                </div>
+            </div>
+
+            <div class="ai-demo-container">
+                <div class="ai-visual-side">
+                    <div class="ai-scanner-circle">
+                        <div class="ai-scanner-inner">
+                            <div class="ai-connection-line"></div>
+                        </div>
+                        <div class="ai-node"></div>
+                        <div class="ai-node"></div>
+                        <div class="ai-node"></div>
+                    </div>
+                </div>
+
+                <div class="ai-content-side">
+                    <div class="ai-feature-list">
+                        <div class="ai-feature-item">
+                            <div class="ai-feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                    <defs>
+                                        <linearGradient id="grad-target" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#F472B6" />
+                                            <stop offset="100%" stop-color="#DB2777" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle cx="20" cy="20" r="16" stroke="url(#grad-target)" stroke-width="3"
+                                            stroke-opacity="0.5" />
+                                    <circle cx="20" cy="20" r="10" fill="url(#grad-target)" fill-opacity="0.2"
+                                            stroke="url(#grad-target)" stroke-width="2" />
+                                    <circle cx="20" cy="20" r="4" fill="#fff" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="feature-title">Точность 99.8%</h3>
+                                <p class="feature-description">
+                                    Алгоритм учитывает не только навыки, но и стиль
+                                    коммуникации, часовой пояс и опыт в нише.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ai-feature-item">
+                            <div class="ai-feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                    <defs>
+                                        <linearGradient id="grad-bolt" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#FBBF24" />
+                                            <stop offset="100%" stop-color="#F59E0B" />
+                                        </linearGradient>
+                                    </defs>
+                                    <path d="M22 2L10 22H20L18 38L30 18H20L22 2Z" fill="url(#grad-bolt)"
+                                          filter="drop-shadow(0 0 5px rgba(251, 191, 36, 0.5))" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="feature-title">Мгновенный подбор</h3>
+                                <p class="feature-description">
+                                    Получите список из топ-3 кандидатов через 30 секунд после
+                                    публикации задачи.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ai-feature-item">
+                            <div class="ai-feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                    <defs>
+                                        <linearGradient id="grad-check" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#34D399" />
+                                            <stop offset="100%" stop-color="#10B981" />
+                                        </linearGradient>
+                                    </defs>
+                                    <rect x="4" y="4" width="32" height="32" rx="8" fill="url(#grad-check)"
+                                          fill-opacity="0.2" stroke="url(#grad-check)" stroke-width="2" />
+                                    <path d="M12 20L18 26L28 14" stroke="#fff" stroke-width="3" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="feature-title">Проверка навыков</h3>
+                                <p class="feature-description">
+                                    AI автоматически верифицирует портфолио и проводит
+                                    техническое интервью.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Freelancer Video Section (NEW) -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="section-header-center">
+                <h2 class="section-title-large">Почему <span class="gradient-text">TalentSphere</span>?</h2>
+                <p class="section-subtitle">Технологии будущего уже здесь</p>
+            </div>
+            <div class="benefits-grid">
+                <!-- Card 1: AI-подбор команд -->
+                <div class="benefit-card glass-card">
+                    <div class="benefit-icon neon-glow-purple">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
+                            <path d="M12 16a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2z" />
+                            <path d="M12 8v8" />
+                            <path d="M2 12h20" />
+                            <path d="M20 12v-2a2 2 0 0 0-2-2h-2" />
+                            <path d="M4 12v-2a2 2 0 0 1 2-2h2" />
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">🤖 AI-подбор команд</h3>
+                    <p class="benefit-description">
+                        Умные алгоритмы автоматически подбирают идеальных кандидатов под ваши задачи за считанные
+                        секунды.
+                    </p>
+                </div>
+
+                <!-- Card 2: Видео-коммуникация -->
+                <div class="benefit-card glass-card">
+                    <div class="benefit-icon neon-glow-blue">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="23 7 16 12 23 17 23 7" />
+                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2" />
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">🎥 Видео-коммуникация</h3>
+                    <p class="benefit-description">
+                        Встроенные видеозвонки и видео-визитки для мгновенного знакомства и обсуждения деталей проекта.
+                    </p>
+                </div>
+
+                <!-- Card 3: Escrow-платежи -->
+                <div class="benefit-card glass-card">
+                    <div class="benefit-icon neon-glow-green">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 1v22" />
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">💰 Escrow-платежи</h3>
+                    <p class="benefit-description">
+                        Безопасная сделка: деньги резервируются и выплачиваются только после успешного выполнения
+                        работы.
+                    </p>
+                </div>
+
+                <!-- Card 4: Образовательный контент -->
+                <div class="benefit-card glass-card">
+                    <div class="benefit-icon neon-glow-pink">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">📚 Образовательный контент</h3>
+                    <p class="benefit-description">
+                        Доступ к курсам и материалам для повышения квалификации и роста вашего профессионального уровня.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Video Demo Section -->
+    <section class="video-demo-section">
+        <div class="container">
+            <div class="section-header-center">
+                <span class="section-badge">🎥 Видео Галерея</span>
+                <h2 class="section-title-large">
+                    Живые <span class="gradient-text">истории</span> успеха
+                </h2>
+                <p class="section-subtitle">Наведите на миниатюру для предпросмотра, кликните для просмотра видео</p>
+            </div>
+
+            <div class="video-gallery-container">
+                <!-- Main Video Preview -->
+                <div class="main-video-preview" id="mainVideoPreview">
+                    <div class="video-placeholder"
+                         data-video-src="https://assets.mixkit.co/videos/preview/mixkit-working-on-a-new-digital-project-12429-large.mp4">
+                        <div class="play-button">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                                <circle cx="40" cy="40" r="38" stroke="url(#gradient-purple)" stroke-width="3" />
+                                <path d="M32 26L54 40L32 54V26Z" fill="url(#gradient-purple)" />
+                            </svg>
+                        </div>
+                        <div class="video-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                             alt="Main Video" class="video-thumbnail main-thumb">
+
+                        <div class="video-info-overlay">
+                            <h3 class="video-title">Разработка UX/UI для Финтех стартапа</h3>
+                            <p class="video-author">Alex M. • Senior Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Thumbnails List -->
+                <div class="video-thumbnails-list">
+                    <div class="video-thumbnail-item active"
+                         data-video-src="https://assets.mixkit.co/videos/preview/mixkit-working-on-a-new-digital-project-12429-large.mp4"
+                         data-image="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                         data-title="Разработка UX/UI для Финтех стартапа" data-author="Alex M. • Senior Designer">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                             alt="Thumb">
+                        <div class="thumb-info">
+                            <h4>UX/UI Design</h4>
+                            <span>02:15</span>
+                        </div>
+                    </div>
+
+                    <div class="video-thumbnail-item"
+                         data-video-src="https://assets.mixkit.co/videos/preview/mixkit-team-working-together-on-a-project-12432-large.mp4"
+                         data-image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                         data-title="Командная разработка React приложения" data-author="Sarah K. • Frontend Lead">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                             alt="Thumb">
+                        <div class="thumb-info">
+                            <h4>Frontend Dev</h4>
+                            <span>01:45</span>
+                        </div>
+                    </div>
+
+                    <div class="video-thumbnail-item"
+                         data-video-src="https://assets.mixkit.co/videos/preview/mixkit-man-working-on-his-laptop-308-large.mp4"
+                         data-image="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                         data-title="Создание 3D персонажа в Blender" data-author="Mike R. • 3D Artist">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                             alt="Thumb">
+                        <div class="thumb-info">
+                            <h4>3D Modeling</h4>
+                            <span>03:20</span>
+                        </div>
+                    </div>
+
+                    <div class="video-thumbnail-item"
+                         data-video-src="https://assets.mixkit.co/videos/preview/mixkit-young-woman-working-on-laptop-in-cafe-40546-large.mp4"
+                         data-image="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                         data-title="Копирайтинг для Landing Page" data-author="Elena V. • Copywriter">
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                             alt="Thumb">
+                        <div class="thumb-info">
+                            <h4>Copywriting</h4>
+                            <span>01:30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="videoModal">
+        <div class="modal-close" id="closeModal">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </div>
+        <div class="modal-content">
+            <video class="modal-video-player" controls>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+
+
+    <!-- Marketplace Preview Section -->
+    <section class="marketplace-preview-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Популярные <span class="gradient-text">проекты</span></h2>
+                <p class="section-subtitle">Найдите идеальный проект прямо сейчас</p>
+            </div>
+            <div class="marketplace-preview-grid">
+                <!-- Project Card 1 -->
+                <div class="preview-card glass-card">
+                    <div class="preview-header">
+                        <div class="preview-icon neon-glow-blue">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect x="4" y="4" width="24" height="24" rx="4" stroke="url(#gradient-blue)"
+                                      stroke-width="2" />
+                                <path d="M12 16L14 18L20 12" stroke="url(#gradient-blue)" stroke-width="2"
+                                      stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <span class="preview-badge featured">Featured</span>
+                    </div>
+                    <h3 class="preview-title">UI/UX редизайн SaaS платформы</h3>
+                    <p class="preview-description">
+                        Требуется современный интерфейс для B2B платформы с акцентом на аналитику
+                    </p>
+                    <div class="preview-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI Design</span>
+                        <span class="tag">Analytics</span>
+                    </div>
+                    <div class="preview-footer">
+                        <div class="preview-price">
+                            <span class="price-label">Бюджет:</span>
+                            <span class="price-value neon-text-blue">$3,500</span>
+                        </div>
+                        <a href="marketplace.html" class="btn-preview">Подробнее →</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="preview-card glass-card">
+                    <div class="preview-header">
+                        <div class="preview-icon neon-glow-pink">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M16 4L20 12L28 13L22 19L23.5 27L16 22.5L8.5 27L10 19L4 13L12 12L16 4Z"
+                                      stroke="url(#gradient-pink)" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <span class="preview-badge hot">Срочно</span>
+                    </div>
+                    <h3 class="preview-title">Landing для криптовалютного проекта</h3>
+                    <p class="preview-description">
+                        Посадочная страница с анимациями и интеграцией Web3 кошельков
+                    </p>
+                    <div class="preview-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Web3</span>
+                        <span class="tag">GSAP</span>
+                    </div>
+                    <div class="preview-footer">
+                        <div class="preview-price">
+                            <span class="price-label">Бюджет:</span>
+                            <span class="price-value neon-text-pink">$4,200</span>
+                        </div>
+                        <a href="marketplace.html" class="btn-preview">Подробнее →</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="preview-card glass-card">
+                    <div class="preview-header">
+                        <div class="preview-icon neon-glow-purple">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect x="7" y="4" width="18" height="24" rx="3" stroke="url(#gradient-purple)"
+                                      stroke-width="2" />
+                                <path d="M12 10H20M12 15H20M12 20H16" stroke="url(#gradient-purple)" stroke-width="2"
+                                      stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <span class="preview-badge new">Новое</span>
+                    </div>
+                    <h3 class="preview-title">Мобильное приложение для фитнеса</h3>
+                    <p class="preview-description">
+                        UI/UX дизайн iOS и Android приложения с трекингом тренировок
+                    </p>
+                    <div class="preview-tags">
+                        <span class="tag">Mobile</span>
+                        <span class="tag">Fitness</span>
+                        <span class="tag">Health</span>
+                    </div>
+                    <div class="preview-footer">
+                        <div class="preview-price">
+                            <span class="price-label">Бюджет:</span>
+                            <span class="price-value neon-text-purple">$5,800</span>
+                        </div>
+                        <a href="marketplace.html" class="btn-preview">Подробнее →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="marketplace-cta">
+                <a href="marketplace.html" class="btn-marketplace-all neon-button">
+                    <span>Смотреть все проекты</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="2"
+                              stroke-linecap="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works-section">
+        <div class="container">
+            <div class="section-header-center">
+                <span class="section-badge">✨ Простой процесс</span>
+                <h2 class="section-title-large">
+                    Как это <span class="gradient-text">работает</span>
+                </h2>
+                <p class="section-subtitle">Начните работать над проектами за 4 простых шага</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card glass-card">
+                    <div class="step-number neon-glow-blue">1</div>
+                    <div class="step-icon neon-glow-blue">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <defs>
+                                <linearGradient id="grad-profile" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#60A5FA" />
+                                    <stop offset="100%" stop-color="#3B82F6" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="15" y="10" width="30" height="40" rx="4" fill="url(#grad-profile)"
+                                  fill-opacity="0.2" stroke="url(#grad-profile)" stroke-width="3" />
+                            <circle cx="30" cy="25" r="6" fill="url(#grad-profile)" />
+                            <path d="M20 40C20 35 25 32 30 32C35 32 40 35 40 40" stroke="url(#grad-profile)"
+                                  stroke-width="3" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Создайте профиль</h3>
+                    <p class="step-description">
+                        Зарегистрируйтесь за 2 минуты и заполните профиль с портфолио
+                    </p>
+                </div>
+
+                <div class="step-card glass-card">
+                    <div class="step-number neon-glow-pink">2</div>
+                    <div class="step-icon neon-glow-pink">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <defs>
+                                <linearGradient id="grad-search" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#F472B6" />
+                                    <stop offset="100%" stop-color="#DB2777" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="25" cy="25" r="12" fill="url(#grad-search)" fill-opacity="0.2"
+                                    stroke="url(#grad-search)" stroke-width="3" />
+                            <path d="M35 35L45 45" stroke="url(#grad-search)" stroke-width="5" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Найдите проект</h3>
+                    <p class="step-description">
+                        AI подберет идеальные проекты под ваши навыки и опыт
+                    </p>
+                </div>
+
+                <div class="step-card glass-card">
+                    <div class="step-number neon-glow-purple">3</div>
+                    <div class="step-icon neon-glow-purple">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <defs>
+                                <linearGradient id="grad-work" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#A78BFA" />
+                                    <stop offset="100%" stop-color="#7C3AED" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="10" y="15" width="40" height="30" rx="4" fill="url(#grad-work)" fill-opacity="0.2"
+                                  stroke="url(#grad-work)" stroke-width="3" />
+                            <path d="M10 25H50" stroke="url(#grad-work)" stroke-width="2" />
+                            <circle cx="30" cy="35" r="3" fill="url(#grad-work)" />
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Работайте безопасно</h3>
+                    <p class="step-description">
+                        Escrow защитит ваши деньги, а AI проверит качество работы
+                    </p>
+                </div>
+
+                <div class="step-card glass-card">
+                    <div class="step-number neon-glow-cyan">4</div>
+                    <div class="step-icon neon-glow-cyan">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <defs>
+                                <linearGradient id="grad-pay" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#22D3EE" />
+                                    <stop offset="100%" stop-color="#06B6D4" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="10" y="15" width="40" height="30" rx="4" fill="url(#grad-pay)" fill-opacity="0.2"
+                                  stroke="url(#grad-pay)" stroke-width="3" />
+                            <path d="M40 15V10H20V15" stroke="url(#grad-pay)" stroke-width="3" />
+                            <circle cx="30" cy="30" r="5" fill="url(#grad-pay)" />
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Получите оплату</h3>
+                    <p class="step-description">
+                        Мгновенный вывод средств в любую точку мира
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header-center">
+                <span class="section-badge">💬 Отзывы</span>
+                <h2 class="section-title-large">
+                    Что говорят <span class="gradient-text">наши пользователи</span>
+                </h2>
+                <!-- Platform Rating -->
+                <div class="platform-rating-container"
+                     style="margin-top: 20px; display: inline-flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.05); padding: 10px 25px; border-radius: 30px; border: 1px solid rgba(255,255,255,0.1);">
+                    <span style="color: #FBBF24; font-size: 1.2rem;">⭐⭐⭐⭐⭐</span>
+                    <span style="font-weight: 600; color: #fff;">4.9/5</span>
+                    <span style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">(2,500+ отзывов)</span>
+                </div>
+            </div>
+
+            <!-- Text Testimonials -->
+            <div class="testimonials-grid">
+                <!-- Review 1 -->
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                             alt="Sarah" class="testimonial-avatar-img"
+                             style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #A78BFA;">
+                        <div class="testimonial-author">
+                            <h4 class="author-name">Sarah Johnson</h4>
+                            <p class="author-role">UI/UX Designer</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "TalentSphere изменил мою карьеру! За 3 месяца я нашла 12 клиентов и увеличила доход в 2 раза.
+                        Escrow система дает полную уверенность."
+                    </p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                             alt="Michael" class="testimonial-avatar-img"
+                             style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #F472B6;">
+                        <div class="testimonial-author">
+                            <h4 class="author-name">Michael Chen</h4>
+                            <p class="author-role">Full-stack Dev</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "AI-подбор проектов экономит часы времени. Платформа сама находит идеальных клиентов. Рекомендую
+                        всем фрилансерам!"
+                    </p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                             alt="Emma" class="testimonial-avatar-img"
+                             style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid #34D399;">
+                        <div class="testimonial-author">
+                            <h4 class="author-name">Emma Davis</h4>
+                            <p class="author-role">Brand Designer</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "Лучшая платформа для креативщиков! Удобный интерфейс, мгновенные выплаты и качественные
+                        клиенты. Мой рейтинг 4.9 за год!"
+                    </p>
+                </div>
+            </div>
+
+            <!-- Video Testimonials (Thumbnails) -->
+            <div class="video-testimonials-section" style="margin-top: 60px;">
+                <h3 class="subsection-title" style="text-align: center; margin-bottom: 30px; font-size: 1.5rem;">
+                    Видео-истории успеха
+                </h3>
+                <div class="video-thumbnails-grid"
+                     style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+
+                    <!-- Video 1 -->
+                    <div class="video-thumb-card glass-card"
+                         style="position: relative; border-radius: 16px; overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                             alt="Video 1" style="width: 100%; height: 180px; object-fit: cover;">
+                        <div class="play-overlay"
+                             style="position: absolute; inset: 0; background: rgba(0,0,0,0.4); display: flex; align-items: center; justify-content: center;">
+                            <div class="play-icon"
+                                 style="width: 50px; height: 50px; background: rgba(255,255,255,0.2); backdrop-filter: blur(5px); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.5);">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="video-info" style="padding: 15px;">
+                            <h4 style="margin: 0; font-size: 1rem;">Как я заработал $10k за месяц</h4>
+                            <p style="margin: 5px 0 0; font-size: 0.85rem; opacity: 0.7;">Alex, Frontend Dev</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 2 -->
+                    <div class="video-thumb-card glass-card"
+                         style="position: relative; border-radius: 16px; overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                             alt="Video 2" style="width: 100%; height: 180px; object-fit: cover;">
+                        <div class="play-overlay"
+                             style="position: absolute; inset: 0; background: rgba(0,0,0,0.4); display: flex; align-items: center; justify-content: center;">
+                            <div class="play-icon"
+                                 style="width: 50px; height: 50px; background: rgba(255,255,255,0.2); backdrop-filter: blur(5px); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.5);">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="video-info" style="padding: 15px;">
+                            <h4 style="margin: 0; font-size: 1rem;">Мой опыт работы с AI-подбором</h4>
+                            <p style="margin: 5px 0 0; font-size: 0.85rem; opacity: 0.7;">Sarah, UI Designer</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 3 -->
+                    <div class="video-thumb-card glass-card"
+                         style="position: relative; border-radius: 16px; overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                             alt="Video 3" style="width: 100%; height: 180px; object-fit: cover;">
+                        <div class="play-overlay"
+                             style="position: absolute; inset: 0; background: rgba(0,0,0,0.4); display: flex; align-items: center; justify-content: center;">
+                            <div class="play-icon"
+                                 style="width: 50px; height: 50px; background: rgba(255,255,255,0.2); backdrop-filter: blur(5px); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.5);">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="video-info" style="padding: 15px;">
+                            <h4 style="margin: 0; font-size: 1rem;">Безопасные сделки и Escrow</h4>
+                            <p style="margin: 5px 0 0; font-size: 0.85rem; opacity: 0.7;">David, Full Stack</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <!-- Partners Section -->
+    <section class="partners-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Нам доверяют <span class="section-accent">1000+ компаний</span></h2>
+                <p class="section-subtitle">Интеграция с ведущими платформами</p>
+            </div>
+            <div class="partners-grid">
+                <div class="partner-logo"><span>GitHub</span></div>
+                <div class="partner-logo"><span>GitLab</span></div>
+                <div class="partner-logo"><span>Stripe</span></div>
+                <div class="partner-logo"><span>PayPal</span></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA Section NEW -->
+    <section class="cta-section-new">
+        <div class="cta-wrapper">
+            <h2 class="cta-heading">Готовы начать?</h2>
+            <p class="cta-text">Присоединяйтесь к платформе будущего прямо сейчас</p>
+            <div class="cta-buttons">
+                <a href="register.html" class="cta-btn cta-btn-primary">Создать аккаунт</a>
+                <a href="marketplace.html" class="cta-btn cta-btn-secondary">Смотреть проекты</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer NEW -->
+    <footer class="footer-redesign">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Left Column: CTA -->
+                <div class="footer-cta-column">
+                    <h3 class="footer-title">Готовы начать?</h3>
+                    <p class="footer-text">Присоединяйтесь к платформе будущего прямо сейчас</p>
+                    <div class="footer-buttons">
+                        <a href="register.html" class="btn-primary neon-button">Регистрация</a>
+                        <a href="login.html" class="btn-secondary">Вход</a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Socials & Links -->
+                <div class="footer-social-column">
+                    <h4 class="footer-subtitle">Мы в соцсетях</h4>
+                    <div class="social-links-grid">
+                        <a href="#" class="social-link-card glass-card">
+                            <span class="social-icon">✈️</span>
+                            <span>Telegram</span>
+                        </a>
+                        <a href="#" class="social-link-card glass-card">
+                            <span class="social-icon">📘</span>
+                            <span>VK</span>
+                        </a>
+                        <a href="#" class="social-link-card glass-card">
+                            <span class="social-icon">📺</span>
+                            <span>YouTube</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom-row">
+                <div class="trust-badges">
+                    <div class="trust-badge glass-card">🔒 Secure Payment</div>
+                    <div class="trust-badge glass-card">🛡️ Verified</div>
+                    <div class="trust-badge glass-card">🤝 Escrow</div>
+                </div>
+                <div class="copyright-text">
+                    &copy; 2025 TalentSphere. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SVG Gradients -->
+    <svg width="0" height="0" style="position: absolute;">
+        <defs>
+            <linearGradient id="gradient-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#0099ff;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="gradient-pink" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ff0080;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#ff6ec7;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="gradient-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#b000ff;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#7000ff;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="gradient-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#00fff5;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#00ccff;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="gradient-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ff6b00;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#ff9500;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="gradient-green" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#00ff88;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#00cc6a;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <script src="script.js"></script>
+
+    <script>
+        // CountUp Animation for Stats
+        function animateValue(element, start, end, duration, prefix = '', suffix = '') {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+
+                let current = Math.floor(progress * (end - start) + start);
+
+                // Format number
+                let displayValue = current;
+                if (end >= 1000000) {
+                    displayValue = (current / 1000000).toFixed(0);
+                } else if (end >= 1000) {
+                    displayValue = (current / 1000).toFixed(0);
+                } else {
+                    displayValue = current;
+                }
+
+                element.textContent = prefix + displayValue + suffix;
+
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                } else {
+                    element.textContent = prefix + (end >= 1000000 ? (end / 1000000).toFixed(0) : end >= 1000 ? (end / 1000).toFixed(0) : end) + suffix;
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        // Intersection Observer for triggering animation
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
+                    entry.target.classList.add('animated');
+
+                    const target = parseInt(entry.target.dataset.target);
+                    const prefix = entry.target.dataset.prefix || '';
+                    const suffix = entry.target.dataset.suffix || '';
+
+                    animateValue(entry.target, 0, target, 2000, prefix, suffix);
+                }
+            });
+        }, observerOptions);
+
+        // Observe all stat values
+        document.querySelectorAll('.stat-value[data-target]').forEach(stat => {
+            observer.observe(stat);
+        });
+    </script>
+    <!-- Startup Investment Modal -->
+    <!-- Startup Investment Modal -->
+    <div class="startup-modal" id="startupModal">
+        <div class="startup-backdrop" onclick="closeStartupModal()"></div>
+        <div class="startup-content glass-card">
+            <button class="startup-close" onclick="closeStartupModal()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+
+            <div class="startup-header">
+                <div class="startup-icon-wrapper neon-glow-purple">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                        </path>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                </div>
+                <h2 class="startup-title">Инвестируйте в <span class="gradient-text">Будущее</span></h2>
+            </div>
+
+            <div class="startup-body">
+                <p class="startup-description">
+                    TalentSphere — это экосистема нового поколения для фрилансеров и бизнеса.
+                    Мы открываем <strong>Seed Round</strong> для ангелов и венчурных фондов.
+                </p>
+
+                <div class="startup-stats-grid">
+                    <div class="startup-stat">
+                        <span class="stat-val gradient-text">300%</span>
+                        <span class="stat-lbl">Рост YoY</span>
+                    </div>
+                    <div class="startup-stat">
+                        <span class="stat-val gradient-text">50K+</span>
+                        <span class="stat-lbl">Пользователей</span>
+                    </div>
+                    <div class="startup-stat">
+                        <span class="stat-val gradient-text">$2M</span>
+                        <span class="stat-lbl">Оборот</span>
+                    </div>
+                </div>
+
+                <div class="startup-actions">
+                    <a href="mailto:invest@talentsphere.com" class="btn-primary neon-button full-width">
+                        <span>Получить Pitch Deck</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                             stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                    <button class="btn-secondary full-width" onclick="closeStartupModal()">Может быть позже</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openStartupModal() {
+            const modal = document.getElementById('startupModal');
+            if (modal) {
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closeStartupModal() {
+            const modal = document.getElementById('startupModal');
+            if (modal) {
+                modal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        }
+
+        // Close on outside click
+        document.getElementById('startupModal')?.addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) {
+                closeStartupModal();
+            }
+        });
+    </script>
+</body>

@@ -18,7 +18,7 @@ namespace TALENTSPHERE.Models
         public DbSet<VideoCall> VideoCalls { get; set; } = null!;
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {
-            Database.EnsureDeleted();
+            //Database.EnsureDeleted();
             Database.EnsureCreated(); 
         }
     }

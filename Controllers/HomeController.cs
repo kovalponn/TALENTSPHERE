@@ -71,7 +71,7 @@ namespace TALENTSPHERE.Controllers
                     PhotoUrl = model.PhotoUrl,
                     CoverUrl = model.CoverUrl,
                     VideoCardUrl = model.VideoCardUrl,
-                    Specialties = model.Specialties,
+                    Direction = model.Specialties,
                     Role = model.Role,
                     CallAvailability = false, // Или по умолчанию
                     VideoChatConnect = 0 // Или по умолчанию
@@ -94,7 +94,7 @@ namespace TALENTSPHERE.Controllers
         }
 
         [Authorize]
-        public async Task<IActionResult> Main()
+        public async Task<IActionResult> Dashboard()
         {
             string? email = User.FindFirst(ClaimTypes.Name)?.Value;
 
@@ -107,6 +107,7 @@ namespace TALENTSPHERE.Controllers
             }
 
             ShortUserViewModel userShort = new ShortUserViewModel(user);
+            //Console.WriteLine(user.UsdBalance.ToString());
 
             if (userShort == null)
             {
@@ -115,6 +116,15 @@ namespace TALENTSPHERE.Controllers
             }
 
             return View(userShort);
+        }
+
+        public IActionResult Landing()
+        {
+            if (User.FindFirst(ClaimTypes.Name)?.Value != null)
+            {
+                return RedirectToAction("Dashboard");
+            }
+            return View();
         }
         
         //[Authorize]

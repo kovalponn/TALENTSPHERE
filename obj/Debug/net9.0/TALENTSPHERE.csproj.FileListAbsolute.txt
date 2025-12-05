@@ -46,7 +46,6 @@ C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\bin\Debug\net9.0\Elastic.T
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\bin\Debug\net9.0\Elasticsearch.Net.dll
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\bin\Debug\net9.0\Nest.dll
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\TALENTSPHERE.sourcelink.json
-C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\etkrt17e1q-mg1aszchs1.gz
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\axfs4qjgc4-61n19gt1b8.gz
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\2m426yarci-xtxxf3hu2r.gz
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\n1brjmdfb0-bqjiyaj88i.gz
@@ -123,3 +122,18 @@ C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compresse
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\hwzmril8jh-wa9oh9tf63.gz
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\3jiyr1t47r-2sjquke984.gz
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\zkhkeq123q-5l5mtetanw.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\m4rapo4lv4-331tynbbe6.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\eycb3jrm67-cgq5njz1h0.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\bh4yqdg6j0-9epx8gbz4j.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\symw0zd2gq-haoo6giqgx.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\ygi4i0yqzz-bcw4bz2662.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\db18oqxh6n-uljita17mr.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\8gpypqb1k5-mnnmiu2yz4.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\40y7dgdxbi-75rrpecc42.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\z5bpxcx8y4-3tyfma7vba.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\c89x2o66w1-9nrlb7rwor.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\8emqrijksk-y7mytt7i20.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\0j4ccw00xc-w8bdovkgxr.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\lbm9fc4n5g-t16s9h1p2h.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\90z9a1vtzo-asgkc7h5gj.gz
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\obj\Debug\net9.0\compressed\5zjnupgnex-6dc2m7q3le.gz

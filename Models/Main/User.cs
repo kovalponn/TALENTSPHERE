@@ -12,6 +12,7 @@ namespace TALENTSPHERE.Models
         public string? Email { get; set; }
         public string? Password { get; set; }
         public string? PhoneNumber { get; set; }
+        public decimal UsdBalance { get; set; }
         //public string Details { get; set; }
         public UserRole Role { get; set; }
         public string? Description { get; set; }
@@ -19,7 +20,7 @@ namespace TALENTSPHERE.Models
         public string? CoverUrl { get; set; }
         public string? VideoCardUrl { get; set; }
         public string? Speciality { get; set; }
-        public Directions[]? Specialties { get; set; }
+        public Directions? Direction { get; set; }
         public sbyte[]? Badges { get; set; }
         public int Rating { get; set; }
         public float Grade { get; set; }
@@ -37,6 +38,6 @@ namespace TALENTSPHERE.Models
 
     public enum UserRole
     {
-        Seller, Buyer
+        Seller, Buyer, Empty
     }
 }

@@ -5,8 +5,60 @@
       "PackagePath": "staticwebassets\\TALENTSPHERE.fha923aldk.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\auth-landing.css",
+      "PackagePath": "staticwebassets\\css\\auth-landing.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\create-project.css",
+      "PackagePath": "staticwebassets\\css\\create-project.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-3col.css",
+      "PackagePath": "staticwebassets\\css\\dashboard-3col.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard-fixes.css",
+      "PackagePath": "staticwebassets\\css\\dashboard-fixes.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\footer-new.css",
+      "PackagePath": "staticwebassets\\css\\footer-new.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\global-header.css",
+      "PackagePath": "staticwebassets\\css\\global-header.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-fixes.css",
+      "PackagePath": "staticwebassets\\css\\mobile-fixes.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-header.css",
+      "PackagePath": "staticwebassets\\css\\mobile-header.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\mobile-responsive.css",
+      "PackagePath": "staticwebassets\\css\\mobile-responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\new-sections.css",
+      "PackagePath": "staticwebassets\\css\\new-sections.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\universal-mobile.css",
+      "PackagePath": "staticwebassets\\css\\universal-mobile.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\video-section.css",
+      "PackagePath": "staticwebassets\\css\\video-section.css"
     },
     {
       "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\favicon.ico",
@@ -27,6 +79,10 @@
     {
       "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\notice.js",
       "PackagePath": "staticwebassets\\js\\notice.js"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",

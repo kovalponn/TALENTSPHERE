@@ -1,7 +1,9 @@
 ﻿using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TALENTSPHERE.Models;
+using TALENTSPHERE.Models.Common.Enums;
 
 namespace TALENTSPHERE.Controllers
 {
@@ -83,6 +85,35 @@ namespace TALENTSPHERE.Controllers
             await db.SaveChangesAsync();
 
             return RedirectToAction("Settings", "Account");
+        }
+
+        [HttpGet]
+        public IActionResult PreSettings()
+        {
+            ViewBag.Categories = Enum.GetValues(typeof(Directions));
+            return View();
+        }
+
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> PreSettings(string name, string surname, string description, Directions direction)
+        {
+            string? email = User.FindFirst(ClaimTypes.Name)?.Value;
+            var user = await db.Users.FirstOrDefaultAsync(e => e.Email == email);
+
+            if (user == null)
+            {
+                return RedirectToAction("Logout", "Auth");
+            }
+
+            user.Name = name;
+            user.Surname = surname;
+            user.Description = description;
+            user.Direction = direction;
+
+            await db.SaveChangesAsync();
+
+            return RedirectToAction("Dashboard", "Home");
         }
     }
 }

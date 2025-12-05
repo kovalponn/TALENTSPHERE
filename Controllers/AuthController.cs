@@ -31,7 +31,7 @@ namespace TALENTSPHERE.Controllers
             if (HttpContext.User.Identity.IsAuthenticated)
             {
                 Console.WriteLine("Пользователь авторизован");
-                return RedirectToAction("Main", "Home");
+                return RedirectToAction("Dashboard", "Home");
             }
             return View();
         }
@@ -80,7 +80,7 @@ namespace TALENTSPHERE.Controllers
 
             //await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
 
-            return RedirectToAction("Main", "Home");
+            return RedirectToAction("Dashboard", "Home");
         }
 
         public async Task<IActionResult> Logout()
@@ -101,26 +101,30 @@ namespace TALENTSPHERE.Controllers
             if (HttpContext.User.Identity.IsAuthenticated)
             {
                 Console.WriteLine("Пользователь авторизован");
-                return RedirectToAction("Main", "Home");
+                return RedirectToAction("Dashboard", "Home");
             }
 
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register(string login, string email, string password)
+        public async Task<IActionResult> Register(UserRole userRole, string login, string email, string password)
         {
             User user = new User
             {
                 Login = login,
                 Email = email,
                 Password = password,
+                UsdBalance = 0,
                 Description = "-",
                 Name = "Обычный",
                 Surname = "Пользователь",
                 Rating = 0,
-                Grade = 0.0f
+                Grade = 0.0f,
+                Role = userRole
             };
+
+            //Console.WriteLine(userRole.ToString());
 
             var userCheckLogin = await db.Users.Where(u => u.Login == login).FirstOrDefaultAsync();
 
@@ -158,8 +162,26 @@ namespace TALENTSPHERE.Controllers
 
             db.Add(user);
             await db.SaveChangesAsync();
+
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.Email),
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
+            };
+
+            ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "Cookies");
+
+            var authProperties = new AuthenticationProperties
+            {
+                ExpiresUtc = DateTimeOffset.UtcNow.AddDays(5)
+            };
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
+            ViewBag.Login = user.Login;
+
             Console.WriteLine("Успешная регистрация");
-            return RedirectToAction("Login");
+            return RedirectToAction("PreSettings", "Account");
         }
     }
 }

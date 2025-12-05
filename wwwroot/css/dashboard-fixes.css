@@ -1,0 +1,67 @@
+/* Dashboard/Profile Fixes */
+
+/* 1. Remove bright blurry edges from cards */
+.glass-card,
+.stat-card,
+.project-card,
+.user-profile {
+    background: rgba(255, 255, 255, 0.03) !important;
+    backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: none !important;
+}
+
+/* Remove bright glow effects */
+.neon-glow-blue,
+.neon-glow-pink,
+.neon-glow-purple,
+.neon-glow-cyan {
+    box-shadow: none !important;
+}
+
+/* Reduce stat card brightness */
+.stat-card {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 2. Fix sidebar on mobile - MUST HIDE */
+@media (max-width: 1023px) {
+    .sidebar {
+        transform: translateX(-100%) !important;
+        transition: transform 0.3s ease !important;
+    }
+    
+    .sidebar.active {
+        transform: translateX(0) !important;
+    }
+    
+    /* Main content full width when sidebar hidden */
+    .main-content {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    
+    /* Show burger menu button */
+    .mobile-menu-btn {
+        display: flex !important;
+    }
+}
+
+/* Add overlay when sidebar is open on mobile */
+.sidebar-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 99;
+}
+
+.sidebar-overlay.active {
+    display: block;
+}
+
+@media (max-width: 1023px) {
+    .sidebar {
+        z-index: 1000 !important;
+    }
+}

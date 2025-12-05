@@ -15,7 +15,7 @@ namespace TALENTSPHERE.Models
         public string? PhotoUrl { get; set; }
         public string? CoverUrl { get; set; }
         public string? VideoCardUrl { get; set; }
-        public Directions[]? Specialties { get; set; }
+        public Directions? Specialties { get; set; }
         public UserRole Role { get; set; }
 
         // Для выбора Role и Specialties в форме

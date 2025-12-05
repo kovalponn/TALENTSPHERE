@@ -1,61 +1,92 @@
 ﻿@model TALENTSPHERE.Models.ViewModels.ProjectCreateViewModel
 
-<style>
-        body {
-        background-color: #f8f9fa;
-    }
-
-    h2 {
-        text-align: center;
-    }
-
-    h4 {
-        margin-bottom: 15px;
-    }
-</style>
+<link rel="stylesheet" href="~/css/create-project.css">
 
 <form method="post" asp-action="CreateProject">
 
-<div class="container my-4">
-    <h2 class="mb-4">Создание проекта</h2>
+    <div id="step1" class="step-content active">
+        <div class="form-section glass-card">
+            <h2 class="section-title">Основная информация</h2>
 
-    <!-- Блок 1: Основная информация -->
-    <div class="mb-4 p-3 border rounded">
-        <h4>Основная информация</h4>
-        <div class="mb-3">
-            <label for="projectName" class="form-label">Имя проекта</label>
-            <input asp-for="Name" type="text" class="form-control" id="projectName" placeholder="Введите название проекта" />
-            <span asp-validation-for="Name"></span>
-        </div>
-        <div class="mb-3">
-            <label for="category" class="form-label">Категория</label>
-                <select asp-for="Category" asp-items="@(new SelectList(ViewBag.Categories))">
-                    <option value="">Выберите категорию</option>
-                </select>
-        </div>
-        <div class="mb-3">
-            <label for="description" class="form-label">Описание</label>
-            <textarea asp-for="Description" class="form-control" id="description" rows="4" placeholder="Опишите проект..."></textarea>
-            <span asp-validation-for="Description"></span>
-            <div class="form-text text-muted">Описание должно содержать не менее 100 символов.</div>
+            <div class="form-group">
+                <label class="form-label">
+                    <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                    Название
+                </label>
+                <input asp-for="Name" type="text" class="form-textarea glass-card" rows="8"
+                       placeholder="Придумайте интригующее название" />
+                <span asp-validation-for="Name"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">
+                    <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                    Направление
+                    <select asp-for="Category" asp-items="@(new SelectList(ViewBag.Categories))">
+                        <option value="">Выберите категорию</option>
+                    </select>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">
+                    <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                    Тэги
+                </label>
+                <input asp-for="Skills" type="text" class="form-textarea glass-card" rows="8"
+                       placeholder="c#, html, css" />
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">
+                    <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                    Детальное описание проекта
+                </label>
+                <textarea asp-for="Description" class="form-textarea glass-card" rows="8"
+                          placeholder="Опишите цели, целевую аудиторию, ожидания..."></textarea>
+                <span asp-validation-for="Description"></span>
+
+                <div class="ai-suggestion-box">
+                    <button class="btn-ai-assist neon-button-small" type="button">
+                        <i class="fas fa-magic"></i> AI-помощник для ТЗ
+                    </button>
+                    <span class="form-hint" style="margin: 0;">Нажмите, чтобы AI помог сформулировать мысли</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">
+                    <i class="fas fa-paperclip" style="color: var(--neon-blue);"></i>
+                    Прикрепить файлы (по желанию)
+                </label>
+                <div class="file-upload-area glass-card">
+                    <i class="fas fa-cloud-upload-alt"
+                       style="font-size: 32px; color: var(--text-secondary); margin-bottom: 10px;"></i>
+                    <p style="color: var(--text-secondary);">Перетащите файлы сюда или нажмите для выбора</p>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button id="backButton" class="btn-secondary glass-card" type="button"
+                        onclick="window.history.back()">
+                    Назад
+                </button>
+                <button id="nextButton" class="btn-primary neon-button" type="button" onclick="startAIAnalysis()">
+                    <span>Далее</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
         </div>
     </div>
 
-    <!-- Блок 2: Навыки и требования -->
-    <div class="mb-4 p-3 border rounded">
-        <h4>Навыки и требования</h4>
-        <div class="mb-3">
-            <label for="skills" class="form-label">Навыки специалистов (через запятую)</label>
-            <input asp-for="Skills" type="text" class="form-control" id="skills" placeholder="например, HTML, CSS, JS" />
-        </div>
-    </div>
+    <div id="step2" class="step-content active">
+        <div class="form-section glass-card">
+            <h2 class="section-title">Бюджет и сроки</h2>
 
-    <!-- Блок 3: Бюджет и сроки -->
-    <div class="mb-4 p-3 border rounded">
-        <h4>Бюджет и сроки (общие)</h4>
-        <div class="row mb-3">
-            <div class="col-md-6 mb-3">
-                <label for="duration" class="form-label">Срок выполнения</label>
+            <div class="form-group">
+                <label class="form-label">
+                    <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                    Общий срок
+                </label>
                 <select asp-for="Duration" class="form-select" id="duration">
                     <option selected disabled>Выберите срок</option>
                     <option value="day1">1 день</option>
@@ -71,29 +102,33 @@
                     <option value="more_than_3_months">Более 3 месяцев</option>
                 </select>
             </div>
-            <div class="col-md-6 mb-3">
-                <label class="form-label">Бюджет (USD)</label>
-                <div class="d-flex mb-2">
-                    <div class="me-2 w-50">
-                        <input type="number" asp-for="BudgetFrom" class="form-control" placeholder="От" aria-label="Бюджет от" />
-                            <span asp-validation-for="BudgetFrom"></span>
-                    </div>
-                    <div class="w-50">
-                         <input asp-for="BudgetTo" type="number" class="form-control" placeholder="До" aria-label="Бюджет до" />
-                            <span asp-validation-for="BudgetTo"></span>
-                    </div>
-                </div>
+
+            <div class="form-group">
+                <label class="form-label">
+                    <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                    Бюджет от (USD)
+
+                    <input asp-for="BudgetFrom" type="number" class="form-textarea glass-card" rows="8" />
             </div>
-        </div>
-        <div>
-            <h5>Оплата</h5>
+            <div class="form-group">
+                <label class="form-label">
+                    <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                    Бюджет до (USD)
+
+                    <input asp-for="BudgetTo" type="number" class="form-textarea glass-card" rows="8" />
+            </div>
+
+
+            <label class="form-label">Тип оплаты</label>
+            <div class="form-group">
                 <div class="d-flex gap-3">
                     <div class="form-check">
                         <input class="form-check-input"
                                type="radio"
                                name="PaymentType"
                                id="fix"
-                               value="fix_value">
+                               value="fix_value"
+                               checked>
                         <label class="form-check-label" for="fix">Фиксированная</label>
                     </div>
                     <div class="form-check">
@@ -105,10 +140,23 @@
                         <label class="form-check-label" for="hour">Почасовая</label>
                     </div>
                 </div>
+            </div>
+
+            <div class="form-actions">
+                <button id="backButton" class="btn-secondary glass-card" type="button"
+                        onclick="window.history.back()">
+                    Назад
+                </button>
+                <button id="nextButton" class="btn-primary neon-button" type="button" onclick="startAIAnalysis()">
+                    <span>Далее</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
         </div>
     </div>
-    <div id="targetBlock" class="mb-4 p-3 border rounded">
 
+    <div id="step1" class="step-content active">
+        <div class="form-group">
             <div style="display: none" id="1" class="mb-4 p-3 border rounded">
                 <h5 class="childInput">Фрилансер 1</h5>
                 <label>Роль</label>
@@ -233,49 +281,27 @@
                     <option value="more_than_3_months">Более 3 месяцев</option>
                 </select>
             </div>
-        <button id="addUser" type="button" class="btn btn-primary btn-lg rounded-pill d-flex align-items-center">
-            <span class="fs-4 me-2">+</span> Добавить требуемого специалиста
-        </button>
-            <button id="deleteUser" type="button" class="btn btn-primary btn-lg rounded-pill d-flex align-items-center">
-                <span class="fs-4 me-2">+</span> Удалить последнего требуемого специалиста
+            <button id="addUser" type="button" class="btn-secondary glass-card">
+                <span class="fs-4 me-2">+</span> Добавить требуемого специалиста
             </button>
-    </div>
-        
+            <button id="deleteUser" type="button" class="btn-secondary glass-card">
+                <span class="fs-4 me-2">-</span> Удалить последнего требуемого специалиста
+            </button>
 
-    <!-- Две кнопки внизу -->
-    <div class="d-flex justify-content-end gap-2 mb-4">
-        <button class="btn btn-primary" type="submit">Опубликовать</button>
-        <button class="btn btn-secondary" type="button">Сохранить черновик</button>
+
+            <div class="form-actions">
+                <button id="saveButton" class="btn-secondary glass-card" type="button"
+                        onclick="window.history.back()">
+                    Сохранить черновик
+                </button>
+                <button id="publishButton" class="btn-primary neon-button" type="submit" onclick="startAIAnalysis()">
+                    <span>Опубликовать</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
     </div>
-</div>
 
 </form>
-
-<div id="templatesContainer" style="display: none">
-    <div id="template" class="mb-4 p-3 border rounded">
-        <h5 class="childInput"></h5>
-        <label>Роль</label>
-        <input class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
-        <br>
-        <label>Доля USD</label>
-        <input class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
-        <br>
-        <label for="duration" class="form-label">Срок выполнения</label>
-        <select class="duration-select form-select" id="duration">
-            <option selected disabled>Выберите срок</option>
-            <option value="day1">1 день</option>
-            <option value="days2">2 дня</option>
-            <option value="days3">3 дня</option>
-            <option value="days5">5 дней</option>
-            <option value="week1">1 неделя</option>
-            <option value="days10">10 дней</option>
-            <option value="weeks2">2 недели</option>
-            <option value="weeks3">3 недели</option>
-            <option value="month1">Месяц</option>
-            <option value="months2">2 месяца</option>
-            <option value="more_than_3_months">Более 3 месяцев</option>
-        </select>
-    </div>
-</div>
 
 <script src="~/js/createProject.js"></script>

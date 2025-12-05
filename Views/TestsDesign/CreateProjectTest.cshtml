@@ -1,0 +1,305 @@
+﻿@model TALENTSPHERE.Models.ViewModels.ProjectCreateViewModel
+
+<form method="post" asp-action="CreateProject">
+
+<div id="step1" class="step-content active">
+    <div class="form-section glass-card">
+        <h2 class="section-title">Основная информация</h2>
+
+        <div class="form-group">
+            <label class="form-label">
+                <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                Название
+            </label>
+            <input asp-for="Name" type="text" class="form-textarea glass-card" rows="8"
+                      placeholder="Придумайте интригующее название" />
+            <span asp-validation-for="Name"></span>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">
+                <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                Направление
+                    <select asp-for="Category" asp-items="@(new SelectList(ViewBag.Categories))">
+                        <option value="">Выберите категорию</option>
+                    </select>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">
+                <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                Тэги
+            </label>
+            <input asp-for="Skills" type="text" class="form-textarea glass-card" rows="8"
+                   placeholder="c#, html, css" />
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">
+                <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                Детальное описание проекта
+            </label>
+            <textarea asp-for="Description" class="form-textarea glass-card" rows="8"
+                      placeholder="Опишите цели, целевую аудиторию, ожидания..."></textarea>
+            <span asp-validation-for="Description"></span>
+
+            <div class="ai-suggestion-box">
+                <button class="btn-ai-assist neon-button-small" type="button">
+                    <i class="fas fa-magic"></i> AI-помощник для ТЗ
+                </button>
+                <span class="form-hint" style="margin: 0;">Нажмите, чтобы AI помог сформулировать мысли</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">
+                <i class="fas fa-paperclip" style="color: var(--neon-blue);"></i>
+                Прикрепить файлы (по желанию)
+            </label>
+            <div class="file-upload-area glass-card">
+                <i class="fas fa-cloud-upload-alt"
+                   style="font-size: 32px; color: var(--text-secondary); margin-bottom: 10px;"></i>
+                <p style="color: var(--text-secondary);">Перетащите файлы сюда или нажмите для выбора</p>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button id="backButton" class="btn-secondary glass-card" type="button"
+                    onclick="window.history.back()">
+                Назад
+            </button>
+            <button id="nextButton" class="btn-primary neon-button" type="button" onclick="startAIAnalysis()">
+                <span>Далее</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="step2" class="step-content active">
+    <div class="form-section glass-card">
+        <h2 class="section-title">Бюджет и сроки</h2>
+
+        <div class="form-group">
+            <label class="form-label">
+                <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                Общий срок
+            </label>
+            <select asp-for="Duration" class="form-select" id="duration">
+                <option selected disabled>Выберите срок</option>
+                <option value="day1">1 день</option>
+                <option value="days2">2 дня</option>
+                <option value="days3">3 дня</option>
+                <option value="days5">5 дней</option>
+                <option value="week1">1 неделя</option>
+                <option value="days10">10 дней</option>
+                <option value="weeks2">2 недели</option>
+                <option value="weeks3">3 недели</option>
+                <option value="month1">Месяц</option>
+                <option value="months2">2 месяца</option>
+                <option value="more_than_3_months">Более 3 месяцев</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">
+                <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                Бюджет от (USD)
+
+                <input asp-for="BudgetFrom" type="number" class="form-textarea glass-card" rows="8" />
+        </div>
+        <div class="form-group">
+            <label class="form-label">
+                <i class="fas fa-pen-fancy" style="color: var(--neon-purple);"></i>
+                Бюджет до (USD)
+
+                <input asp-for="BudgetTo" type="number" class="form-textarea glass-card" rows="8" />
+        </div>
+
+        
+        <label class="form-label">Тип оплаты</label>
+        <div class="form-group">
+            <div class="d-flex gap-3">
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="radio"
+                           name="PaymentType"
+                           id="fix"
+                           value="fix_value"
+                           checked>
+                    <label class="form-check-label" for="fix">Фиксированная</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="radio"
+                           name="PaymentType"
+                           id="hour"
+                           value="hour_value">
+                    <label class="form-check-label" for="hour">Почасовая</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button id="backButton" class="btn-secondary glass-card" type="button"
+                    onclick="window.history.back()">
+                Назад
+            </button>
+            <button id="nextButton" class="btn-primary neon-button" type="button" onclick="startAIAnalysis()">
+                <span>Далее</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="step1" class="step-content active">
+    <div class="form-group">
+        <div style="display: none" id="1" class="mb-4 p-3 border rounded">
+            <h5 class="childInput">Фрилансер 1</h5>
+            <label>Роль</label>
+            <input asp-for="RequiredSpecialist[0].Role" class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+            <br>
+            <label>Доля USD</label>
+            <input asp-for="RequiredSpecialist[0].ShareUsd" class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+            <br>
+            <label for="duration" class="form-label">Срок выполнения</label>
+            <select asp-for="RequiredSpecialist[0].Duration" class="duration-select form-select" id="duration">
+                <option selected disabled>Выберите срок</option>
+                <option value="day1">1 день</option>
+                <option value="days2">2 дня</option>
+                <option value="days3">3 дня</option>
+                <option value="days5">5 дней</option>
+                <option value="week1">1 неделя</option>
+                <option value="days10">10 дней</option>
+                <option value="weeks2">2 недели</option>
+                <option value="weeks3">3 недели</option>
+                <option value="month1">Месяц</option>
+                <option value="months2">2 месяца</option>
+                <option value="more_than_3_months">Более 3 месяцев</option>
+            </select>
+        </div>
+
+        <div style="display: none" id="2" class="mb-4 p-3 border rounded">
+            <h5 class="childInput">Фрилансер 2</h5>
+            <label>Роль</label>
+            <input asp-for="RequiredSpecialist[1].Role" class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+            <br>
+            <label>Доля USD</label>
+            <input asp-for="RequiredSpecialist[1].ShareUsd" class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+            <br>
+            <label for="duration" class="form-label">Срок выполнения</label>
+            <select asp-for="RequiredSpecialist[1].Duration" class="duration-select form-select" id="duration">
+                <option selected disabled>Выберите срок</option>
+                <option value="day1">1 день</option>
+                <option value="days2">2 дня</option>
+                <option value="days3">3 дня</option>
+                <option value="days5">5 дней</option>
+                <option value="week1">1 неделя</option>
+                <option value="days10">10 дней</option>
+                <option value="weeks2">2 недели</option>
+                <option value="weeks3">3 недели</option>
+                <option value="month1">Месяц</option>
+                <option value="months2">2 месяца</option>
+                <option value="more_than_3_months">Более 3 месяцев</option>
+            </select>
+        </div>
+
+        <div style="display: none" id="3" class="mb-4 p-3 border rounded">
+            <h5 class="childInput">Фрилансер 3</h5>
+            <label>Роль</label>
+            <input asp-for="RequiredSpecialist[2].Role" class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+            <br>
+            <label>Доля USD</label>
+            <input asp-for="RequiredSpecialist[2].ShareUsd" class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+            <br>
+            <label for="duration" class="form-label">Срок выполнения</label>
+            <select asp-for="RequiredSpecialist[2].Duration" class="duration-select form-select" id="duration">
+                <option selected disabled>Выберите срок</option>
+                <option value="day1">1 день</option>
+                <option value="days2">2 дня</option>
+                <option value="days3">3 дня</option>
+                <option value="days5">5 дней</option>
+                <option value="week1">1 неделя</option>
+                <option value="days10">10 дней</option>
+                <option value="weeks2">2 недели</option>
+                <option value="weeks3">3 недели</option>
+                <option value="month1">Месяц</option>
+                <option value="months2">2 месяца</option>
+                <option value="more_than_3_months">Более 3 месяцев</option>
+            </select>
+        </div>
+
+        <div style="display: none" id="4" class="mb-4 p-3 border rounded">
+            <h5 class="childInput">Фрилансер 4</h5>
+            <label>Роль</label>
+            <input asp-for="RequiredSpecialist[3].Role" class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+            <br>
+            <label>Доля USD</label>
+            <input asp-for="RequiredSpecialist[3].ShareUsd" class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+            <br>
+            <label for="duration" class="form-label">Срок выполнения</label>
+            <select asp-for="RequiredSpecialist[3].Duration" class="duration-select form-select" id="duration">
+                <option selected disabled>Выберите срок</option>
+                <option value="day1">1 день</option>
+                <option value="days2">2 дня</option>
+                <option value="days3">3 дня</option>
+                <option value="days5">5 дней</option>
+                <option value="week1">1 неделя</option>
+                <option value="days10">10 дней</option>
+                <option value="weeks2">2 недели</option>
+                <option value="weeks3">3 недели</option>
+                <option value="month1">Месяц</option>
+                <option value="months2">2 месяца</option>
+                <option value="more_than_3_months">Более 3 месяцев</option>
+            </select>
+        </div>
+
+        <div style="display: none" id="5" class="mb-4 p-3 border rounded">
+            <h5 class="childInput">Фрилансер 5</h5>
+            <label>Роль</label>
+            <input asp-for="RequiredSpecialist[4].Role" class="role-input form-control" type="text" id="projectName" placeholder="Например backend developer" />
+            <br>
+            <label>Доля USD</label>
+            <input asp-for="RequiredSpecialist[4].ShareUsd" class="shareusd-input form-control" type="number" aria-label="Введите сумму" />
+            <br>
+            <label for="duration" class="form-label">Срок выполнения</label>
+            <select asp-for="RequiredSpecialist[4].Duration" class="duration-select form-select" id="duration">
+                <option selected disabled>Выберите срок</option>
+                <option value="day1">1 день</option>
+                <option value="days2">2 дня</option>
+                <option value="days3">3 дня</option>
+                <option value="days5">5 дней</option>
+                <option value="week1">1 неделя</option>
+                <option value="days10">10 дней</option>
+                <option value="weeks2">2 недели</option>
+                <option value="weeks3">3 недели</option>
+                <option value="month1">Месяц</option>
+                <option value="months2">2 месяца</option>
+                <option value="more_than_3_months">Более 3 месяцев</option>
+            </select>
+        </div>
+        <button id="addUser" type="button" class="btn-secondary glass-card">
+            <span class="fs-4 me-2">+</span> Добавить требуемого специалиста
+        </button>
+        <button id="deleteUser" type="button" class="btn-secondary glass-card">
+            <span class="fs-4 me-2">-</span> Удалить последнего требуемого специалиста
+        </button>
+
+
+        <div class="form-actions">
+            <button id="saveButton" class="btn-secondary glass-card" type="button"
+                    onclick="window.history.back()">
+                Сохранить черновик
+            </button>
+            <button id="publishButton" class="btn-primary neon-button" type="submit" onclick="startAIAnalysis()">
+                <span>Опубликовать</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+</form>
+
+<script src="~/js/createProject.js"></script>

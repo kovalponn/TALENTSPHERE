@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TALENTSPHERE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f98b6d999cdcfaf1ccb2e3c90919efa9aaf6ec3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e39e3500e2aa44ee032ce3015029d7496268812")]
 [assembly: System.Reflection.AssemblyProductAttribute("TALENTSPHERE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TALENTSPHERE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
