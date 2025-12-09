@@ -1,0 +1,71 @@
+﻿@model List<TALENTSPHERE.Models.ShortProject>
+
+<main class="dashboard-center">
+	<div style="margin: 50px; padding; 50px" class="section-header-inline">
+		<h2 class="section-title-small">Ваши проекты</h2>
+	</div>
+	<div class="projects-list">
+		@foreach(var item in Model) {
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-badge neon-glow-blue">@item.Direction.ToString()</div>
+                    <div class="project-status status-active">
+                        @item.Status.ToString()
+                    </div>
+                </div>
+                <h3 class="project-title">@item.Name</h3>
+                <div class="project-meta-row">
+                    @* <span class="meta-item"><i class="far fa-clock"></i> Дедлайн: 15 дек</span> *@
+                    @if (item.Status.ToString() == "Prepare")
+                    {
+                        <span class="meta-item">
+                            <i class="fas fa-layer-group"></i> Этап: Набор закрыт, подготовка
+                        </span>
+                    }
+                    else if (item.Status.ToString() == "Open")
+                    {
+                        <span class="meta-item">
+                            <i class="fas fa-layer-group"></i> Этап: Открыт набор
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="meta-item">
+                            <i class="fas fa-layer-group"></i> Этап: Работа начата
+                        </span>
+                    }
+
+                </div>
+
+                <div class="project-team">
+                    <div class="team-avatars">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100"
+                             class="avatar-small">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100"
+                             class="avatar-small">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100"
+                             class="avatar-small">
+                    </div>
+                </div>
+
+                <div class="project-progress">
+                    <div class="progress-header">
+                        <span class="progress-label">Прогресс</span>
+                        <span class="progress-value">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill"
+                             style="width: 10%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <button class="btn-primary-outline"
+                            onclick="window.location.href='project-details.html'">
+                        Перейти к проекту
+                    </button>
+                </div>
+            </div>
+		}
+	</div>
+</main>

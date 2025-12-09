@@ -124,7 +124,7 @@ namespace TALENTSPHERE.Controllers
                 Role = userRole
             };
 
-            //Console.WriteLine(userRole.ToString());
+            Console.WriteLine(userRole.ToString());
 
             var userCheckLogin = await db.Users.Where(u => u.Login == login).FirstOrDefaultAsync();
 

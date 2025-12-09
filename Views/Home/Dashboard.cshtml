@@ -1,4 +1,4 @@
-﻿@model TALENTSPHERE.Models.ShortUserViewModel
+﻿@model TALENTSPHERE.Models.DashboardViewModel
 
 <body class="dashboard-page">
 
@@ -157,7 +157,7 @@
                         <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
                         <line x1="1" y1="10" x2="23" y2="10" />
                     </svg>
-                    <span class="wallet-balance">$2,450</span>
+                    <span class="wallet-balance">$@Model.UsdBalance.ToString("0.00")</span>
                 </button>
 
                 <!-- User Avatar -->
@@ -199,9 +199,19 @@
                 </div>
             </div>
             <div class="header-right-actions">
-                <button class="btn-create" onclick="window.location.href='@Url.Action("CreateProject", "Project")'">
-                    <i class="fas fa-plus"></i> Создать проект
-                </button>
+                @if (Model.Role.ToString() == "Seller")
+                {
+                    <button class="btn-create" onclick="window.location.href='#'">
+                        <i class="fas fa-plus"></i> Заказы в процессе
+                    </button>
+                }
+                else
+                {
+                    <button class="btn-create" onclick="window.location.href='@Url.Action("CreateProject", "Project")'">
+                        <i class="fas fa-plus"></i> Создать проект
+                    </button>
+                }
+               
             </div>
         </div>
 
@@ -292,87 +302,197 @@
                 <section class="projects-section">
                     <div class="section-header-inline">
                         <h2 class="section-title-small">Активные проекты</h2>
-                        <a href="marketplace.html" class="btn-text">Все проекты →</a>
+                        <a href="@Url.Action("ProjectList", "Project")" class="btn-text">Все проекты →</a>
                     </div>
 
                     <div class="projects-list">
-                        <!-- Project 1 -->
-                        <div class="project-card glass-card">
-                            <div class="project-header">
-                                <div class="project-badge neon-glow-blue">UI/UX Design</div>
-                                <div class="project-status status-active">В работе</div>
-                            </div>
-                            <h3 class="project-title">Редизайн мобильного приложения</h3>
-                            <div class="project-meta-row">
-                                <span class="meta-item"><i class="far fa-clock"></i> Дедлайн: 15 дек</span>
-                                <span class="meta-item"><i class="fas fa-layer-group"></i> Этап: Прототипирование</span>
-                            </div>
-                            <div class="project-team">
-                                <div class="team-avatars">
-                                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100"
-                                         class="avatar-small">
-                                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100"
-                                         class="avatar-small">
-                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100"
-                                         class="avatar-small">
-                                </div>
-                            </div>
-                            <div class="project-progress">
-                                <div class="progress-header">
-                                    <span class="progress-label">Прогресс</span>
-                                    <span class="progress-value">75%</span>
-                                </div>
-                                <div class="progress-bar">
-                                    <div class="progress-fill"
-                                         style="width: 75%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
+                        
+                        @if(Model.shortProject1.Id != 0) {
+                            <div class="project-card glass-card">
+                                <div class="project-header">
+                                    <div class="project-badge neon-glow-blue">@Model.shortProject1.Direction.ToString()</div>
+                                    <div class="project-status status-active">
+                                        @Model.shortProject1.Status.ToString()
                                     </div>
                                 </div>
-                            </div>
-                            <div class="project-footer">
-                                <button class="btn-primary-outline"
-                                        onclick="window.location.href='project-details.html'">
-                                    Перейти к проекту
-                                </button>
-                            </div>
-                        </div>
+                                <h3 class="project-title">@Model.shortProject1.Name</h3>
+                                <div class="project-meta-row">
+                                    @* <span class="meta-item"><i class="far fa-clock"></i> Дедлайн: 15 дек</span> *@
+                                    @if (Model.shortProject1.Status.ToString() == "Prepare")
+                                    {
+                                        <span class="meta-item">
+                                            <i class="fas fa-layer-group"></i> Этап: Набор закрыт, подготовка
+                                        </span>
+                                    }
+                                    else if (Model.shortProject1.Status.ToString() == "Open") 
+                                    {
+                                        <span class="meta-item">
+                                            <i class="fas fa-layer-group"></i> Этап: Открыт набор
+                                        </span>
+                                    }
+                                    else {
+                                        <span class="meta-item">
+                                            <i class="fas fa-layer-group"></i> Этап: Работа начата
+                                        </span>
+                                    }
+                                    
+                                </div>
 
-                        <!-- Project 2 -->
-                        <div class="project-card glass-card">
-                            <div class="project-header">
-                                <div class="project-badge neon-glow-pink">Web Development</div>
-                                <div class="project-status status-active">В работе</div>
-                            </div>
-                            <h3 class="project-title">Лендинг для стартапа</h3>
-                            <div class="project-meta-row">
-                                <span class="meta-item"><i class="far fa-clock"></i> Дедлайн: 20 дек</span>
-                                <span class="meta-item"><i class="fas fa-code"></i> Этап: Верстка</span>
-                            </div>
-                            <div class="project-team">
-                                <div class="team-avatars">
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100"
-                                         class="avatar-small">
-                                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100"
-                                         class="avatar-small">
-                                </div>
-                            </div>
-                            <div class="project-progress">
-                                <div class="progress-header">
-                                    <span class="progress-label">Прогресс</span>
-                                    <span class="progress-value">45%</span>
-                                </div>
-                                <div class="progress-bar">
-                                    <div class="progress-fill"
-                                         style="width: 45%; background: linear-gradient(90deg, var(--neon-pink), var(--neon-purple));">
+                                <div class="project-team">
+                                    <div class="team-avatars">
+                                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100"
+                                             class="avatar-small">
+                                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100"
+                                             class="avatar-small">
+                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100"
+                                             class="avatar-small">
                                     </div>
                                 </div>
+
+                                <div class="project-progress">
+                                    <div class="progress-header">
+                                        <span class="progress-label">Прогресс</span>
+                                        <span class="progress-value">0%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill"
+                                             style="width: 10%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-footer">
+                                    <button class="btn-primary-outline"
+                                            onclick="window.location.href='project-details.html'">
+                                        Перейти к проекту
+                                    </button>
+                                </div>
                             </div>
-                            <div class="project-footer">
-                                <button class="btn-primary-outline"
-                                        onclick="window.location.href='project-details.html'">
-                                    Перейти к проекту
-                                </button>
+                        }
+
+                        @if (Model.shortProject2.Id != 0)
+                        {
+                            <div class="project-card glass-card">
+                                <div class="project-header">
+                                    <div class="project-badge neon-glow-blue">@Model.shortProject2.Direction.ToString()</div>
+                                    <div class="project-status status-active">
+                                        @Model.shortProject2.Status.ToString()
+                                    </div>
+                                </div>
+                                <h3 class="project-title">@Model.shortProject2.Name</h3>
+                                <div class="project-meta-row">
+                                    @* <span class="meta-item"><i class="far fa-clock"></i> Дедлайн: 15 дек</span> *@
+                                    @if (Model.shortProject2.Status.ToString() == "Prepare")
+                                    {
+                                        <span class="meta-item">
+                                            <i class="fas fa-layer-group"></i> Этап: Подготовка
+                                        </span>
+                                    }
+                                    else if (Model.shortProject2.Status.ToString() == "Open")
+                                    {
+                                        <span class="meta-item">
+                                            <i class="fas fa-layer-group"></i> Этап: Открыт набор
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="meta-item">
+                                            <i class="fas fa-layer-group"></i> Этап: Закрыт
+                                        </span>
+                                    }
+
+                                </div>
+                                <div class="project-team">
+                                    <div class="team-avatars">
+                                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100"
+                                             class="avatar-small">
+                                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100"
+                                             class="avatar-small">
+                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100"
+                                             class="avatar-small">
+                                    </div>
+                                </div>
+                                <div class="project-progress">
+                                    <div class="progress-header">
+                                        <span class="progress-label">Прогресс</span>
+                                        <span class="progress-value">0%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill"
+                                             style="width: 10%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-footer">
+                                    <button class="btn-primary-outline"
+                                            onclick="window.location.href='project-details.html'">
+                                        Перейти к проекту
+                                    </button>
+                                </div>
                             </div>
-                        </div>
+                        }
+
+                        @if (Model.shortProject3.Id != 0)
+                        {
+                            <div class="project-card glass-card">
+                                <div class="project-header">
+                                    <div class="project-badge neon-glow-blue">@Model.shortProject3.Direction.ToString()</div>
+                                    <div class="project-status status-active">
+                                        @Model.shortProject3.Status.ToString()
+                                    </div>
+                                </div>
+                                <h3 class="project-title">@Model.shortProject3.Name</h3>
+                                <div class="project-meta-row">
+                                    @* <span class="meta-item"><i class="far fa-clock"></i> Дедлайн: 15 дек</span> *@
+                                    @if (Model.shortProject3.Status.ToString() == "Prepare")
+                                    {
+                                        <span class="meta-item">
+                                            <i class="fas fa-layer-group"></i> Этап: Подготовка
+                                        </span>
+                                    }
+                                    else if (Model.shortProject3.Status.ToString() == "Open")
+                                    {
+                                        <span class="meta-item">
+                                            <i class="fas fa-layer-group"></i> Этап: Открыт набор
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="meta-item">
+                                            <i class="fas fa-layer-group"></i> Этап: Закрыт
+                                        </span>
+                                    }
+
+                                </div>
+                                <div class="project-team">
+                                    <div class="team-avatars">
+                                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100"
+                                             class="avatar-small">
+                                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100"
+                                             class="avatar-small">
+                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100"
+                                             class="avatar-small">
+                                    </div>
+                                </div>
+                                <div class="project-progress">
+                                    <div class="progress-header">
+                                        <span class="progress-label">Прогресс</span>
+                                        <span class="progress-value">0%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill"
+                                             style="width: 10%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-footer">
+                                    <button class="btn-primary-outline"
+                                            onclick="window.location.href='project-details.html'">
+                                        Перейти к проекту
+                                    </button>
+                                </div>
+                            </div>
+                        }
+
                     </div>
                 </section>
             </main>

@@ -86,6 +86,8 @@
 
                 <form asp-controller="Auth" asp-action="Register" method="post">
 
+                    <input style="display: none" type="text" name="userRole" id="hideInput" value="seller" />
+
                     <div class="account-type-selector">
                         <div class="account-type-card active" onclick="selectAccountType(this, 'Seller')">
                             <input type="hidden" name="Role" value="Seller" />
@@ -177,17 +179,16 @@
 
     <script>
         function selectAccountType(element, type) {
-            // Убираем класс active у всех карточек
+            const hideInput = document.getElementById("hideInput");
+            hideInput.style.display = 'none';
+
+            document.getElementById("hideInput").value = type;
+
             document.querySelectorAll('.account-type-card').forEach(card => {
                 card.classList.remove('active');
             });
-            // Добавляем класс активной выбранной карточке
-            element.classList.add('active');
 
-            // Обновляем значение скрытого поля
-            // Можно выбрать по имени, например
-            const input = element.querySelector('input[name="Role"]');
-            input.value = type;
+            element.classList.add('active');
         }
     </script>
 </body>

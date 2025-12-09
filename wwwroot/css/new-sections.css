@@ -41,8 +41,8 @@
 
 .steps-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
     position: relative;
     padding-top: 30px;
 }
@@ -601,8 +601,11 @@
 }
 
 .btn-marketplace-all {
-    display: inline-block;
-    padding: 16px 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px 36px;
     background: rgba(255, 255, 255, 0.05);
     color: #FFFFFF;
     border: 2px solid rgba(255, 255, 255, 0.2);
@@ -672,8 +675,8 @@
 
 .benefits-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
     margin-top: 48px;
 }
 
@@ -681,7 +684,7 @@
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
-    padding: 40px;
+    padding: 24px;
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -694,28 +697,28 @@
 }
 
 .benefit-icon {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 24px;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .benefit-icon svg {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
 }
 
 .benefit-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .benefit-description {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #D1D5DB;
     line-height: 1.6;
     margin: 0;

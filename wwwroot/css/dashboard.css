@@ -45,7 +45,9 @@
     gap: var(--spacing-sm);
     overflow-y: auto;
     overflow-x: hidden;
-    padding-right: 8px;
+    padding-right: 16px;
+    margin-right: 4px;
+    /* Additional buffer for scrollbar */
     min-height: 0;
 }
 

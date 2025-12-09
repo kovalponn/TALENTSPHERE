@@ -106,16 +106,52 @@ namespace TALENTSPHERE.Controllers
                 return View();
             }
 
-            ShortUserViewModel userShort = new ShortUserViewModel(user);
-            //Console.WriteLine(user.UsdBalance.ToString());
-
-            if (userShort == null)
+            List<long> idsProjects;
+            if (user.Projects != null)
             {
-                Console.WriteLine("Данные пользователя не были сконвертированы для представления, возможно он не вошел в аккаунт");
-                return View();
+                idsProjects = user.Projects.ToList();
+            }
+            else
+            {
+                idsProjects = new List<long>();
             }
 
-            return View(userShort);
+
+            List<Project> Projects = db.Projects.Where(u => u.OwnerId == user.Id).ToList();
+
+            List<ShortProject> shortProjects = new List<ShortProject>();
+
+            for (int i = Projects.Count - 1; i >= 0; i--)
+            {
+                var project = Projects[i];
+                int responses = project.Responses != null ? project.Responses.Length : 0;
+
+                shortProjects.Add(new ShortProject
+                {
+                    Id = project.Id,
+                    Name = project.Name,
+                    Direction = project.Direction,
+                    Durations = project.Duration,
+                    Status = project.Status,
+                    Responses = responses
+                });
+            }
+
+            if (shortProjects.Count < 3)
+            {
+                int missingCount = 3 - shortProjects.Count;
+                for (int i = 0; i < missingCount; i++)
+                {
+
+                    ShortProject emptyProject = new ShortProject();
+
+                    emptyProject.Id = 0;
+
+                    shortProjects.Add(emptyProject);
+                }
+            }
+
+            return View(new DashboardViewModel(user, shortProjects[0], shortProjects[1], shortProjects[2]));
         }
 
         public IActionResult Landing()
@@ -140,7 +176,7 @@ namespace TALENTSPHERE.Controllers
                 return View();
             }
 
-            ShortUserViewModel userShort = new ShortUserViewModel(user);
+            DashboardViewModel userShort = new DashboardViewModel(user);
 
             if (userShort == null)
             {

@@ -92,45 +92,40 @@ namespace TALENTSPHERE.Controllers
             }
         }
 
-        //[HttpPost]
-        //public IActionResult CreateProject(ProjectCreateViewModel model)
-        //{
-        //    if (model != null)
-        //    {
-        //        Console.WriteLine(model.Name);
-        //        Console.WriteLine(model.Description);
-        //        Console.WriteLine(model.BudgetFrom);
-        //        Console.WriteLine(model.BudgetTo);
-        //        Console.WriteLine(model.Category.ToString());
-        //        Console.WriteLine(model.PaymentType.ToString());
-        //        Console.WriteLine(model.Duration.ToString());
+        [Authorize]
+        public async Task<IActionResult> ProjectList()
+        {
+            string? email = User.FindFirst(ClaimTypes.Name)?.Value;
 
-        //        if (model.RequiredSpecialist != null)
-        //        {
-        //            int x = 0;
-        //            foreach (var i in model.RequiredSpecialist)
-        //            {
-        //                x++;
-        //                if (i.Role == null)
-        //                {
-        //                    continue;
-        //                }
-        //                Console.WriteLine($"Специалист {x.ToString()} \n" +
-        //                    $"{i.Role.ToString()} \n {i.ShareUsd.ToString()} \n {i.Duration.ToString()}");
-        //            }
-        //        }
-        //        else
-        //        {
-        //            Console.WriteLine("Нет специалистов");
-        //        }
+            var user = await db.Users.Where(u => u.Email == email).FirstOrDefaultAsync();
 
-        //        return RedirectToAction("CreateProject");
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine("Входные данные пусты");
-        //        return View();
-        //    }
-        //}
+            if (user == null)
+            {
+                Console.WriteLine("Данные пользователя не найдены в User, возможно он не вошел в аккаунт");
+                return View();
+            }
+
+            List<Project> Projects = db.Projects.Where(u => u.OwnerId == user.Id).ToList();
+
+            List<ShortProject> shortProjects = new List<ShortProject>();
+
+            for (int i = Projects.Count - 1; i >= 0; i--)
+            {
+                var project = Projects[i];
+                int responses = project.Responses != null ? project.Responses.Length : 0;
+
+                shortProjects.Add(new ShortProject
+                {
+                    Id = project.Id,
+                    Name = project.Name,
+                    Direction = project.Direction,
+                    Durations = project.Duration,
+                    Status = project.Status,
+                    Responses = responses
+                });
+            }
+
+            return View(shortProjects);
+        }
     }
 }

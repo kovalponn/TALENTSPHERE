@@ -9,8 +9,8 @@ namespace TALENTSPHERE.Models
         public string? Name { get; set; }
         public string? Description { get; set; }
         public ProjectStatus Status { get; set; }
-        public Directions? Direction { get; set; }
-        public Durations? Duration { get; set; }
+        public Directions Direction { get; set; }
+        public Durations Duration { get; set; }
         public PaymentType PaymentType { get; set; }
         public RequiredSpecialists[]? RequiredSpecialist { get; set; }
         public decimal BudgetFrom { get; set; }
@@ -38,6 +38,6 @@ namespace TALENTSPHERE.Models
 
     public enum ProjectStatus
     {
-        Close, Open
+        Close, Open, Prepare
     }
 }

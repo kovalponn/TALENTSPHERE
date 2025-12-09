@@ -53,28 +53,18 @@
                 </div>
             </div>
 
-            <div class="form-group">
-                <label class="form-label">
-                    <i class="fas fa-paperclip" style="color: var(--neon-blue);"></i>
-                    Прикрепить файлы (по желанию)
-                </label>
-                <div class="file-upload-area glass-card">
-                    <i class="fas fa-cloud-upload-alt"
-                       style="font-size: 32px; color: var(--text-secondary); margin-bottom: 10px;"></i>
-                    <p style="color: var(--text-secondary);">Перетащите файлы сюда или нажмите для выбора</p>
-                </div>
-            </div>
+            @* <div class="form-group"> *@
+            @*     <label class="form-label"> *@
+            @*         <i class="fas fa-paperclip" style="color: var(--neon-blue);"></i> *@
+            @*         Прикрепить файлы (по желанию) *@
+            @*     </label> *@
+            @*     <div class="file-upload-area glass-card"> *@
+            @*         <i class="fas fa-cloud-upload-alt" *@
+            @*            style="font-size: 32px; color: var(--text-secondary); margin-bottom: 10px;"></i> *@
+            @*         <p style="color: var(--text-secondary);">Перетащите файлы сюда или нажмите для выбора</p> *@
+            @*     </div> *@
+            @* </div> *@
 
-            <div class="form-actions">
-                <button id="backButton" class="btn-secondary glass-card" type="button"
-                        onclick="window.history.back()">
-                    Назад
-                </button>
-                <button id="nextButton" class="btn-primary neon-button" type="button" onclick="startAIAnalysis()">
-                    <span>Далее</span>
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
         </div>
     </div>
 
@@ -141,21 +131,10 @@
                     </div>
                 </div>
             </div>
-
-            <div class="form-actions">
-                <button id="backButton" class="btn-secondary glass-card" type="button"
-                        onclick="window.history.back()">
-                    Назад
-                </button>
-                <button id="nextButton" class="btn-primary neon-button" type="button" onclick="startAIAnalysis()">
-                    <span>Далее</span>
-                    <i class="fas fa-arrow-right"></i>
-                </button>
-            </div>
         </div>
     </div>
 
-    <div id="step1" class="step-content active">
+    <div id="step3" class="step-content active">
         <div class="form-group">
             <div style="display: none" id="1" class="mb-4 p-3 border rounded">
                 <h5 class="childInput">Фрилансер 1</h5>
@@ -288,7 +267,6 @@
                 <span class="fs-4 me-2">-</span> Удалить последнего требуемого специалиста
             </button>
 
-
             <div class="form-actions">
                 <button id="saveButton" class="btn-secondary glass-card" type="button"
                         onclick="window.history.back()">
@@ -303,5 +281,15 @@
     </div>
 
 </form>
+
+<div class="form-actions">
+    <button id="backButton" class="btn-secondary glass-card" type="button">
+        Назад
+    </button>
+    <button id="nextButton" class="btn-primary neon-button" type="button">
+        <span>Далее</span>
+        <i class="fas fa-arrow-right"></i>
+    </button>
+</div>
 
 <script src="~/js/createProject.js"></script>
