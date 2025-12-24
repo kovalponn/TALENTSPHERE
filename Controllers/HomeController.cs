@@ -133,7 +133,8 @@ namespace TALENTSPHERE.Controllers
                     Direction = project.Direction,
                     Durations = project.Duration,
                     Status = project.Status,
-                    Responses = responses
+                    Responses = responses,
+                    ProgressProcent = project.ProgressProcent
                 });
             }
 

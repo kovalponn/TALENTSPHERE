@@ -97,5 +97,6 @@ namespace TALENTSPHERE.Models
         public Durations Durations { get; set; }
         public ProjectStatus Status { get; set; }
         public int Responses { get; set; }
+        public sbyte ProgressProcent {  get; set; }
     }
 }

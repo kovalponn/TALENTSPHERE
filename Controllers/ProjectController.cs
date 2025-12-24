@@ -46,6 +46,7 @@ namespace TALENTSPHERE.Controllers
                     Project project = new Project();
                     project.Name = model.Name;
                     project.Description = model.Description;
+                    project.Skills = model.Skills;
                     project.BudgetFrom = model.BudgetFrom;
                     project.BudgetTo = model.BudgetTo;
                     project.Status = ProjectStatus.Open;
@@ -53,6 +54,8 @@ namespace TALENTSPHERE.Controllers
                     project.Duration = model.Duration;
                     project.PaymentType = model.PaymentType;
                     project.OwnerId = long.Parse(userId);
+                    project.ProgressProcent = 0;
+                    project.CreateDate = DateTime.Now.ToUniversalTime();
 
                     await db.Projects.AddAsync(project);
                     await db.SaveChangesAsync();
@@ -121,11 +124,64 @@ namespace TALENTSPHERE.Controllers
                     Direction = project.Direction,
                     Durations = project.Duration,
                     Status = project.Status,
-                    Responses = responses
+                    Responses = responses,
+                    ProgressProcent = project.ProgressProcent
                 });
             }
 
             return View(shortProjects);
+        }
+
+        public async Task<IActionResult> ViewProject(long id)
+        {
+            var project = await db.Projects.FirstOrDefaultAsync(u => u.Id == id);
+
+            if (project == null)
+            {
+                return View();
+            }
+
+            DateTime currentTime = DateTime.Now.ToUniversalTime();
+
+            TimeSpan difference = currentTime.Subtract(project.CreateDate);
+
+            double hourBack = Math.Ceiling(difference.TotalHours);
+
+            if (hourBack < 24)
+            {
+                ViewData["hourBack"] = $"{hourBack} ч. назад";
+            }
+            if (hourBack > 24)
+            {
+                hourBack = hourBack / 24;
+                hourBack = Math.Ceiling(hourBack);
+
+                ViewData["hourBack"] = $"{hourBack} дн. назад";
+            }
+            if (hourBack == 24)
+            {
+                ViewData["hourBack"] = $"{hourBack} день назад";
+            }
+
+            var user = await db.Users.FirstOrDefaultAsync(u => u.Id == project.OwnerId);
+
+            if (user == null) 
+            { 
+                return View();
+            }
+            
+            if (project.Responses != null)
+            {
+                ViewData["response"] = project.Responses.Length;
+            }
+            else
+            {
+                ViewData["response"] = 0;
+            }
+
+            ViewData["userRaiting"] = user.Grade;
+
+            return View((project ,user));
         }
     }
 }

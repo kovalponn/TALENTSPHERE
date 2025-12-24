@@ -64,15 +64,17 @@
                 </svg>
                 <span>Проекты</span>
             </a>
-            <a href="my-work.html" class="nav-item">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                     stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                </svg>
-                <span>Управление работой</span>
-            </a>
-            <a href="profile.html" class="nav-item">
+            @if (Model.Role == UserRole.Seller) {
+                <a href="my-work.html" class="nav-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <span>Управление работой</span>
+                </a>
+            }
+            <a href="@Url.Action("Profile", "Account")" class="nav-item">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                      stroke-linecap="round" stroke-linejoin="round">
                     <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
@@ -161,7 +163,7 @@
                 </button>
 
                 <!-- User Avatar -->
-                <div class="header-user-avatar">
+                <div onclick="window.location.href='@Url.Action("Profile", "Account")'" class="header-user-avatar">
                     <div class="avatar-image">@Model.Name.Substring(0, 1) @Model.Surname.Substring(0, 1)</div>
                 </div>
             </div>
@@ -352,17 +354,17 @@
                                 <div class="project-progress">
                                     <div class="progress-header">
                                         <span class="progress-label">Прогресс</span>
-                                        <span class="progress-value">0%</span>
+                                        <span class="progress-value">@Model.shortProject1.ProgressProcent%</span>
                                     </div>
                                     <div class="progress-bar">
                                         <div class="progress-fill"
-                                             style="width: 10%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
+                                             style="width: @Model.shortProject1.ProgressProcent%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="project-footer">
                                     <button class="btn-primary-outline"
-                                            onclick="window.location.href='project-details.html'">
+                                            onclick="window.location.href='@Url.Action("ViewProject", "Project")?id=@Model.shortProject1.Id'">
                                         Перейти к проекту
                                     </button>
                                 </div>
@@ -414,17 +416,17 @@
                                 <div class="project-progress">
                                     <div class="progress-header">
                                         <span class="progress-label">Прогресс</span>
-                                        <span class="progress-value">0%</span>
+                                        <span class="progress-value">@Model.shortProject2.ProgressProcent%</span>
                                     </div>
                                     <div class="progress-bar">
                                         <div class="progress-fill"
-                                             style="width: 10%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
+                                             style="width: @Model.shortProject2.ProgressProcent%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="project-footer">
                                     <button class="btn-primary-outline"
-                                            onclick="window.location.href='project-details.html'">
+                                            onclick="window.location.href='@Url.Action("ViewProject", "Project")?id=@Model.shortProject2.Id'">
                                         Перейти к проекту
                                     </button>
                                 </div>
@@ -476,17 +478,17 @@
                                 <div class="project-progress">
                                     <div class="progress-header">
                                         <span class="progress-label">Прогресс</span>
-                                        <span class="progress-value">0%</span>
+                                        <span class="progress-value">@Model.shortProject3.ProgressProcent%</span>
                                     </div>
                                     <div class="progress-bar">
                                         <div class="progress-fill"
-                                             style="width: 10%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
+                                             style="width: @Model.shortProject3.ProgressProcent%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="project-footer">
                                     <button class="btn-primary-outline"
-                                            onclick="window.location.href='project-details.html'">
+                                            onclick="window.location.href='@Url.Action("ViewProject", "Project")?id=@Model.shortProject3.Id'">
                                         Перейти к проекту
                                     </button>
                                 </div>

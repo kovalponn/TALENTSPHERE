@@ -116,12 +116,14 @@ namespace TALENTSPHERE.Controllers
                 Email = email,
                 Password = password,
                 UsdBalance = 0,
+                UsdSpend = 0,
                 Description = "-",
                 Name = "Обычный",
                 Surname = "Пользователь",
                 Rating = 0,
                 Grade = 0.0f,
-                Role = userRole
+                Role = userRole,
+                IsActive = false
             };
 
             Console.WriteLine(userRole.ToString());

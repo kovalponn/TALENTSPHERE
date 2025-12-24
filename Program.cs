@@ -49,6 +49,7 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 app.MapHub<ChatHub>("chat");
+app.MapHub<IsActiveHub>("isactive");
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Landing}")

@@ -49,6 +49,22 @@
       "PackagePath": "staticwebassets\\css\\new-sections.css"
     },
     {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\profile-animations.css",
+      "PackagePath": "staticwebassets\\css\\profile-animations.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\profile-enhanced.css",
+      "PackagePath": "staticwebassets\\css\\profile-enhanced.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\profile-variables.css",
+      "PackagePath": "staticwebassets\\css\\profile-variables.css"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\project-details.css",
+      "PackagePath": "staticwebassets\\css\\project-details.css"
+    },
+    {
       "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
@@ -75,6 +91,14 @@
     {
       "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\createProject.js",
       "PackagePath": "staticwebassets\\js\\createProject.js"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\isActiveRecord.js",
+      "PackagePath": "staticwebassets\\js\\isActiveRecord.js"
+    },
+    {
+      "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\isActiveTrack.js",
+      "PackagePath": "staticwebassets\\js\\isActiveTrack.js"
     },
     {
       "Id": "C:\\Users\\misha\\source\\repos\\TALENTSPHERE\\TALENTSPHERE\\wwwroot\\js\\notice.js",

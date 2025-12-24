@@ -19,4 +19,11 @@
     <Folder Include="Models\Common\SpecialClasses\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\js\isActiveRecord.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

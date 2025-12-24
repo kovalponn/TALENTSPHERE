@@ -1,28 +1,541 @@
-﻿@model TALENTSPHERE.Models.User
+﻿@model (TALENTSPHERE.Models.User User, TALENTSPHERE.Models.User OwnerUser)
 
-<body>
+<link rel="stylesheet" href="~/css/profile-enhanced.css"> 
+<link rel="stylesheet" href="~/css/profile-animations.css"> 
 
-    <!-- Обложка -->
-    <div class="cover" style="background-image: url('https://vk-oblozhki.ru/photos/big/vancouver-stanley-park-panorama-dusk-gorod-130-2466.jpg');">
-        <!-- Кнопка "Настройки" -->
-        <a class="settings-btn" href="Settings">
-            Настройки
-        </a>
+<body class="dashboard-page">
+
+    <div class="mobile-header">
+        <button class="mobile-menu-btn" id="mobileSidebarToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <span class="mobile-logo-text">TalentSphere</span>
+        <div class="mobile-avatar"></div>
     </div>
 
-    <!-- Основной блок с информацией -->
-    <div class="profile-container">
-        <!-- Левая часть -->
-        <div class="profile-info">
-            <div class="name-section">
-                <div class="name">@Model.Name @Model.Surname</div>
-                <div class="rating" title="Рейтинг: @Model.Rating из 5">⭐ @Model.Rating</div>
-            </div>
-            <div class="position">@Model.Speciality</div>
-            <div class="description">
-                @Model.Description
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <aside class="sidebar glass-effect" id="dashboardSidebar">
+        <div class="sidebar-header">
+            <a href="index.html" class="logo" style="text-decoration: none; color: inherit;">
+                <div class="logo-icon neon-glow-purple"></div>
+                <span class="logo-text">TalentSphere</span>
+            </a>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="@Url.Action("Dashboard", "Home")" class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="7" height="9" x="3" y="3" rx="1" />
+                    <rect width="7" height="5" x="14" y="3" rx="1" />
+                    <rect width="7" height="9" x="14" y="12" rx="1" />
+                    <rect width="7" height="5" x="3" y="16" rx="1" />
+                </svg>
+                <span>Дашборд</span>
+            </a>
+            <a href="find-executors.html" class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <span>Поиск исполнителей</span>
+            </a>
+            <a href="team-project.html" class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+                <span>Командный проект</span>
+            </a>
+            <a href="marketplace.html" class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+                <span>Проекты</span>
+            </a>
+            @if (Model.OwnerUser.Role == UserRole.Seller)
+            {
+                <a href="my-work.html" class="nav-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <span>Управление работой</span>
+                </a>
+            }
+            <a href="@Url.Action("Profile", "Account")" class="nav-item active">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                </svg>
+                <span>Профиль</span>
+            </a>
+            <a href="wallet.html" class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+                    <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
+                </svg>
+                <span>Кошелек</span>
+            </a>
+            <a href="messages.html" class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                </svg>
+                <span>Сообщения</span>
+                <span class="badge neon-glow-pink">3</span>
+            </a>
+            <a href="education.html" class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+                    <path d="M22 10v6" />
+                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                </svg>
+                <span>Обучение</span>
+            </a>
+            <a href="settings.html" class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.1a2 2 0 0 1-1-1.72v-.51a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+                    <circle cx="12" cy="12" r="3" />
+                </svg>
+                <span>Настройки</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="user-profile glass-card">
+                <div class="user-avatar neon-glow-blue"></div>
+                <div class="user-info">
+                    <div class="user-name">Alex Design</div>
+                    <div class="user-status">Pro Member</div>
+                </div>
             </div>
         </div>
-    </div>
+    </aside>
 
+    <!-- Main Content -->
+    <main class="main-content profile-content">
+        <!-- Profile Header -->
+        <div class="profile-header-simple glass-card animate-fade-in">
+            <div class="profile-cover-simple">
+                <div class="cover-gradient"></div>
+            </div>
+
+            <div class="profile-content-simple">
+                <div class="profile-top">
+                    <div class="profile-avatar-simple neon-glow-purple avatar-entrance animate-shimmer">
+                        @Model.User.Name.Substring(0, 1) @Model.User.Surname.Substring(0, 1)
+                        
+                    </div>
+
+                    <div class="availability-indicator status-available"></div> 
+
+                    <div class="profile-info-simple entrance-2">
+                        <h1 class="profile-name-simple">
+                            @Model.User.Name <span class="gradient-text">@Model.User.Surname</span>
+                        </h1>
+
+                        @{
+                            string[] skills;
+                            string[] empty = new string[1] { "Пусто" };
+                            if(Model.User.Speciality == null) {
+                                skills = empty;
+                            }
+                            else {
+                                skills = Model.User.Speciality.Split(',');
+                            }
+                        }
+
+                        <div class="profile-badges-simple">
+                            @foreach(var item in skills) {
+                                <span class="badge-simple neon-glow-blue">@item</span>
+                            }
+                        </div>
+
+                        <div class="profile-stats-row">
+                            <span class="stat-item">
+                                    @if(Model.User.Reviews == null) {
+                                        <i class="fas fa-star" style="color: gold;">0.0 (0 отзывов)</i>
+                                    }
+                                    else {
+                                        <i class="fas fa-star" style="color: gold;">@Model.User.Grade (@Model.User.Reviews.Length)</i>
+                                    }
+                            </span>
+                            <span class="stat-item separator">•</span>
+
+                            <div id="placeForStatus">
+                                
+                            </div>
+
+                            <div style="display:none"> @* контейнер для статуса и прочих данных *@
+                                <span id="sampleActive" class="stat-item status-text-available">🟢 В сети</span>
+                                <span id="sampleInactive" class="stat-item status-text-available">🔴 Не в сети</span>
+                                <input id="idTrack" value="@Model.User.Id">
+                                <input id="myId" value="@Model.OwnerUser.Id">
+                            </div>
+                        </div>
+
+                        <div class="profile-quick-contacts">
+                        @*     <button class="btn-icon-circle"><i class="fab fa-telegram"></i></button> *@
+                        @*     <button class="btn-icon-circle"><i class="fab fa-whatsapp"></i></button> *@
+                        @*     <button class="btn-icon-circle"><i class="far fa-envelope"></i></button> *@
+                        </div> 
+                    </div>
+
+                    <div class="profile-actions-top">
+                        @if (Model.User.Id == Model.OwnerUser.Id)
+                        {
+                            <button class="btn-edit-simple neon-button">Редактировать</button>
+                        }
+                        else
+                        {
+                            <button class="btn-edit-simple neon-button">Написать</button>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Tabs -->
+        <div class="profile-tabs glass-card">
+            <button class="tab-btn active" data-tab="video-card">
+                <i class="fas fa-video"></i>
+                <span>Видео-визитка</span>
+            </button>
+            <button class="tab-btn" data-tab="activity">
+                <i class="fas fa-stream"></i>
+                <span>Лента активности</span>
+            </button>
+            <button class="tab-btn" data-tab="portfolio">
+                <i class="fas fa-layer-group"></i>
+                <span>Портфолио</span>
+            </button>    
+        </div>
+
+        <!-- Tab Content Container -->
+        <div class="tab-content-container">
+
+            <!-- TAB 1: Видео-визитка -->
+            <div class="tab-content active" data-content="video-card">
+                <div class="video-card-layout">
+                    <!-- Main Video -->
+                    <div class="main-video-section glass-card">
+                        <div class="video-player-container">
+                            <div class="video-placeholder">
+                                <i class="fas fa-play-circle play-btn-large"></i>
+                                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800"
+                                     alt="Video Cover" class="video-cover">
+                            </div>
+                            <div class="video-controls-overlay">
+                                <span class="video-duration">02:45</span>
+                                <span class="video-views"><i class="fas fa-eye"></i> 1.2k</span>
+                            </div>
+                        </div>
+                        <div class="video-info-row">
+                            <h3>Приветствие и обзор навыков</h3>
+                            <div class="video-actions">
+                                <button class="btn-small-outline"><i class="fas fa-pen"></i> Редактировать</button>
+                                <button class="btn-small-outline"><i class="fas fa-lock"></i> Приватность</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video Cases Grid -->
+                    <h3 class="section-subtitle">Видео-кейсы</h3>
+                    <div class="video-cases-grid">
+                        <!-- Case 1 -->
+                        <div class="video-case-item glass-card">
+                            <div class="case-preview">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400" alt="Case 1">
+                                <div class="play-icon-small"><i class="fas fa-play"></i></div>
+                            </div>
+                            <div class="case-info">
+                                <h4>FinTech App Walkthrough</h4>
+                                <p>Разбор UX решений для банковского приложения</p>
+                                <div class="case-metrics">
+                                    <span><i class="fas fa-heart"></i> 45</span>
+                                    <span><i class="fas fa-comment"></i> 12</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Case 2 -->
+                        <div class="video-case-item glass-card">
+                            <div class="case-preview">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400"
+                                     alt="Case 2">
+                                <div class="play-icon-small"><i class="fas fa-play"></i></div>
+                            </div>
+                            <div class="case-info">
+                                <h4>E-commerce Redesign</h4>
+                                <p>Процесс редизайна крупного магазина</p>
+                                <div class="case-metrics">
+                                    <span><i class="fas fa-heart"></i> 82</span>
+                                    <span><i class="fas fa-comment"></i> 24</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add New Case -->
+                        <div class="add-case-card glass-card dashed-border">
+                            <div class="add-icon"><i class="fas fa-plus"></i></div>
+                            <span>Добавить кейс</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: Лента активности -->
+            <div class="tab-content" data-content="activity">
+                <div class="activity-feed-layout">
+                    <div class="feed-main">
+                        <div class="create-post-card glass-card">
+                            <div class="post-input-row">
+                                <div class="user-avatar-small">AD</div>
+                                <input type="text" placeholder="Поделитесь новостями или проектом..."
+                                       class="post-input">
+                            </div>
+                            <div class="post-actions-row">
+                                <button class="btn-action"><i class="fas fa-image"></i> Фото</button>
+                                <button class="btn-action"><i class="fas fa-video"></i> Видео</button>
+                                <button class="btn-primary-small">Опубликовать</button>
+                            </div>
+                        </div>
+
+                        <!-- Post 1 -->
+                        <div class="feed-post glass-card">
+                            <div class="post-header">
+                                <div class="user-avatar-small">AD</div>
+                                <div class="post-meta">
+                                    <span class="post-author">Alex Designer</span>
+                                    <span class="post-time">2 часа назад</span>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <p>
+                                    Закончил работу над новым концептом для NFT маркетплейса! 🚀 Как вам цветовая
+                                    палитра?
+                                </p>
+                                <span>2023 • Completed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <aside class="feed-sidebar glass-card">
+                        <h3 class="sidebar-title">Рекомендуем</h3>
+                        <ul class="sidebar-list">
+                            <li>
+                                <i class="fas fa-book neon-text-blue"></i>
+                                <div>
+                                    <strong>UX Research Guide</strong>
+                                    <span>2023 • PDF Book</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-graduation-cap neon-text-purple"></i>
+                                <div>
+                                    <strong>Advanced React Patterns</strong>
+                                    <span>2022 • Course</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <!-- TAB 3: Портфолио -->
+            <div class="tab-content" data-content="portfolio">
+                <div class="portfolio-header-actions">
+                    <h2 class="section-title-profile">Завершенные проекты</h2>
+                    <button class="btn-primary"><i class="fas fa-plus"></i> Добавить проект</button>
+                </div>
+
+                <div class="portfolio-grid-detailed">
+                    <!-- Project 1 -->
+                    <div class="portfolio-card-detailed glass-card">
+                        <div class="project-preview-large">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800"
+                                 alt="Project 1">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-view-project">Смотреть Live</a>
+                            </div>
+                        </div>
+                        <div class="project-info-detailed">
+                            <div class="project-header-det">
+                                <h3>SaaS Analytics Dashboard</h3>
+                                <span class="project-date">Окт 2023</span>
+                            </div>
+                            <p class="project-desc">
+                                Полный редизайн панели администратора для SaaS платформы.
+                                Увеличили
+                                удержание пользователей на 25%.
+                            </p>
+                            <div class="project-tags">
+                                <span>UI/UX</span>
+                                <span>Figma</span>
+                                <span>React</span>
+                            </div>
+                            <div class="project-metrics-row">
+                                <div class="metric">
+                                    <span class="metric-val neon-text-green">+25%</span>
+                                    <span class="metric-label">Retention</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-val neon-text-blue">4.9/5</span>
+                                    <span class="metric-label">Client Review</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="portfolio-card-detailed glass-card">
+                        <div class="project-preview-large">
+                            <img src="https://images.unsplash.com/photo-1555421689-492a1880ce49?w=800" alt="Project 2">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-view-project">Смотреть Live</a>
+                            </div>
+                        </div>
+                        <div class="project-info-detailed">
+                            <div class="project-header-det">
+                                <h3>Mobile Banking App</h3>
+                                <span class="project-date">Сен 2023</span>
+                            </div>
+                            <p class="project-desc">
+                                Разработка UX/UI для необанка. Фокус на простоте переводов и
+                                геймификации накоплений.
+                            </p>
+                            <div class="project-tags">
+                                <span>Mobile</span>
+                                <span>iOS</span>
+                                <span>Prototyping</span>
+                            </div>
+                            <div class="project-metrics-row">
+                                <div class="metric">
+                                    <span class="metric-val neon-text-purple">10k+</span>
+                                    <span class="metric-label">Downloads</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-val neon-text-pink">5.0</span>
+                                    <span class="metric-label">App Store</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 4: Настройки звонков -->
+            <div class="tab-content" data-content="call-settings">
+                <div class="settings-layout-grid">
+                    <div class="settings-card glass-card">
+                        <h3><i class="fas fa-phone-alt"></i> Доступность звонков</h3>
+                        <div class="settings-form-group">
+                            <label class="radio-option">
+                                <input type="radio" name="call_access" checked>
+                                <div class="radio-content">
+                                    <span class="radio-title">Разрешить входящие звонки</span>
+                                    <span class="radio-desc">Любой пользователь может позвонить вам</span>
+                                </div>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="call_access">
+                                <div class="radio-content">
+                                    <span class="radio-title">Только избранные контакты</span>
+                                    <span class="radio-desc">Звонки только от подтвержденных клиентов</span>
+                                </div>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="call_access">
+                                <div class="radio-content">
+                                    <span class="radio-title">Только по предварительной записи</span>
+                                    <span class="radio-desc">Звонки недоступны, только бронирование слотов</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="settings-card glass-card">
+                        <h3><i class="far fa-clock"></i> Часы работы</h3>
+                        <div class="working-hours-grid">
+                            <div class="day-selector">
+                                <button class="day-btn active">Пн</button>
+                                <button class="day-btn active">Вт</button>
+                                <button class="day-btn active">Ср</button>
+                                <button class="day-btn active">Чт</button>
+                                <button class="day-btn active">Пт</button>
+                                <button class="day-btn">Сб</button>
+                                <button class="day-btn">Вс</button>
+                            </div>
+                            <div class="time-range-inputs">
+                                <div class="input-group">
+                                    <label>Начало</label>
+                                    <input type="time" value="09:00" class="form-input">
+                                </div>
+                                <div class="input-group">
+                                    <label>Конец</label>
+                                    <input type="time" value="18:00" class="form-input">
+                                </div>
+                            </div>
+                            <div class="checkbox-option">
+                                <input type="checkbox" id="lunch-break" checked>
+                                <label for="lunch-break">Перерыв на обед (13:00 - 14:00)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="settings-card glass-card">
+                        <h3><i class="fas fa-video"></i> Автоматическая запись</h3>
+                        <div class="settings-form-group">
+                            <select class="form-select">
+                                <option>Спрашивать разрешение перед записью</option>
+                                <option>Записывать все звонки автоматически</option>
+                                <option>Не записывать звонки</option>
+                            </select>
+                            <p class="settings-hint">Записи хранятся в облаке 30 дней.</p>
+                        </div>
+                    </div>
+
+                    <div class="settings-actions">
+                        <button class="btn-primary neon-button">Сохранить настройки</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- SVG Gradients -->
+    <svg width="0" height="0" style="position: absolute;">
+        <defs>
+            <linearGradient id="gradient-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#0099ff;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="gradient-pink" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ff0080;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#ff6ec7;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="gradient-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#b000ff;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#7000ff;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <script src="~/js/script.js"></script>
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/isActiveRecord.js"></script>
+    <script src="~/js/isActiveTrack.js"></script>
 </body>

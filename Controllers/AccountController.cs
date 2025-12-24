@@ -15,13 +15,36 @@ namespace TALENTSPHERE.Controllers
             this.db = db;
         }
 
-        public async Task<IActionResult> Profile()
+        public async Task<IActionResult> Profile(long id)
         {
-            string? email = User.FindFirst(ClaimTypes.Name)?.Value;
+            if (id == 0)
+            {
+                string? email = User.FindFirst(ClaimTypes.Name)?.Value;
 
-            var user = await db.Users.Where(u => u.Email == email).FirstOrDefaultAsync();
+                var user = await db.Users.FirstOrDefaultAsync(e => e.Email == email);
 
-            return View(user);
+                if (user == null)
+                {
+                    return BadRequest();
+                }
+
+                return View((user, user));
+            }
+            else
+            {
+                string? email = User.FindFirst(ClaimTypes.Name)?.Value;
+
+                var ownerUser = await db.Users.FirstOrDefaultAsync(e => e.Email == email);
+
+                var user = await db.Users.FirstOrDefaultAsync(e => e.Id == id);
+
+                if (user == null || ownerUser == null)
+                {
+                    return BadRequest();
+                }
+
+                return View((user, ownerUser));
+            }
         }
 
         [HttpGet]
@@ -79,6 +102,10 @@ namespace TALENTSPHERE.Controllers
                     break;
                 case "description":
                     userUpdate.Description = inputValue;
+                    break;
+
+                case "skills":
+                    userUpdate.Speciality = inputValue;
                     break;
             }
 

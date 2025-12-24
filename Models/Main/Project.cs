@@ -8,6 +8,7 @@ namespace TALENTSPHERE.Models
         public long OwnerId { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
+        public string? Skills { get; set; }
         public ProjectStatus Status { get; set; }
         public Directions Direction { get; set; }
         public Durations Duration { get; set; }
@@ -16,6 +17,8 @@ namespace TALENTSPHERE.Models
         public decimal BudgetFrom { get; set; }
         public decimal BudgetTo { get; set; }
         public long[]? Responses { get; set; }
+        public sbyte ProgressProcent {  get; set; }
+        public DateTime CreateDate { get; set; }
     }
 
     public class RequiredSpecialists

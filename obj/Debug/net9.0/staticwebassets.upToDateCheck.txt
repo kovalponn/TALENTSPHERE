@@ -25,6 +25,7 @@ C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\js\script.js
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\css\profile-animations.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\favicon.ico
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\css\footer-new.css
@@ -36,6 +37,7 @@ C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\css\new-sections.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\css\project-details.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\css\styles.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
@@ -67,17 +69,21 @@ C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\jquery\dist\jq
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\js\signalr\dist\browser\signalr.js
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\js\isActiveRecord.js
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\css\mobile-fixes.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\css\profile-variables.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\css\profile-enhanced.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\css\mobile-responsive.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\css\dashboard-fixes.css
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\js\createProject.js
+C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\js\isActiveTrack.js
 C:\Users\misha\source\repos\TALENTSPHERE\TALENTSPHERE\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 wwwroot\css\auth-landing.css
 wwwroot\css\create-project.css
@@ -90,6 +96,10 @@ wwwroot\css\mobile-fixes.css
 wwwroot\css\mobile-header.css
 wwwroot\css\mobile-responsive.css
 wwwroot\css\new-sections.css
+wwwroot\css\profile-animations.css
+wwwroot\css\profile-enhanced.css
+wwwroot\css\profile-variables.css
+wwwroot\css\project-details.css
 wwwroot\css\styles.css
 wwwroot\css\universal-mobile.css
 wwwroot\css\video-section.css
@@ -97,6 +107,8 @@ wwwroot\favicon.ico
 wwwroot\html\chathub.html
 wwwroot\js\chat.js
 wwwroot\js\createProject.js
+wwwroot\js\isActiveRecord.js
+wwwroot\js\isActiveTrack.js
 wwwroot\js\notice.js
 wwwroot\js\script.js
 wwwroot\js\signalr\dist\browser\signalr.js

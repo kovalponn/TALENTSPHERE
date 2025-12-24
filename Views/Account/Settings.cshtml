@@ -177,13 +177,15 @@
             <button class="apply-btn" onclick="alert('Фото обновлено')">Применить</button>
         </div>
 
-        <div class="section" id="specialties">
-            <h2>Специальности</h2>
-            <div class="field-group">
-                <label for="specialties-input">Добавьте ваши специализации:</label>
-                <input type="text" id="specialties-input" placeholder="Например: веб-дизайн" />
-            </div>
-            <button class="apply-btn" onclick="alert('Специализации сохранены')">Применить</button>
+        <div class="section" id="skills">
+            <h2>Направления</h2>
+            <form asp-action="Settings" method="post">
+                <!-- Передача идентификатора поля -->
+                <input type="hidden" name="FieldName" value="skills" />
+                <!-- Вводное поле -->
+                <input type="text" name="inputValue" id="login-input" placeholder="@Model.Speciality" value="@Model.Speciality" />
+                <button type="submit" class="apply-btn">Применить</button>
+            </form>
         </div>
 
 

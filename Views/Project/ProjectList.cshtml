@@ -51,17 +51,17 @@
                 <div class="project-progress">
                     <div class="progress-header">
                         <span class="progress-label">Прогресс</span>
-                        <span class="progress-value">0%</span>
+                        <span class="progress-value">@item.ProgressProcent%</span>
                     </div>
                     <div class="progress-bar">
                         <div class="progress-fill"
-                             style="width: 10%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
+                             style="width: @item.ProgressProcent%; background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));">
                         </div>
                     </div>
                 </div>
                 <div class="project-footer">
                     <button class="btn-primary-outline"
-                            onclick="window.location.href='project-details.html'">
+                            onclick="window.location.href='@Url.Action("ViewProject", "Project")?id=@item.Id'">
                         Перейти к проекту
                     </button>
                 </div>
